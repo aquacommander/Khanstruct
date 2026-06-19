@@ -35,10 +35,10 @@ const PULSE_COLOR = '#cfe0ff';
 const PULSE_ACCENT = '#eaff8f';
 
 const CYCLE_MS = 12000; // full drift→form→hold→disperse loop
-// Safety net only: the loader reliably flips introDone (≤ its 34s hard cap), so
+// Safety net only: the loader reliably flips introDone (≤ its 12s hard cap), so
 // this just covers the loader being absent/broken — sits above that cap so we
 // never spin the rAF loop underneath a still-visible loader.
-const HERO_FALLBACK_MS = 35000;
+const HERO_FALLBACK_MS = 13000;
 
 const HOLO_AMP = 0.5; // ~28° peak Y-axis tilt of the formed K
 const HOLO_SPEED = 0.0009; // tilt angular speed (rad/ms ⇒ ~7s wobble)
