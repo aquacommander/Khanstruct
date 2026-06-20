@@ -755,21 +755,62 @@
 }
 
 /* ════════════════════════════════════════════════════════════════════════
-   RESPONSIVE — mobile simplification (fewer fragments, faster, readable)
+   RESPONSIVE — adapt to every viewport: small width, narrow width,
+   short / landscape height, and notched safe areas. Sizes lean on clamp()
+   so they scale continuously instead of snapping only at breakpoints.
    ════════════════════════════════════════════════════════════════════════ */
+
+/* ── Phones — simplify (fewer fragments, faster, readable) ───────────────── */
 @media (max-width: 640px) {
   .loader { --sp: 0.9; } /* slightly faster on mobile */
   .architecture { display: none; } /* drop decorative line fragments */
   .descriptor { display: none; } /* keep just DESIGN / DATA / AI for clarity */
-  .disciplines { gap: 1.1rem; }
+  .disciplines { gap: clamp(0.9rem, 5vw, 1.6rem); }
   .sysLabel { font-size: 0.5625rem; letter-spacing: 0.24em; }
-  .word { font-size: 1.05rem; }
+  .word { font-size: clamp(0.95rem, 4.6vw, 1.2rem); }
   .vignette { display: none; }
+  .statusBar { width: min(440px, 90vw); gap: 0.6rem; }
 }
 
+/* ── Narrow phones — stack the status read-out onto two rows so the message
+      shows in full AND the progress bar keeps usable width ───────────────── */
+@media (max-width: 480px) {
+  .sysLabel { letter-spacing: 0.2em; }
+  .statusBar {
+    flex-wrap: wrap;
+    gap: 0.45rem 0.6rem;
+    width: min(360px, 88vw);
+    /* clear the home indicator / gesture bar on notched phones */
+    bottom: max(clamp(1.5rem, 6vh, 4.5rem), calc(env(safe-area-inset-bottom, 0px) + 1.25rem));
+  }
+  .barMsg { flex: 1 1 60%; width: auto; min-width: 0; } /* row 1 — full message */
+  .progressTrack { flex: 1 1 70%; } /* forced onto row 2, alongside the % */
+}
+
+/* ── Very small phones ──────────────────────────────────────────────────── */
 @media (max-width: 360px) {
-  .sysLabel { letter-spacing: 0.18em; }
-  .disciplines { gap: 0.75rem; }
+  .sysLabel { font-size: 0.5rem; letter-spacing: 0.16em; }
+  .disciplines { gap: 0.7rem; }
+  .word { font-size: clamp(0.9rem, 4.4vw, 1.05rem); }
+}
+
+/* ── Short / landscape viewports — shrink the assembly so the centered mark
+      never collides with the bottom status bar ────────────────────────────── */
+@media (max-height: 540px) {
+  .markWrap { gap: 0.6rem; }
+  .kmark { width: 48px; height: 60px; }
+  .brand { font-size: clamp(1.4rem, 4.5vw, 2rem); }
+  .sysLabel { top: calc(50% - 2rem); }
+  .disciplines { gap: clamp(0.9rem, 4vw, 2.4rem); }
+  .statusBar { bottom: 1rem; }
+}
+@media (max-height: 400px) {
+  .kmark { width: 40px; height: 50px; }
+  .brand { font-size: 1.3rem; }
+  .tagline { display: none; }
+  .descriptor { display: none; } /* reclaim vertical room */
+  .sysLabel { top: calc(50% - 1.7rem); }
+  .statusBar { bottom: 0.55rem; }
 }
 
 /* ════════════════════════════════════════════════════════════════════════
