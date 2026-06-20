@@ -208,10 +208,19 @@
 
 /* ── Stage 2 — three disciplines ────────────────────────── */
 .disciplines {
-  display: flex;
-  gap: clamp(1.25rem, 5vw, 3.5rem);
-  align-items: flex-start;
-  justify-content: center;
+  /* Equal-width columns so DESIGN / DATA / AI sit on a fixed pitch. With a
+     plain flex `gap` the words look unevenly spaced because each column is only
+     as wide as its own (very different) word; a 3-track grid makes the column
+     centres — and the branch dots above them — evenly spaced no matter the word
+     length. --ld-pitch is the single source of truth, reused by the converge. */
+  --ld-col: clamp(5rem, 20vw, 7.5rem);
+  --ld-col-gap: clamp(0.85rem, 3.5vw, 2rem);
+  --ld-pitch: calc(var(--ld-col) + var(--ld-col-gap)); /* column centre-to-centre */
+  display: grid;
+  grid-template-columns: repeat(3, var(--ld-col));
+  column-gap: var(--ld-col-gap);
+  align-items: start;
+  justify-items: center; /* centre each word/descriptor within its column */
 }
 .discipline {
   position: relative; /* anchor for the per-discipline light (::before / ::after) */
@@ -232,7 +241,7 @@
 /* Per-discipline identity: when it appears (--in-delay), when it emits light
    (--emit-delay / --emit-dur), and the colour of that light (--accent). */
 .discipline[data-k='design'] {
-  --cx: 86px;
+  --cx: var(--ld-pitch); /* leftmost → converge right to centre */
   --in-delay: 0.7s;
   --emit-delay: 1.05s;
   --emit-dur: 0.9s;
@@ -246,7 +255,7 @@
   --accent: #3fe9ff; /* clean signal cyan */
 }
 .discipline[data-k='ai'] {
-  --cx: -86px;
+  --cx: calc(-1 * var(--ld-pitch)); /* rightmost → converge left to centre */
   --in-delay: 2.1s;
   --emit-delay: 2.45s;
   --emit-dur: 1.05s;
@@ -765,7 +774,8 @@
   .loader { --sp: 0.9; } /* slightly faster on mobile */
   .architecture { display: none; } /* drop decorative line fragments */
   .descriptor { display: none; } /* keep just DESIGN / DATA / AI for clarity */
-  .disciplines { gap: clamp(0.9rem, 5vw, 1.6rem); }
+  /* descriptors gone → tighter equal columns, still evenly pitched */
+  .disciplines { --ld-col: clamp(4.75rem, 22vw, 6rem); --ld-col-gap: clamp(0.6rem, 3vw, 1.25rem); }
   .sysLabel { font-size: 0.5625rem; letter-spacing: 0.24em; }
   .word { font-size: clamp(0.95rem, 4.6vw, 1.2rem); }
   .vignette { display: none; }
@@ -790,7 +800,7 @@
 /* ── Very small phones ──────────────────────────────────────────────────── */
 @media (max-width: 360px) {
   .sysLabel { font-size: 0.5rem; letter-spacing: 0.16em; }
-  .disciplines { gap: 0.7rem; }
+  .disciplines { --ld-col: clamp(4.5rem, 22vw, 5.5rem); --ld-col-gap: 0.6rem; }
   .word { font-size: clamp(0.9rem, 4.4vw, 1.05rem); }
 }
 
@@ -801,7 +811,7 @@
   .kmark { width: 48px; height: 60px; }
   .brand { font-size: clamp(1.4rem, 4.5vw, 2rem); }
   .sysLabel { top: calc(50% - 2rem); }
-  .disciplines { gap: clamp(0.9rem, 4vw, 2.4rem); }
+  .disciplines { --ld-col-gap: clamp(0.85rem, 4vw, 2rem); }
   .statusBar { bottom: 1rem; }
 }
 @media (max-height: 400px) {
