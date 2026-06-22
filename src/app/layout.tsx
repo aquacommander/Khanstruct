@@ -5,6 +5,8 @@ import { ExperienceProvider } from '@/components/canvas/ExperienceProvider';
 import { CustomCursor } from '@/components/ui/CustomCursor';
 import { SiteLoader } from '@/components/loader/SiteLoader';
 import { ContactModal } from '@/components/contact/ContactModal';
+import { QualifierModal } from '@/components/funnel/QualifierModal';
+import { Analytics } from '@/components/analytics/Analytics';
 
 // Runs before first paint: lock scroll synchronously so there is no flash or
 // scroll jump before React hydrates the loader. The loader removes the class
@@ -81,6 +83,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </ExperienceProvider>
         <ContactModal />
+        <QualifierModal />
+        <Analytics />
       </body>
     </html>
   );
