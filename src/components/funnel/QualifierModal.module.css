@@ -1,0 +1,337 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(3, 4, 3, 0.74);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: qf-overlay-in 0.25s var(--ease-out, ease) both;
+}
+
+.dialog {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: calc(100dvh - 3rem);
+  overflow-y: auto;
+  padding: clamp(1.75rem, 4vw, 2.5rem);
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  background: var(--color-bg-elevated);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  animation: qf-dialog-in 0.32s var(--ease-out, ease) both;
+}
+
+.close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.close:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text);
+}
+
+/* ── Progress ────────────────────────────────────────────────────────────── */
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.progressTrack {
+  flex: 1;
+  height: 4px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+.progressFill {
+  height: 100%;
+  border-radius: 100px;
+  background: var(--color-accent);
+  box-shadow: 0 0 12px var(--color-accent-soft);
+  transition: width 0.4s var(--ease-out, ease);
+}
+.progressLabel {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* ── Heading ─────────────────────────────────────────────────────────────── */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.6rem;
+}
+.title {
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: var(--color-text);
+}
+.subtitle {
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+/* ── Option cards ────────────────────────────────────────────────────────── */
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius, 14px);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s var(--ease-out, ease);
+}
+.option:hover {
+  border-color: var(--color-border-strong);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
+.optionSelected {
+  border-color: var(--color-accent);
+  background: var(--color-accent-dim, rgba(215, 255, 63, 0.06));
+}
+.optionGlyph {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+}
+.optionSelected .optionGlyph {
+  background: var(--color-accent-soft, rgba(215, 255, 63, 0.12));
+}
+.optionText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.optionLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.optionHint {
+  font-size: 0.72rem;
+  line-height: 1.35;
+  color: var(--color-text-muted);
+}
+.optionMark {
+  margin-left: auto;
+  flex-shrink: 0;
+  width: 1.1rem;
+  color: var(--color-accent);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ── Details form ────────────────────────────────────────────────────────── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 1.6rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.fieldLabel {
+  font-family: var(--font-mono);
+  font-size: 0.5625rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.9375rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+.textarea {
+  resize: vertical;
+  min-height: 5rem;
+  line-height: 1.6;
+}
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-text-muted);
+  opacity: 0.6;
+}
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.errorMsg {
+  margin-top: 0.9rem;
+  font-size: 0.8125rem;
+  color: #ff8585;
+  line-height: 1.5;
+}
+
+/* ── Navigation ──────────────────────────────────────────────────────────── */
+.navRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+.primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.35rem;
+  border: none;
+  border-radius: 9px;
+  background: var(--color-accent);
+  color: #050605;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+.primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+.primary:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.primary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.secondary {
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 9px;
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.secondary:hover {
+  border-color: var(--color-text-muted);
+}
+
+/* ── Success ─────────────────────────────────────────────────────────────── */
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0 0.5rem;
+}
+.check {
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.1rem;
+  border-radius: 50%;
+  background: var(--color-accent-soft, rgba(215, 255, 63, 0.12));
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  font-weight: 700;
+  animation: qf-pop 0.4s var(--ease-out, ease) both;
+}
+.success .subtitle {
+  max-width: 26rem;
+}
+.success .navRow {
+  justify-content: center;
+}
+
+@keyframes qf-overlay-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes qf-dialog-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes qf-pop {
+  0% { opacity: 0; transform: scale(0.4); }
+  60% { transform: scale(1.12); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .options {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .dialog,
+  .check,
+  .progressFill,
+  .option {
+    animation: none;
+    transition: none;
+  }
+}

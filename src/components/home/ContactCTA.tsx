@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { CONTACT_LINKS, EMAIL } from '@/lib/content';
 import { useRevealAll } from '@/hooks/useScrollReveal';
 import { ContactButton } from '@/components/contact/ContactButton';
+import { StartProjectButton } from '@/components/funnel/StartProjectButton';
 import styles from './ContactCTA.module.css';
 
 export function ContactCTA() {
@@ -34,14 +35,20 @@ export function ContactCTA() {
             Have a project in mind? Let&apos;s talk about how we can work together.
           </p>
 
-          <ContactButton
-            className={`${styles.emailBtn} reveal`}
-            data-delay="0.24"
-            aria-label="Open the message panel"
-          >
-            <span>{EMAIL}</span>
-            <span aria-hidden="true">↗</span>
-          </ContactButton>
+          <div className={`${styles.ctaRow} reveal`} data-delay="0.24">
+            <StartProjectButton
+              className={styles.startBtn}
+              aria-label="Start a project — open the project planner"
+            >
+              <span>Start a project</span>
+              <span aria-hidden="true">→</span>
+            </StartProjectButton>
+
+            <ContactButton className={styles.emailBtn} aria-label="Open the message panel">
+              <span>{EMAIL}</span>
+              <span aria-hidden="true">↗</span>
+            </ContactButton>
+          </div>
         </div>
 
         <div className={styles.right}>
