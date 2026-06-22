@@ -14,6 +14,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/#services' },
   { label: 'Projects', href: '/projects' },
+  { label: 'Work', href: '/work' },
   { label: 'GDG Tulsa', href: '/gdg-tulsa' },
   { label: 'About', href: '/#about' },
   { label: 'Contact', href: '/#contact' },

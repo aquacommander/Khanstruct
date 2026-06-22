@@ -107,3 +107,42 @@ export interface Service {
   capabilities: ServiceCapability[];
   accentColor: string;
 }
+
+// ─── Media Gallery (Showreel) ───────────────────────────────────────────────
+
+export interface MediaCategoryDef {
+  id: string;
+  label: string;
+}
+
+export type MediaKind = 'image' | 'video';
+export type MediaAspect = 'portrait' | 'landscape' | 'square';
+
+/**
+ * One piece of content in the gallery. The whole gallery is driven by an array
+ * of these, so categories, ordering, and content are data — not code. The
+ * ingestion pipeline emits these from Zain's Drive folders + Project Info docs;
+ * URLs point at R2 (CDN) once ingested. Seeded with placeholders until then.
+ */
+export interface MediaItem {
+  id: string;
+  title: string;
+  /** Category id — must match a MediaCategoryDef.id (drives the filter). */
+  category: string;
+  kind: MediaKind;
+  /** Lightweight grid thumbnail (R2/CDN URL once ingested). */
+  thumb: string;
+  /** Full image or streamable video URL shown in the lightbox. */
+  src: string;
+  /** Short muted clip played on hover (video only). */
+  preview?: string;
+  /** Poster frame shown for a video before it plays. */
+  poster?: string;
+  aspect?: MediaAspect;
+  client?: string;
+  description?: string;
+  tags?: string[];
+  /** Surfaced in the homepage curated reel when true. */
+  featured?: boolean;
+  date?: string;
+}
