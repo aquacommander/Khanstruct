@@ -14,7 +14,6 @@ const ITEMS: { label: string; icon: string }[] = [
   { label: 'GDG Tulsa', icon: 'google-adk' },
   { label: 'Devpost Level 6', icon: 'devpost' },
   { label: 'LangChain', icon: 'langchain' },
-  { label: 'NASA Space Apps', icon: 'nasa' },
 ];
 
 export function Marquee() {

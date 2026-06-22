@@ -131,25 +131,6 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
-    slug: 'nasa-space-apps',
-    title: 'NASA Space Apps Tulsa',
-    category: 'Community & Web',
-    summary:
-      'Local lead organizer and website developer for NASA Space Apps Challenge in Tulsa — built V2 and V3 of the event website.',
-    problem:
-      'NASA Space Apps Tulsa needed a credible digital presence and operational coordination to attract serious participants and mentors.',
-    solution:
-      'Built and maintained the event website across two versions, coordinated local teams and mentors, and managed Houston judging operations.',
-    outcome:
-      'Successful in-person hackathon events with coordinated team submissions to Houston judging. Established Tulsa as a repeatable Space Apps location.',
-    technologies: ['React', 'GitHub', 'Program Ops'],
-    coverImage: '/images/project-spaceapps.jpg',
-    visualTheme: 'dark-orange',
-    accentColor: '#f97316',
-    featured: false,
-    verifiedLinks: [],
-  },
-  {
     slug: 'health-ehr-dashboard',
     title: 'Health EHR Dashboard',
     category: 'Data Engineering',
