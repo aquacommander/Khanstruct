@@ -6,6 +6,7 @@ import { Workflow } from '@/components/home/Workflow';
 import { TechGrid } from '@/components/home/TechGrid';
 import { Metrics } from '@/components/home/Metrics';
 import { Projects } from '@/components/home/Projects';
+import { Showreel } from '@/components/home/Showreel';
 import { GDGFeature } from '@/components/home/GDGFeature';
 import { About } from '@/components/home/About';
 import { ContactCTA } from '@/components/home/ContactCTA';
@@ -21,6 +22,7 @@ export default function HomePage() {
         <TechGrid />
         <Metrics />
         <Projects />
+        <Showreel />
         <GDGFeature />
         <About />
         <ContactCTA />

@@ -6,6 +6,7 @@ import { CustomCursor } from '@/components/ui/CustomCursor';
 import { SiteLoader } from '@/components/loader/SiteLoader';
 import { ContactModal } from '@/components/contact/ContactModal';
 import { QualifierModal } from '@/components/funnel/QualifierModal';
+import { Lightbox } from '@/components/showreel/Lightbox';
 import { Analytics } from '@/components/analytics/Analytics';
 
 // Runs before first paint: lock scroll synchronously so there is no flash or
@@ -84,6 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ExperienceProvider>
         <ContactModal />
         <QualifierModal />
+        <Lightbox />
         <Analytics />
       </body>
     </html>
