@@ -135,8 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ─── Custom Cursor ──────────────────────────────────────────────────────── */
 @media (pointer: fine) {
-  body { cursor: none; }
-  a, button, [role="button"] { cursor: none; }
+  body { cursor: auto; }
+  a, button, [role="button"] { cursor: auto; }
 }
 
 .cursor-ring {
@@ -279,7 +279,7 @@ body.cursor-hover .cursor-ring {
   text-decoration: none;
   border: 1px solid var(--color-accent);
   border-radius: var(--radius-sm);
-  cursor: none;
+  cursor: auto;
   transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out),
     filter 0.25s;
   box-shadow: 0 0 0 0 var(--color-accent-soft);
@@ -306,7 +306,7 @@ body.cursor-hover .cursor-ring {
   text-decoration: none;
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-sm);
-  cursor: none;
+  cursor: auto;
   transition: border-color 0.25s, background 0.25s, transform 0.25s var(--ease-out);
 }
 
