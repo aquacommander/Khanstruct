@@ -80,8 +80,8 @@ export function Header() {
             <Image
               src="/khanstruct-logo.png"
               alt="Khanstruct"
-              width={1301}
-              height={344}
+              width={688}
+              height={688}
               className={styles.logoImg}
               priority
             />
