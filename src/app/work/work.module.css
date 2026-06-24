@@ -28,6 +28,14 @@
   color: var(--color-text-muted);
 }
 
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+
 .desc {
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
   line-height: 1.65;

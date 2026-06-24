@@ -48,7 +48,7 @@ export function Showreel() {
               className={`${styles.cell} reveal`}
               data-delay={`${0.16 + i * 0.06}`}
             >
-              <MediaCard item={item} list={featured} index={i} />
+              <MediaCard item={item} />
             </div>
           ))}
         </div>

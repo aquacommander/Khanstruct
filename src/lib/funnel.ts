@@ -48,10 +48,10 @@ export interface FunnelAnswers {
 
 /** The lead contact payload captured on the final step. */
 export interface LeadDetails {
+  company?: string;
   name: string;
   email: string;
-  company?: string;
-  message?: string;
+  phone?: string;
 }
 
 export type LeadPriority = 'hot' | 'warm' | 'cold';
@@ -233,10 +233,9 @@ export function buildLeadSummary(answers: FunnelAnswers, details: LeadDetails): 
     `Timeline: ${timeline}`,
     `Budget: ${budget}`,
     '',
+    `Company: ${details.company || '—'}`,
     `Name: ${details.name}`,
     `Email: ${details.email}`,
-    `Company: ${details.company || '—'}`,
-    '',
-    `Notes: ${details.message || '—'}`,
+    `Phone: ${details.phone || '—'}`,
   ].join('\n');
 }

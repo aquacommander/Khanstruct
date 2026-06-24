@@ -21,7 +21,8 @@ test.describe('Work gallery', () => {
   test('category filter narrows the grid', async ({ page }) => {
     await page.goto('/work');
     const before = await page.getByRole('button', { name: /^View /i }).count();
-    await page.getByRole('tab', { name: /Design/i }).click();
+    // Pick the first real category (tab index 1 — index 0 is "All").
+    await page.getByRole('tab').nth(1).click();
     const after = await page.getByRole('button', { name: /^View /i }).count();
     expect(after).toBeLessThanOrEqual(before);
     expect(after).toBeGreaterThan(0);

@@ -1,0 +1,144 @@
+/* ─── Hero ───────────────────────────────────────── */
+.hero {
+  padding: 11rem var(--section-px) 4rem;
+}
+
+.heroInner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.heading {
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+}
+
+.desc {
+  font-size: 1.0625rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  max-width: 560px;
+}
+
+/* ─── Grid ───────────────────────────────────────── */
+.grid {
+  padding: 2rem var(--section-px) var(--section-py);
+}
+
+.gridInner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+/* ─── Domain Card ────────────────────────────────── */
+.card {
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--domain-color, var(--color-accent));
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out);
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    120% 90% at 50% 0%,
+    color-mix(in srgb, var(--domain-color, var(--color-accent)) 8%, transparent),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.card:hover {
+  border-color: var(--color-border-strong);
+  border-top-color: var(--domain-color, var(--color-accent));
+  transform: translateY(-5px);
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.7);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cardEmoji {
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.cardStatus {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, currentColor 10%, transparent);
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+}
+
+.cardTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-top: 0.25rem;
+}
+
+.cardDesc {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  flex: 1;
+}
+
+.cardArrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  margin-top: 0.5rem;
+  transition: color 0.2s, letter-spacing 0.25s;
+}
+
+.card:hover .cardArrow {
+  color: var(--domain-color, var(--color-accent));
+  letter-spacing: 0.16em;
+}
+
+/* ─── Responsive ─────────────────────────────────── */
+@media (max-width: 900px) {
+  .gridInner {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 8rem;
+  }
+}

@@ -26,7 +26,7 @@ type Status = 'idle' | 'sending' | 'success' | 'error';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-const EMPTY_DETAILS: LeadDetails = { name: '', email: '', company: '', message: '' };
+const EMPTY_DETAILS: LeadDetails = { company: '', name: '', email: '', phone: '' };
 
 export function QualifierModal() {
   const open = useFunnel((s) => s.open);
@@ -242,9 +242,20 @@ export function QualifierModal() {
             {current.kind === 'details' ? (
               <div className={styles.form}>
                 <label className={styles.field}>
-                  <span className={styles.fieldLabel}>Name *</span>
+                  <span className={styles.fieldLabel}>Company</span>
                   <input
                     data-autofocus
+                    className={styles.input}
+                    type="text"
+                    value={details.company}
+                    placeholder="Optional"
+                    autoComplete="organization"
+                    onChange={(e) => setDetails({ ...details, company: e.target.value })}
+                  />
+                </label>
+                <label className={styles.field}>
+                  <span className={styles.fieldLabel}>Name *</span>
+                  <input
                     className={styles.input}
                     type="text"
                     value={details.name}
@@ -265,24 +276,14 @@ export function QualifierModal() {
                   />
                 </label>
                 <label className={styles.field}>
-                  <span className={styles.fieldLabel}>Company</span>
+                  <span className={styles.fieldLabel}>Phone</span>
                   <input
                     className={styles.input}
-                    type="text"
-                    value={details.company}
+                    type="tel"
+                    value={details.phone}
                     placeholder="Optional"
-                    autoComplete="organization"
-                    onChange={(e) => setDetails({ ...details, company: e.target.value })}
-                  />
-                </label>
-                <label className={styles.field}>
-                  <span className={styles.fieldLabel}>Anything else?</span>
-                  <textarea
-                    className={styles.textarea}
-                    rows={3}
-                    value={details.message}
-                    placeholder="A sentence or two about the project…"
-                    onChange={(e) => setDetails({ ...details, message: e.target.value })}
+                    autoComplete="tel"
+                    onChange={(e) => setDetails({ ...details, phone: e.target.value })}
                   />
                 </label>
                 {showErrors && !detailsValid && (
