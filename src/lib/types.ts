@@ -119,30 +119,29 @@ export type MediaKind = 'image' | 'video';
 export type MediaAspect = 'portrait' | 'landscape' | 'square';
 
 /**
- * One piece of content in the gallery. The whole gallery is driven by an array
- * of these, so categories, ordering, and content are data — not code. The
- * ingestion pipeline emits these from Zain's Drive folders + Project Info docs;
- * URLs point at R2 (CDN) once ingested. Seeded with placeholders until then.
+ * One project in the gallery — a dated, categorised entry with a cover and a
+ * set of images (its album). The whole gallery is driven by an array of these,
+ * generated from the R2 content structure (year/month/date/category/project)
+ * by scripts/gen-manifest.mjs, so categories, ordering, and content are data —
+ * not code.
  */
 export interface MediaItem {
   id: string;
   title: string;
-  /** Category id — must match a MediaCategoryDef.id (drives the filter). */
+  /** Category slug — the filter id (e.g. 'ai-tooling'). */
   category: string;
+  /** Category display name (e.g. 'AI Tooling'). */
+  categoryName: string;
+  /** ISO date 'YYYY-MM-DD' — drives newest-first ordering + month grouping. */
+  date?: string;
   kind: MediaKind;
-  /** Lightweight grid thumbnail (R2/CDN URL once ingested). */
+  /** Cover thumbnail URL (the project's _Preview image). */
   thumb: string;
-  /** Full image or streamable video URL shown in the lightbox. */
-  src: string;
-  /** Short muted clip played on hover (video only). */
-  preview?: string;
-  /** Poster frame shown for a video before it plays. */
-  poster?: string;
+  /** Ordered full-size image URLs shown in the lightbox (the album). */
+  images: string[];
   aspect?: MediaAspect;
-  client?: string;
   description?: string;
   tags?: string[];
   /** Surfaced in the homepage curated reel when true. */
   featured?: boolean;
-  date?: string;
 }

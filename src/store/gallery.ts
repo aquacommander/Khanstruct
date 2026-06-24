@@ -1,17 +1,16 @@
 import { create } from 'zustand';
-import type { MediaItem } from '@/lib/types';
 
 /**
- * Controls the media Lightbox. A grid (homepage reel or /work) calls
- * openLightbox() with its current, ordered item list + the clicked index, so
- * prev/next navigate within whatever set the user was browsing. The Lightbox
- * itself is rendered once in the root layout.
+ * Controls the media Lightbox as a per-project ALBUM viewer. A card calls
+ * openAlbum() with that project's ordered image URLs + its title; prev/next
+ * page within the album. The Lightbox is rendered once in the root layout.
  */
 interface GalleryStore {
   open: boolean;
-  items: MediaItem[];
+  images: string[];
+  title: string;
   index: number;
-  openLightbox: (items: MediaItem[], index: number) => void;
+  openAlbum: (images: string[], title: string, index?: number) => void;
   closeLightbox: () => void;
   next: () => void;
   prev: () => void;
@@ -19,14 +18,16 @@ interface GalleryStore {
 
 export const useGallery = create<GalleryStore>((set) => ({
   open: false,
-  items: [],
+  images: [],
+  title: '',
   index: 0,
-  openLightbox: (items, index) => set({ open: true, items, index }),
+  openAlbum: (images, title, index = 0) =>
+    set({ open: true, images, title, index: images.length ? index : 0 }),
   closeLightbox: () => set({ open: false }),
   next: () =>
-    set((s) => (s.items.length ? { index: (s.index + 1) % s.items.length } : {})),
+    set((s) => (s.images.length ? { index: (s.index + 1) % s.images.length } : {})),
   prev: () =>
     set((s) =>
-      s.items.length ? { index: (s.index - 1 + s.items.length) % s.items.length } : {},
+      s.images.length ? { index: (s.index - 1 + s.images.length) % s.images.length } : {},
     ),
 }));

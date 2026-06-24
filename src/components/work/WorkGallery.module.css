@@ -1,14 +1,15 @@
 .wrap {
-  max-width: var(--max-w);
+  max-width: 920px;
   margin: 0 auto;
 }
 
+/* ── Filter chips ────────────────────────────────────────────────────────── */
 .filters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  margin-bottom: clamp(2rem, 4vw, 3rem);
+  margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
 }
 
 .chip {
@@ -41,12 +42,44 @@
   opacity: 0.7;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: clamp(0.75rem, 1.5vw, 1.1rem);
+/* ── Collection (grouped-by-month list) ──────────────────────────────────── */
+.collection {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.5rem, 5vw, 3.5rem);
 }
 
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.groupLabel {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-border-strong);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+.groupCount {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--color-text-dim);
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── States ──────────────────────────────────────────────────────────────── */
 .more {
   display: flex;
   justify-content: center;
@@ -58,15 +91,4 @@
   color: var(--color-text-muted);
   font-size: 0.95rem;
   padding: 4rem 0;
-}
-
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (max-width: 620px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }

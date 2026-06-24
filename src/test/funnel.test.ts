@@ -78,14 +78,15 @@ describe('buildLeadSummary', () => {
       budget: '15k-plus',
     };
     const summary = buildLeadSummary(answers, {
+      company: 'Acme',
       name: 'Jane Doe',
       email: 'jane@acme.com',
-      company: 'Acme',
-      message: 'Need an agent',
+      phone: '555-1234',
     });
     expect(summary).toContain('High priority');
     expect(summary).toContain('AI Implementation');
     expect(summary).toContain('AI agent / assistant');
     expect(summary).toContain('jane@acme.com');
+    expect(summary).toContain('555-1234');
   });
 });

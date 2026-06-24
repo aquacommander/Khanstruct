@@ -1,21 +1,22 @@
 'use client';
 
 /* ════════════════════════════════════════════════════════════════════════
-   LIGHTBOX — full-screen media viewer. Rendered once in the root layout; opened
-   from any MediaCard via the useGallery store. Streams video on demand (only
-   when opened, never in the grid), supports keyboard nav (Esc / ← / →), traps
-   focus, and locks scroll. Fires lightbox_view analytics per item.
+   LIGHTBOX — full-screen album viewer. Rendered once in the root layout; opened
+   from a card via useGallery.openAlbum(). Pages through one project's image set
+   (Esc / ← / →), traps focus, and locks scroll. Reports each viewed slide.
    ──────────────────────────────────────────────────────────────────────── */
 
 import { useEffect, useRef } from 'react';
 import { useGallery } from '@/store/gallery';
-import { categoryLabel } from '@/lib/showreel';
 import { track } from '@/lib/analytics';
 import styles from './Lightbox.module.css';
 
+/* eslint-disable @next/next/no-img-element */
+
 export function Lightbox() {
   const open = useGallery((s) => s.open);
-  const items = useGallery((s) => s.items);
+  const images = useGallery((s) => s.images);
+  const title = useGallery((s) => s.title);
   const index = useGallery((s) => s.index);
   const close = useGallery((s) => s.closeLightbox);
   const next = useGallery((s) => s.next);
@@ -24,9 +25,8 @@ export function Lightbox() {
   const dialogRef = useRef<HTMLDivElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
 
-  const item = items[index];
+  const src = images[index];
 
-  // Lock scroll + remember/restore focus while open.
   useEffect(() => {
     if (!open) return;
     lastFocused.current = document.activeElement as HTMLElement | null;
@@ -40,14 +40,10 @@ export function Lightbox() {
     };
   }, [open]);
 
-  // Report each viewed item.
   useEffect(() => {
-    if (open && item) {
-      track('lightbox_view', { id: item.id, category: item.category });
-    }
-  }, [open, item]);
+    if (open && src) track('lightbox_view', { title, slide: index + 1 });
+  }, [open, src, title, index]);
 
-  // Keyboard: Esc closes, arrows navigate.
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
@@ -66,9 +62,9 @@ export function Lightbox() {
     return () => document.removeEventListener('keydown', onKey);
   }, [open, close, next, prev]);
 
-  if (!open || !item) return null;
+  if (!open || !src) return null;
 
-  const multiple = items.length > 1;
+  const multiple = images.length > 1;
 
   return (
     <div
@@ -82,7 +78,7 @@ export function Lightbox() {
         className={styles.dialog}
         role="dialog"
         aria-modal="true"
-        aria-label={item.title}
+        aria-label={title}
         tabIndex={-1}
       >
         <button type="button" className={styles.close} onClick={close} aria-label="Close">
@@ -102,31 +98,14 @@ export function Lightbox() {
 
         <div className={styles.stage}>
           <div className={styles.frame}>
-            {item.kind === 'video' ? (
-              <video
-                key={item.id}
-                className={styles.media}
-                src={item.src}
-                poster={item.poster}
-                controls
-                autoPlay
-                playsInline
-              />
-            ) : (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img className={styles.media} src={item.src} alt={item.title} />
-            )}
+            <img key={src} className={styles.media} src={src} alt={title} />
           </div>
 
           <div className={styles.caption}>
-            <div className={styles.captionText}>
-              <span className={styles.captionCategory}>{categoryLabel(item.category)}</span>
-              <h2 className={styles.captionTitle}>{item.title}</h2>
-              {item.description && <p className={styles.captionDesc}>{item.description}</p>}
-            </div>
+            <h2 className={styles.captionTitle}>{title}</h2>
             {multiple && (
               <span className={styles.counter}>
-                {index + 1} / {items.length}
+                {index + 1} / {images.length}
               </span>
             )}
           </div>

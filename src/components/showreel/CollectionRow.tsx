@@ -1,29 +1,30 @@
 'use client';
 
 /* ════════════════════════════════════════════════════════════════════════
-   MEDIA CARD — one tile in the homepage reel grid. Lazy-loads its cover and
-   opens the project's image album in the Lightbox on click. Data-driven so the
-   reel + the /work collection stay consistent.
+   COLLECTION ROW — one entry in the /work date-collection (Google I/O style):
+   cover · category tag · title · image count · date. Clicking opens the
+   project's image album in the Lightbox. Lazy-loads its cover.
    ──────────────────────────────────────────────────────────────────────── */
 
 import { useGallery } from '@/store/gallery';
-import { categoryLabel } from '@/lib/showreel';
+import { categoryLabel, formatDate } from '@/lib/showreel';
 import type { MediaItem } from '@/lib/types';
-import styles from './MediaCard.module.css';
+import styles from './CollectionRow.module.css';
 
 /* eslint-disable @next/next/no-img-element */
 
-export function MediaCard({ item }: { item: MediaItem }) {
+export function CollectionRow({ item }: { item: MediaItem }) {
   const openAlbum = useGallery((s) => s.openAlbum);
+  const count = item.images.length;
 
   return (
     <button
       type="button"
-      className={`${styles.card} ${styles[item.aspect ?? 'landscape']}`}
+      className={styles.row}
       onClick={() => openAlbum(item.images, item.title)}
       aria-label={`View ${item.title}`}
     >
-      <span className={styles.media}>
+      <span className={styles.thumbWrap}>
         <img
           className={styles.thumb}
           src={item.thumb}
@@ -31,16 +32,25 @@ export function MediaCard({ item }: { item: MediaItem }) {
           loading="lazy"
           decoding="async"
         />
-        {item.images.length > 1 && (
-          <span className={styles.playBadge} aria-hidden="true">
-            {item.images.length}
+        {count > 1 && (
+          <span className={styles.play} aria-hidden="true">
+            {count}
           </span>
         )}
       </span>
 
-      <span className={styles.overlay} aria-hidden="true">
-        <span className={styles.category}>{categoryLabel(item.category)}</span>
+      <span className={styles.body}>
+        <span className={styles.tag}>{categoryLabel(item.category)}</span>
         <span className={styles.title}>{item.title}</span>
+        {item.description && <span className={styles.desc}>{item.description}</span>}
+        <span className={styles.date}>
+          {formatDate(item.date)}
+          {count > 1 ? ` · ${count} images` : ''}
+        </span>
+      </span>
+
+      <span className={styles.arrow} aria-hidden="true">
+        →
       </span>
     </button>
   );
