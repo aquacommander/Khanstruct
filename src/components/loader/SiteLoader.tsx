@@ -16,6 +16,7 @@
 
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useExperience } from '@/store/experience';
+import { LoaderCanvas } from './LoaderCanvas';
 import styles from './SiteLoader.module.css';
 
 const MAX_LOCK_MS = 12000; // safety net: the loader can never hold the page past this
@@ -289,61 +290,13 @@ export function SiteLoader() {
         <line className={styles.archTick} x1="62" y1="10" x2="62" y2="13" />
       </svg>
 
-      {/* Timed content */}
-      <div className={styles.stage} aria-hidden="true">
-        {/* persistent spine + signal */}
-        <div className={styles.spine} />
-        <div className={styles.signalPoint} />
-        <p className={styles.sysLabel}>
-          Khanstruct<span className={styles.sep}>/</span>
-          <span className={styles.muted}>System Initialization</span>
-        </p>
+      {/* Node-brain → logo cinematic (particles converge into the real logo) */}
+      <LoaderCanvas className={styles.canvas} />
 
-        {/* Stage 2 — disciplines */}
-        <div className={`${styles.stageLayer}`}>
-          <div className={styles.disciplines}>
-            <div className={styles.discipline} data-k="design">
-              <span className={styles.branch} />
-              <span className={styles.branchDot} />
-              <span className={styles.word}>DESIGN</span>
-              <span className={styles.descriptor}>
-                <b>Interface</b> / Brand / Experience
-              </span>
-            </div>
-            <div className={styles.discipline} data-k="data">
-              <span className={styles.branch} />
-              <span className={styles.branchDot} />
-              <span className={styles.word}>DATA</span>
-              <span className={styles.descriptor}>
-                <b>Pipelines</b> / Structure / Insight
-              </span>
-            </div>
-            <div className={styles.discipline} data-k="ai">
-              <span className={styles.branch} />
-              <span className={styles.branchDot} />
-              <span className={styles.word}>AI</span>
-              <span className={styles.descriptor}>
-                <b>Agents</b> / Automation / Intelligence
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* Stage 3 — assembly */}
-        <div className={`${styles.stageLayer} ${styles.markWrap}`}>
-          <svg className={styles.kmark} viewBox="0 0 60 76" aria-hidden="true">
-            <path className={styles.kStroke} pathLength={1} d="M14 8 L14 68" />
-            <path className={styles.kStroke} pathLength={1} d="M14 42 L50 8" />
-            <path className={styles.kStroke} pathLength={1} d="M14 42 L52 68" />
-            <circle className={styles.kJoint} cx="14" cy="42" r="3.4" />
-          </svg>
-          <h1 className={styles.brand}>KHANSTRUCT</h1>
-          <p className={styles.tagline}>
-            DESIGN<span className={styles.dotsep}>·</span>DATA
-            <span className={styles.dotsep}>·</span>AI
-          </p>
-        </div>
-      </div>
+      {/* Tagline resolves in beneath the assembled logo */}
+      <p className={`${styles.tagline} ${styles.taglineFloat}`} aria-hidden="true">
+        FRAMEWORKS FOR THINKING<span className={styles.dotsep}>·</span>SYSTEMS FOR IMPACT
+      </p>
 
       {/* Live loading status — visible the entire boot (progress is real:
           time-based but gated so it can't hit 100% before assets are ready) */}
