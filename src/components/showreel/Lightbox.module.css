@@ -35,7 +35,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 0;
+  /* Reserve space so the image area never collapses while a slide loads
+     (which is what made the controls jump). */
+  min-height: min(60vh, 60dvh);
   flex: 1;
   overflow: hidden;
 }
@@ -104,10 +106,10 @@
    different shape/size from the round nav arrows so it never reads as a nav. */
 .close {
   position: absolute;
-  top: -0.75rem;
-  right: -0.75rem;
-  width: 2.2rem;
-  height: 2.2rem;
+  top: clamp(1rem, 3vw, 1.75rem);
+  right: clamp(1rem, 3vw, 1.75rem);
+  width: 2.4rem;
+  height: 2.4rem;
   display: grid;
   place-items: center;
   border: 1px solid var(--color-border-strong);
@@ -115,7 +117,7 @@
   background: rgba(10, 11, 10, 0.85);
   color: var(--color-text-muted);
   cursor: pointer;
-  z-index: 4;
+  z-index: 5;
   transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .close:hover {
