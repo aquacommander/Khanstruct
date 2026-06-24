@@ -37,7 +37,7 @@
   justify-content: center;
   min-height: 0;
   flex: 1;
-  animation: lb-pop 0.32s var(--ease-out, ease) both;
+  overflow: hidden;
 }
 
 .media {
@@ -49,6 +49,15 @@
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   background: #000;
+  animation: lb-fade 0.3s var(--ease-out, ease) both;
+}
+
+/* Direction-aware slide when paging between album images. */
+.slideNext {
+  animation: lb-slide-next 0.34s var(--ease-out, ease) both;
+}
+.slidePrev {
+  animation: lb-slide-prev 0.34s var(--ease-out, ease) both;
 }
 
 .caption {
@@ -91,64 +100,81 @@
 }
 
 /* ── Controls ────────────────────────────────────────────────────────────── */
+/* Close — a small square chip pinned to the top-right corner, deliberately a
+   different shape/size from the round nav arrows so it never reads as a nav. */
 .close {
   position: absolute;
-  top: -0.5rem;
-  right: -0.5rem;
-  width: 2.4rem;
-  height: 2.4rem;
+  top: -0.75rem;
+  right: -0.75rem;
+  width: 2.2rem;
+  height: 2.2rem;
   display: grid;
   place-items: center;
   border: 1px solid var(--color-border-strong);
-  border-radius: 50%;
-  background: rgba(10, 11, 10, 0.8);
-  color: var(--color-text);
-  font-size: 1.5rem;
-  line-height: 1;
+  border-radius: 10px;
+  background: rgba(10, 11, 10, 0.85);
+  color: var(--color-text-muted);
   cursor: pointer;
-  z-index: 3;
-  transition: background 0.2s, border-color 0.2s;
+  z-index: 4;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .close:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.08);
   border-color: var(--color-border-active);
+  color: var(--color-text);
 }
 
+/* Prev/Next — large round arrow buttons, clearly navigation. */
 .nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3rem;
+  height: 3rem;
   display: grid;
   place-items: center;
-  border: 1px solid var(--color-border-strong);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 50%;
-  background: rgba(10, 11, 10, 0.7);
+  background: rgba(18, 18, 22, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   color: var(--color-text);
-  font-size: 1.6rem;
-  line-height: 1;
   cursor: pointer;
   z-index: 3;
-  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s var(--ease-out, ease);
 }
 .nav:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(28, 28, 34, 0.85);
   border-color: var(--color-border-active);
+  color: var(--color-accent);
 }
 .navPrev {
-  left: -0.5rem;
+  left: clamp(0.5rem, 3vw, 2rem);
+}
+.navPrev:hover {
+  transform: translateY(-50%) translateX(-3px);
 }
 .navNext {
-  right: -0.5rem;
+  right: clamp(0.5rem, 3vw, 2rem);
+}
+.navNext:hover {
+  transform: translateY(-50%) translateX(3px);
 }
 
 @keyframes lb-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes lb-pop {
-  from { opacity: 0; transform: scale(0.97); }
+@keyframes lb-fade {
+  from { opacity: 0; transform: scale(0.99); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes lb-slide-next {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes lb-slide-prev {
+  from { opacity: 0; transform: translateX(-40px); }
   to { opacity: 1; transform: none; }
 }
 
@@ -161,7 +187,14 @@
 
 @media (prefers-reduced-motion: reduce) {
   .overlay,
-  .frame {
+  .media,
+  .slideNext,
+  .slidePrev {
     animation: none;
+  }
+  .nav,
+  .navPrev:hover,
+  .navNext:hover {
+    transition: none;
   }
 }

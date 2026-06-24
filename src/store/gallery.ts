@@ -10,6 +10,8 @@ interface GalleryStore {
   images: string[];
   title: string;
   index: number;
+  /** Last navigation direction (1 = next, -1 = prev, 0 = just opened) — drives the slide animation. */
+  dir: number;
   openAlbum: (images: string[], title: string, index?: number) => void;
   closeLightbox: () => void;
   next: () => void;
@@ -21,13 +23,16 @@ export const useGallery = create<GalleryStore>((set) => ({
   images: [],
   title: '',
   index: 0,
+  dir: 0,
   openAlbum: (images, title, index = 0) =>
-    set({ open: true, images, title, index: images.length ? index : 0 }),
+    set({ open: true, images, title, index: images.length ? index : 0, dir: 0 }),
   closeLightbox: () => set({ open: false }),
   next: () =>
-    set((s) => (s.images.length ? { index: (s.index + 1) % s.images.length } : {})),
+    set((s) => (s.images.length ? { index: (s.index + 1) % s.images.length, dir: 1 } : {})),
   prev: () =>
     set((s) =>
-      s.images.length ? { index: (s.index - 1 + s.images.length) % s.images.length } : {},
+      s.images.length
+        ? { index: (s.index - 1 + s.images.length) % s.images.length, dir: -1 }
+        : {},
     ),
 }));
