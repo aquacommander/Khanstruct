@@ -74,6 +74,28 @@ export function Lightbox() {
         if (e.target === e.currentTarget) close();
       }}
     >
+      {/* Controls are anchored to the overlay (viewport), NOT the image — so
+          they never shift when an image is loading, animating, or empty. */}
+      <button type="button" className={styles.close} onClick={close} aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+          <line x1="6" y1="6" x2="18" y2="18" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+        </svg>
+      </button>
+
+      {multiple && (
+        <button
+          type="button"
+          className={`${styles.nav} ${styles.navPrev}`}
+          onClick={prev}
+          aria-label="Previous image"
+        >
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+      )}
+
       <div
         ref={dialogRef}
         className={styles.dialog}
@@ -81,27 +103,11 @@ export function Lightbox() {
         aria-modal="true"
         aria-label={title}
         tabIndex={-1}
+        onMouseDown={(e) => {
+          // clicking the empty area around the image (not the image) also closes
+          if (e.target === e.currentTarget) close();
+        }}
       >
-        <button type="button" className={styles.close} onClick={close} aria-label="Close">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
-            <line x1="6" y1="6" x2="18" y2="18" />
-            <line x1="18" y1="6" x2="6" y2="18" />
-          </svg>
-        </button>
-
-        {multiple && (
-          <button
-            type="button"
-            className={`${styles.nav} ${styles.navPrev}`}
-            onClick={prev}
-            aria-label="Previous image"
-          >
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
-          </button>
-        )}
-
         <div className={styles.stage}>
           <div className={styles.frame}>
             <img
@@ -121,20 +127,20 @@ export function Lightbox() {
             )}
           </div>
         </div>
-
-        {multiple && (
-          <button
-            type="button"
-            className={`${styles.nav} ${styles.navNext}`}
-            onClick={next}
-            aria-label="Next image"
-          >
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </button>
-        )}
       </div>
+
+      {multiple && (
+        <button
+          type="button"
+          className={`${styles.nav} ${styles.navNext}`}
+          onClick={next}
+          aria-label="Next image"
+        >
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+      )}
     </div>
   );
 }
