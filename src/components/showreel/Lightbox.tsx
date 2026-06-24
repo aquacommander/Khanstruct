@@ -18,6 +18,7 @@ export function Lightbox() {
   const images = useGallery((s) => s.images);
   const title = useGallery((s) => s.title);
   const index = useGallery((s) => s.index);
+  const dir = useGallery((s) => s.dir);
   const close = useGallery((s) => s.closeLightbox);
   const next = useGallery((s) => s.next);
   const prev = useGallery((s) => s.prev);
@@ -82,7 +83,10 @@ export function Lightbox() {
         tabIndex={-1}
       >
         <button type="button" className={styles.close} onClick={close} aria-label="Close">
-          ×
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+            <line x1="6" y1="6" x2="18" y2="18" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+          </svg>
         </button>
 
         {multiple && (
@@ -90,15 +94,22 @@ export function Lightbox() {
             type="button"
             className={`${styles.nav} ${styles.navPrev}`}
             onClick={prev}
-            aria-label="Previous"
+            aria-label="Previous image"
           >
-            ‹
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
           </button>
         )}
 
         <div className={styles.stage}>
           <div className={styles.frame}>
-            <img key={src} className={styles.media} src={src} alt={title} />
+            <img
+              key={index}
+              className={`${styles.media} ${dir > 0 ? styles.slideNext : dir < 0 ? styles.slidePrev : ''}`}
+              src={src}
+              alt={title}
+            />
           </div>
 
           <div className={styles.caption}>
@@ -116,9 +127,11 @@ export function Lightbox() {
             type="button"
             className={`${styles.nav} ${styles.navNext}`}
             onClick={next}
-            aria-label="Next"
+            aria-label="Next image"
           >
-            ›
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
           </button>
         )}
       </div>
