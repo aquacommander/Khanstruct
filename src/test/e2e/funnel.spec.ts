@@ -14,7 +14,14 @@ test.describe('Lead funnel', () => {
   });
 
   test('completes the full funnel and submits a lead', async ({ page }) => {
-    // Stub the lead endpoint so the test is hermetic (no Notion dependency).
+    // Stub the email + Notion endpoints so the test is hermetic.
+    await page.route('https://api.web3forms.com/submit', (route) =>
+      route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({ success: true, message: 'ok' }),
+      }),
+    );
     await page.route('**/api/lead', (route) =>
       route.fulfill({
         status: 200,

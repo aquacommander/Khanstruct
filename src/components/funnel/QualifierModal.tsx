@@ -16,6 +16,9 @@ import { useFunnel } from '@/store/funnel';
 import {
   FUNNEL_STEPS,
   scopeOptionsFor,
+  scoreLead,
+  buildLeadSummary,
+  PRIORITY_META,
   type FunnelOption,
   type LeadDetails,
 } from '@/lib/funnel';
@@ -25,6 +28,9 @@ import styles from './QualifierModal.module.css';
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Web3Forms key — used CLIENT-SIDE (free tier blocks server-side submissions).
+const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
 
 const EMPTY_DETAILS: LeadDetails = { company: '', name: '', email: '', phone: '' };
 
@@ -155,17 +161,40 @@ export function QualifierModal() {
     }
     setStatus('sending');
     setError('');
+
+    const { priority } = scoreLead(answers);
+    const summary = buildLeadSummary(answers, details);
+    const service = typeof answers.service === 'string' ? answers.service : '';
+
     try {
-      const res = await fetch('/api/lead', {
+      // Email the lead via Web3Forms — CLIENT-SIDE (free tier rejects server calls).
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ answers, details }),
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: ACCESS_KEY,
+          subject: `New project lead — ${PRIORITY_META[priority].label}${service ? ` · ${service}` : ''}`,
+          from_name: 'Khanstruct — Project Funnel',
+          name: details.name,
+          email: details.email,
+          replyto: details.email,
+          message: summary,
+        }),
       });
-      const json = await res.json().catch(() => ({}));
+      const json = (await res.json().catch(() => ({}))) as { success?: boolean; message?: string };
+
       if (res.ok && json.success) {
+        // Fire-and-forget: also push to Notion via the server route (no-op until a
+        // NOTION token is configured). Never blocks the visitor's success.
+        fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ answers, details }),
+        }).catch(() => {});
+
         track('funnel_submit', {
-          priority: json.priority ?? 'unknown',
-          service: typeof answers.service === 'string' ? answers.service : '',
+          priority,
+          service,
           budget: typeof answers.budget === 'string' ? answers.budget : '',
           timeline: typeof answers.timeline === 'string' ? answers.timeline : '',
         });
