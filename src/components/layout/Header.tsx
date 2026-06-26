@@ -78,10 +78,10 @@ export function Header() {
             onClick={onLogoClick}
           >
             <Image
-              src="/khanstruct-logo.png"
+              src="/logo.png"
               alt="Khanstruct"
-              width={688}
-              height={688}
+              width={1301}
+              height={344}
               className={styles.logoImg}
               priority
             />
