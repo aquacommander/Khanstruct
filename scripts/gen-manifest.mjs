@@ -40,6 +40,119 @@ const files = raw
   .filter(Boolean)
   .map((p) => `2026/${p}`);
 
+// ── SEO keyword generation ──────────────────────────────────────────────────
+const MONTHS_FULL = [
+  'january', 'february', 'march', 'april', 'may', 'june',
+  'july', 'august', 'september', 'october', 'november', 'december',
+];
+const STOP = new Set([
+  'the', 'and', 'for', 'with', 'a', 'an', 'of', 'to', 'in', 'on', 'at', 'by',
+  'is', 'are', 'this', 'that', 'just', 'do', 'too', 'up', 'al', 'ups', 'sis', 'oq',
+]);
+// Category → richer search synonyms so e.g. "machine learning" finds AI projects.
+const CATEGORY_KEYWORDS = {
+  'AI Tooling': ['ai', 'artificial intelligence', 'machine learning', 'ml', 'llm', 'automation', 'agents', 'gemini', 'model'],
+  Neuroscience: ['brain', 'cognition', 'psychology', 'mind', 'neural', 'memory', 'learning'],
+  'Design Studio': ['design', 'ui', 'ux', 'graphic', 'branding', 'visual', 'creative'],
+  'Fandom Studio': ['content', 'social media', 'fandom', 'media', 'creator'],
+  Work: ['client', 'professional', 'business', 'project'],
+  Personal: ['personal'],
+  'Tools (learning)': ['tools', 'learning', 'tutorial', 'education'],
+};
+
+// Word → related search terms. When a title/category word matches a key, its
+// synonyms are indexed too — so a user's query word need not be in the title.
+const TERM_SYNONYMS = {
+  // AI / ML
+  ai: ['artificial intelligence', 'machine learning', 'ml'],
+  gemini: ['google', 'ai', 'llm', 'model', 'google ai'],
+  vertex: ['google cloud', 'ai', 'ml', 'platform'],
+  llm: ['ai', 'language model', 'gpt', 'chatbot', 'nlp'],
+  model: ['ai', 'ml', 'machine learning'],
+  embeddings: ['vector', 'ai', 'nlp', 'machine learning', 'search'],
+  vector: ['embeddings', 'database', 'ai', 'search'],
+  token: ['nlp', 'transformer', 'llm', 'ai'],
+  positional: ['transformer', 'nlp', 'ai'],
+  automation: ['automate', 'workflow', 'ai', 'agents'],
+  agent: ['ai agent', 'automation', 'assistant'],
+  agents: ['ai agent', 'automation', 'assistant'],
+  chat: ['chatbot', 'conversation', 'assistant', 'messaging'],
+  generative: ['ai', 'genai', 'creative ai'],
+  // dev / code
+  coding: ['code', 'programming', 'development', 'software', 'engineering'],
+  code: ['coding', 'programming', 'development', 'software'],
+  dev: ['developer', 'development', 'engineering', 'software'],
+  developer: ['engineer', 'development', 'software', 'coder'],
+  programmer: ['developer', 'engineer', 'coder', 'software'],
+  computer: ['software', 'tech', 'engineering'],
+  production: ['deployment', 'release', 'launch'],
+  initialization: ['setup', 'configuration', 'startup'],
+  build: ['create', 'develop', 'make'],
+  // data
+  data: ['analytics', 'database', 'dataset', 'insights'],
+  analytics: ['data', 'metrics', 'insights', 'reporting'],
+  information: ['data', 'knowledge'],
+  // business / saas
+  saas: ['software', 'product', 'startup', 'subscription'],
+  churn: ['retention', 'customer', 'metrics', 'analytics'],
+  mrr: ['revenue', 'subscription', 'saas', 'metrics'],
+  users: ['customers', 'audience', 'people'],
+  client: ['customer', 'business'],
+  companies: ['business', 'enterprise', 'company'],
+  jobs: ['career', 'employment', 'hiring', 'work'],
+  job: ['career', 'employment', 'hiring'],
+  remote: ['work from home', 'distributed', 'wfh'],
+  winning: ['success', 'growth', 'wins'],
+  // design / content
+  design: ['ui', 'ux', 'graphic', 'visual', 'creative', 'branding'],
+  graphic: ['design', 'visual', 'art', 'creative'],
+  social: ['social media', 'instagram', 'content', 'marketing'],
+  media: ['content', 'social media', 'video', 'creative'],
+  brief: ['summary', 'report', 'newsletter', 'digest'],
+  weekly: ['recurring', 'newsletter', 'digest'],
+  google: ['cloud', 'workspace', 'tech', 'gemini'],
+  // neuroscience / psychology
+  brain: ['neuroscience', 'cognition', 'mind', 'neural', 'psychology'],
+  mind: ['psychology', 'cognition', 'mental', 'brain', 'consciousness'],
+  unconscious: ['psychology', 'subconscious', 'mind'],
+  emotionally: ['emotion', 'feelings', 'psychology', 'mental'],
+  emotion: ['feelings', 'psychology', 'mental'],
+  structuralism: ['psychology', 'theory', 'philosophy', 'cognition'],
+  learning: ['education', 'study', 'knowledge'],
+};
+
+function makeKeywords(title, categoryName, date) {
+  const set = new Set();
+  const tokens = title
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter((w) => w.length >= 3 && !STOP.has(w));
+  for (const w of tokens) set.add(w);
+
+  const catTokens = [];
+  if (categoryName && categoryName !== 'Uncategorized') {
+    set.add(categoryName.toLowerCase());
+    for (const kw of CATEGORY_KEYWORDS[categoryName] || []) set.add(kw);
+    for (const t of categoryName.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean)) {
+      set.add(t);
+      catTokens.push(t);
+    }
+  }
+
+  // synonym expansion over every single-word token we collected
+  for (const t of [...tokens, ...catTokens]) {
+    for (const s of TERM_SYNONYMS[t] || []) set.add(s);
+  }
+
+  if (date) {
+    const [y, m] = date.split('-');
+    set.add(y);
+    const mi = Number(m) - 1;
+    if (mi >= 0 && mi < 12) set.add(MONTHS_FULL[mi]);
+  }
+  return [...set];
+}
+
 // ── helpers ─────────────────────────────────────────────────────────────────
 const DATE_RE = /(\d{4}-\d{2}-\d{2})/;
 const slugify = (s) =>
@@ -91,6 +204,7 @@ for (const [dir, imgs] of projects) {
     kind: 'image',
     thumb: cover,
     images,
+    keywords: makeKeywords(project.trim(), categoryName, date),
   });
 }
 

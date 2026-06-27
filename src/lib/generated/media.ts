@@ -13,6 +13,10 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/2026-06-21%20oq/_Preview%20-%202026-06-21%20oq.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/2026-06-21%20oq/1%20X.png"
+    ],
+    "keywords": [
+      "2026",
+      "june"
     ]
   },
   {
@@ -31,6 +35,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/7%20Cold%20Leads%20Enter%20A%20Nurture%20Sequence.png"
+    ],
+    "keywords": [
+      "aiwithanushka",
+      "leads",
+      "sack",
+      "dats",
+      "2026",
+      "june"
     ]
   },
   {
@@ -101,6 +113,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/57%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/58%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/59%20N.png"
+    ],
+    "keywords": [
+      "assumed",
+      "seed",
+      "demand",
+      "who",
+      "2026",
+      "june"
     ]
   },
   {
@@ -162,6 +182,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/48%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/49%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/50%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "beat",
+      "everywhere",
+      "idea",
+      "claude",
+      "2026",
+      "june"
     ]
   },
   {
@@ -235,6 +263,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/60%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/61%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/62%20Free%20Al%20Tools%20By%20Google%20To.png"
+    ],
+    "keywords": [
+      "bohr",
+      "quantum",
+      "theory",
+      "energy",
+      "2026",
+      "june"
     ]
   },
   {
@@ -306,6 +342,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/58%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/59%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/60%20Predicts%20Engagement.png"
+    ],
+    "keywords": [
+      "brain",
+      "every",
+      "emotionally",
+      "unconscious",
+      "neuroscience",
+      "cognition",
+      "mind",
+      "neural",
+      "psychology",
+      "emotion",
+      "feelings",
+      "mental",
+      "subconscious",
+      "2026",
+      "june"
     ]
   },
   {
@@ -327,6 +380,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/10%20Brainchanges.png"
+    ],
+    "keywords": [
+      "brain",
+      "learning",
+      "change",
+      "focus",
+      "neuroscience",
+      "cognition",
+      "mind",
+      "neural",
+      "psychology",
+      "education",
+      "study",
+      "knowledge",
+      "2026",
+      "june"
     ]
   },
   {
@@ -364,6 +433,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/24%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/25%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/26%20Drill%20Look%20Away%20Stimulus.png"
+    ],
+    "keywords": [
+      "brain",
+      "movement",
+      "learn",
+      "customise",
+      "neuroscience",
+      "cognition",
+      "mind",
+      "neural",
+      "psychology",
+      "2026",
+      "june"
     ]
   },
   {
@@ -388,6 +470,15 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/13%201%20Yt-Dip.png"
+    ],
+    "keywords": [
+      "cal",
+      "diy",
+      "dlp",
+      "calcom",
+      "dak",
+      "2026",
+      "june"
     ]
   },
   {
@@ -405,6 +496,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "canceteo",
+      "total",
+      "adam",
+      "build",
+      "create",
+      "develop",
+      "make",
+      "2026",
+      "june"
     ]
   },
   {
@@ -484,6 +586,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/66%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/67%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/68%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "capital",
+      "figma",
+      "value",
+      "start",
+      "2026",
+      "june"
     ]
   },
   {
@@ -505,6 +615,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/10%20Conte%20Cones%20Wosrenee%20Emergency%20Response.png"
+    ],
+    "keywords": [
+      "centre",
+      "research",
+      "laelia",
+      "tube",
+      "2026",
+      "june"
     ]
   },
   {
@@ -527,6 +645,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/11%20A%207%20Mm%20Li%20Claude%20Gets.png"
+    ],
+    "keywords": [
+      "claude",
+      "starts",
+      "after",
+      "setup",
+      "2026",
+      "june"
     ]
   },
   {
@@ -545,6 +671,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/7%20A.png"
+    ],
+    "keywords": [
+      "cloud",
+      "john",
+      "lewis",
+      "data",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "june"
     ]
   },
   {
@@ -564,6 +702,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/8%20Guesses%20Or%20Stalls.png"
+    ],
+    "keywords": [
+      "company",
+      "need",
+      "brain",
+      "map",
+      "neuroscience",
+      "cognition",
+      "mind",
+      "neural",
+      "psychology",
+      "2026",
+      "june"
     ]
   },
   {
@@ -637,6 +788,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/60%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/61%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/62%20We%20Think%20S%20By%20Application.png"
+    ],
+    "keywords": [
+      "data",
+      "x1440px",
+      "stays",
+      "device",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "june"
     ]
   },
   {
@@ -662,6 +825,20 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/14%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "design",
+      "resource",
+      "skills",
+      "etc",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "june"
     ]
   },
   {
@@ -765,6 +942,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/90%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/91%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/92%20Send%20To%20Someone%20Who%20Could.png"
+    ],
+    "keywords": [
+      "don",
+      "frequency",
+      "thecodex",
+      "time",
+      "2026",
+      "june"
     ]
   },
   {
@@ -828,6 +1013,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/50%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/51%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/52%207%20Gd.png"
+    ],
+    "keywords": [
+      "extragt",
+      "individual",
+      "fanmes",
+      "voila",
+      "2026",
+      "june"
     ]
   },
   {
@@ -847,6 +1040,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/8%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "frontend",
+      "validation",
+      "api",
+      "keys",
+      "2026",
+      "june"
     ]
   },
   {
@@ -866,6 +1067,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/8%20Ae%204.png"
+    ],
+    "keywords": [
+      "gemini",
+      "chunks",
+      "text",
+      "google",
+      "ai",
+      "llm",
+      "model",
+      "google ai",
+      "2026",
+      "june"
     ]
   },
   {
@@ -885,6 +1098,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/8%20R%20Images%20As%20Prompts.png"
+    ],
+    "keywords": [
+      "gemini",
+      "rrooranmne",
+      "nus",
+      "ideas",
+      "google",
+      "ai",
+      "llm",
+      "model",
+      "google ai",
+      "2026",
+      "june"
     ]
   },
   {
@@ -932,6 +1158,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/34%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/35%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/36%20Ae%20A%20A%2015.png"
+    ],
+    "keywords": [
+      "gemma",
+      "runs",
+      "multimodal",
+      "flagship",
+      "2026",
+      "june"
     ]
   },
   {
@@ -953,6 +1187,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/10%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "google",
+      "generative",
+      "search",
+      "eee",
+      "cloud",
+      "workspace",
+      "tech",
+      "gemini",
+      "ai",
+      "genai",
+      "creative ai",
+      "2026",
+      "june"
     ]
   },
   {
@@ -974,6 +1223,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/10%20At%20Don'T%20Lie%2074.png"
+    ],
+    "keywords": [
+      "inside",
+      "alscript",
+      "generator",
+      "auto",
+      "2026",
+      "june"
     ]
   },
   {
@@ -999,6 +1256,13 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/14%20A%20Comparison%20Let%20Me%20Show%20Difference.png"
+    ],
+    "keywords": [
+      "therishishine",
+      "same",
+      "but",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1019,6 +1283,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/9%20E%20Stop%20At.png"
+    ],
+    "keywords": [
+      "level",
+      "every",
+      "prompt",
+      "obsidian",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1067,6 +1339,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/35%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/36%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/37%206.png"
+    ],
+    "keywords": [
+      "llm",
+      "wiki",
+      "video",
+      "generators",
+      "ai",
+      "language model",
+      "gpt",
+      "chatbot",
+      "nlp",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1096,6 +1381,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/16%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/17%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/18%203%20Put%20Ideas%20Ina%20Shareable.png"
+    ],
+    "keywords": [
+      "meyer",
+      "power",
+      "anyone",
+      "attention",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1116,6 +1409,20 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/9%20Burned%20200%2B%20In%20One%20Weekend.png"
+    ],
+    "keywords": [
+      "mobile",
+      "design",
+      "claude",
+      "f12",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1135,6 +1442,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/8%20Hostinger%20Footprint.png"
+    ],
+    "keywords": [
+      "official",
+      "underwriting",
+      "business",
+      "footprint",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1152,6 +1467,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "penetration",
+      "testing",
+      "runs",
+      "itself",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1170,6 +1493,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/7%20React%20Compiler%201.png"
+    ],
+    "keywords": [
+      "react",
+      "server",
+      "before",
+      "jordan",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1211,6 +1542,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/28%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/29%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/30%202%20Echt.png"
+    ],
+    "keywords": [
+      "retrieval",
+      "augmented",
+      "generation",
+      "che",
+      "client",
+      "customer",
+      "business",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1228,6 +1570,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "simplified",
+      "series",
+      "robotics",
+      "world",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1255,6 +1605,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/14%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/15%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/16%20Template.png"
+    ],
+    "keywords": [
+      "specs",
+      "dev",
+      "tools",
+      "monitoring",
+      "developer",
+      "development",
+      "engineering",
+      "software",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1274,6 +1636,24 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/8%20Want%20Full%20Stack.png"
+    ],
+    "keywords": [
+      "stitch",
+      "claude",
+      "code",
+      "design",
+      "coding",
+      "programming",
+      "development",
+      "software",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1293,6 +1673,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/8%20Found%20Helpful.png"
+    ],
+    "keywords": [
+      "terms",
+      "legal",
+      "set",
+      "users",
+      "customers",
+      "audience",
+      "people",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1318,6 +1709,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/14%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "venture",
+      "market",
+      "product",
+      "show",
+      "2026",
+      "june"
     ]
   },
   {
@@ -1334,6 +1733,31 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "adjusting",
+      "years",
+      "design",
+      "archetypes",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1348,6 +1772,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/1%20Create%20One%20File%20Called%20Claude.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/2%20Second%20Brain.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "knowledge",
+      "base",
+      "raw",
+      "wiki",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1370,6 +1813,27 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/11%20-%2003%2004%2005067810%20To.png"
+    ],
+    "keywords": [
+      "tasks",
+      "agent",
+      "heartbeat",
+      "ceo",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "ai agent",
+      "assistant",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1393,6 +1857,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/12%20Top%20Is%20Always%20In%20Context.png"
+    ],
+    "keywords": [
+      "ask",
+      "plugin",
+      "inside",
+      "skill",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1413,6 +1890,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/9%20Open-%20D%20Bolt.png"
+    ],
+    "keywords": [
+      "chrome",
+      "extension",
+      "prompts",
+      "apps",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1441,6 +1931,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/15%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/16%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/17%20Equal%20Adoption.png"
+    ],
+    "keywords": [
+      "design",
+      "zones",
+      "logic",
+      "map",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1471,6 +1980,28 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/17%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/19%20We%20Need%20Lto%20Adapt%20Again.png"
+    ],
+    "keywords": [
+      "nautex",
+      "build",
+      "design",
+      "need",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "create",
+      "develop",
+      "make",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1487,6 +2018,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "one",
+      "consuming",
+      "should",
+      "compounding",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1525,6 +2069,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/25%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/26%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/27%20Keep%20Room%20Dimensions%20Layout%20Exactly%20As.png"
+    ],
+    "keywords": [
+      "generate",
+      "claude",
+      "typescript",
+      "projects",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1546,6 +2109,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/10%2002.png"
+    ],
+    "keywords": [
+      "reading",
+      "copy",
+      "data",
+      "should",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "april"
     ]
   },
   {
@@ -1562,6 +2148,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "design",
+      "studio",
+      "design studio",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1581,6 +2180,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/8%20Shape%20Of%20An%20Inhale.png"
+    ],
+    "keywords": [
+      "position",
+      "diaphragm",
+      "point",
+      "exhale",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1605,6 +2221,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/13%20Framer%20Awards%202025%20Winners%20Framer.png"
+    ],
+    "keywords": [
+      "awards",
+      "generate",
+      "pack",
+      "shots",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1619,6 +2252,31 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/1%20Gemini%203%20Flash%20Gemini%203.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/2%20Ece%20Google'S%20Full-Stack%20Al%20Ecosystem.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "gemini",
+      "model",
+      "flash",
+      "google",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "ai",
+      "llm",
+      "google ai",
+      "ml",
+      "machine learning",
+      "cloud",
+      "workspace",
+      "tech",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1679,6 +2337,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/47%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/48%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/49%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "stitch",
+      "dashboard",
+      "side",
+      "live",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1704,6 +2379,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/14%207%20One%20S%20Worldview%20To%20Non.png"
+    ],
+    "keywords": [
+      "beautiful",
+      "business",
+      "house",
+      "world",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1755,6 +2447,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/38%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/39%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/40%20F%20Etecior%20Ml%20A.png"
+    ],
+    "keywords": [
+      "cold",
+      "water",
+      "train",
+      "every",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1770,6 +2479,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/2%20Militarized%20Robots%20Julie%20Carpenter%20Ph.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/4%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "robots",
+      "kun",
+      "lab",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1869,6 +2594,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/86%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/87%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/88%20C%20Edits%20Updates%20To%20Edits%20Cinematic.png"
+    ],
+    "keywords": [
+      "edits",
+      "updates",
+      "plus",
+      "few",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1914,6 +2658,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/32%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/33%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/34%20Hope%20Emails%20Don'T%20Land%20In.png"
+    ],
+    "keywords": [
+      "mins",
+      "before",
+      "deep",
+      "work",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1933,6 +2693,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/8%201O00M%2B%20Notion%20Users%20Buy%20Notion%20Templates.png"
+    ],
+    "keywords": [
+      "notion",
+      "templates",
+      "every",
+      "day",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1955,6 +2731,27 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/11%20E%20Used%20Predictions%20Recommendations%20Risk%20Detection.png"
+    ],
+    "keywords": [
+      "generative",
+      "patterns",
+      "core",
+      "idea",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "genai",
+      "creative ai",
+      "2026",
+      "march"
     ]
   },
   {
@@ -1991,6 +2788,31 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/23%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/24%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/25%20Social%20Media%20Marketing.png"
+    ],
+    "keywords": [
+      "product",
+      "beauty",
+      "social",
+      "media",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "social media",
+      "instagram",
+      "content",
+      "marketing",
+      "video",
+      "creative",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2010,6 +2832,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/8%20Sh%20Alent%20Z%20Bist%20Ae%20Ae.png"
+    ],
+    "keywords": [
+      "wadi",
+      "rum",
+      "jordan",
+      "ily",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2048,6 +2889,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/25%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/26%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/27%20A%20Dak%20Vs%20Gey%204%20Cuweet.png"
+    ],
+    "keywords": [
+      "airgesrened",
+      "gee",
+      "boy",
+      "jaa",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2067,6 +2925,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/8%20Skeudesign.png"
+    ],
+    "keywords": [
+      "free",
+      "gallery",
+      "cas",
+      "eee",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2090,6 +2965,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/12%2003-%20So.png"
+    ],
+    "keywords": [
+      "here",
+      "one",
+      "topic",
+      "question",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2104,6 +2996,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/1%20I.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/2%20Ae%20A%20Ee%20Ogee.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "rizona",
+      "ogee",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2121,6 +3028,20 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "audience",
+      "struggle",
+      "content",
+      "hero",
+      "fandom studio",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2178,6 +3099,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/44%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/45%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/46%209%20Skills%20Installed%20Agents%20Scripts.png"
+    ],
+    "keywords": [
+      "ihave",
+      "app",
+      "always",
+      "wanted",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2198,6 +3132,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/9%20Mindfulness%20Transform%20Life.png"
+    ],
+    "keywords": [
+      "asked",
+      "everyone",
+      "bee",
+      "should",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2233,6 +3184,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/22%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/23%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/24%20To%20Be%20Consistent.png"
+    ],
+    "keywords": [
+      "people",
+      "think",
+      "oooooooooo",
+      "january",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2247,6 +3215,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/1%20Wo%20Pm%20St%20Og%20I%20A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/2%20Wabi%202.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "sct",
+      "wabi",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2271,6 +3254,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/13%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "claude",
+      "code",
+      "infographics",
+      "real",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "coding",
+      "programming",
+      "development",
+      "software",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2299,6 +3305,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/15%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/16%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/17%207.png"
+    ],
+    "keywords": [
+      "don",
+      "does",
+      "thebami",
+      "only",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2317,6 +3339,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/7%20Want%20Direct%20Links.png"
+    ],
+    "keywords": [
+      "ogfolio",
+      "mode",
+      "links",
+      "light",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2374,6 +3412,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/44%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/45%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/46%207%20Uma%206%20Trindspor%202025.png"
+    ],
+    "keywords": [
+      "scale",
+      "come",
+      "back",
+      "need",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2387,6 +3441,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/1%20Effects%20On%20Body%20Stress%20Is%20Just.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/2%20Com%20%2B%20Airtable%20Notion.png"
+    ],
+    "keywords": [
+      "stress",
+      "effects",
+      "body",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2399,6 +3468,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Text%20Images%20Audio%20Fine-tuning/_Preview%20-%20Text%20Images%20Audio%20Fine-tuning.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Text%20Images%20Audio%20Fine-tuning/1%20Fine-Tuning%20Adjusting%20A%20Pre-Trained%20Model.png"
+    ],
+    "keywords": [
+      "text",
+      "images",
+      "audio",
+      "fine",
+      "tuning",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2429,6 +3515,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/17%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/19%20Old%20Belief.png"
+    ],
+    "keywords": [
+      "broken",
+      "systems",
+      "character",
+      "flaw",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2529,6 +3628,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/87%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/88%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/89%20Pillar%203%20A%20Automate.png"
+    ],
+    "keywords": [
+      "eliminate",
+      "every",
+      "agent",
+      "claude",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "ai agent",
+      "automation",
+      "assistant",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2543,6 +3658,26 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/1%20Yrs%20Al%20Terms%20Need%20To%20Know.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/2%20Al%20Model%20A%20System%20Trained.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "model",
+      "data",
+      "yrs",
+      "terms",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "ai",
+      "ml",
+      "machine learning",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2567,6 +3702,20 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/13%20Amygdala%20Stores%20Survival%20Rules.png"
+    ],
+    "keywords": [
+      "set",
+      "ready",
+      "make",
+      "com",
+      "airtable",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2585,6 +3734,20 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/7%20Ig%20Om%20A%20Ae%20A%20Ee.png"
+    ],
+    "keywords": [
+      "spiral",
+      "ever",
+      "growing",
+      "collection",
+      "carefully",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2605,6 +3768,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/9%20Always%20Cyber%20Laws%20Ethica%20Guidelines.png"
+    ],
+    "keywords": [
+      "exif",
+      "metadata",
+      "image",
+      "location",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2672,6 +3851,26 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/54%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/55%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/56%205.png"
+    ],
+    "keywords": [
+      "fine",
+      "tuning",
+      "bad",
+      "agentic",
+      "agents",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "ai agent",
+      "automation",
+      "assistant",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2699,6 +3898,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/14%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/15%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/16%20Pa.png"
+    ],
+    "keywords": [
+      "firefly",
+      "daily",
+      "reminder",
+      "goated",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2730,6 +3945,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/20%20But%20Do%20Need%20To%20Set%20Some.png"
+    ],
+    "keywords": [
+      "need",
+      "uxui",
+      "heroes",
+      "viral",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2761,6 +3992,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/20%20Award-Winning%20Site%20Must-Haves%20Send%20Eee.png"
+    ],
+    "keywords": [
+      "aiagently",
+      "agents",
+      "eee",
+      "stay",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "ai agent",
+      "automation",
+      "assistant",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2785,6 +4032,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/13%20Alis%20Making.png"
+    ],
+    "keywords": [
+      "gemini",
+      "prompts",
+      "coding",
+      "stitch",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "google",
+      "ai",
+      "llm",
+      "model",
+      "google ai",
+      "code",
+      "programming",
+      "development",
+      "software",
+      "engineering",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2809,6 +4079,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/13%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "immune",
+      "neutrophils",
+      "lymphocytes",
+      "eosinophils",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2821,6 +4104,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Twice%20Gat/_Preview%20-%20Twice%20Gat.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Twice%20Gat/1%20Gettwice%20Twice%20Twice%20Twice%20Gat%20Twice.png"
+    ],
+    "keywords": [
+      "twice",
+      "gat",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2835,6 +4129,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/1%20Rl.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/2%20Al.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "nein",
+      "ich",
+      "frege",
+      "aeetieht",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2847,6 +4158,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Yeaa%20Preset%20Reporting%20Live/_Preview%20-%20Yeaa%20Preset%20Reporting%20Live.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Yeaa%20Preset%20Reporting%20Live/1%20Yeaa%20Preset.png"
+    ],
+    "keywords": [
+      "yeaa",
+      "preset",
+      "reporting",
+      "live",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2871,6 +4199,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/13%20Play%20Here%20Is%20Just%20Selling%20Templates.png"
+    ],
+    "keywords": [
+      "notion",
+      "selling",
+      "templates",
+      "build",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "create",
+      "develop",
+      "make",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2892,6 +4236,26 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/10%20Brain%20Deletes%20Information%20Keeps.png"
+    ],
+    "keywords": [
+      "brain",
+      "out",
+      "reality",
+      "identity",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "neuroscience",
+      "cognition",
+      "mind",
+      "neural",
+      "psychology",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2924,6 +4288,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/21%20To%20Change%20Who%20See%20Yourself%20As.png"
+    ],
+    "keywords": [
+      "people",
+      "skill",
+      "identity",
+      "claude",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2948,6 +4327,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/13%20Is%20To%20Actually%20Do%20A%20Brain.png"
+    ],
+    "keywords": [
+      "research",
+      "pitch",
+      "compete",
+      "plan",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "march"
     ]
   },
   {
@@ -2966,6 +4364,32 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/7%20A6Z'S%20Big%20Ideas%20To%20Build.png"
+    ],
+    "keywords": [
+      "design",
+      "infrastructure",
+      "data",
+      "agents",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "ai agent",
+      "automation",
+      "assistant",
+      "2026",
+      "march"
     ]
   },
   {
@@ -3008,6 +4432,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/29%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/30%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/31%20Lam%20Danger.png"
+    ],
+    "keywords": [
+      "nb2",
+      "without",
+      "danger",
+      "bee",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "march"
     ]
   },
   {
@@ -3041,6 +4478,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/21%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/22%20Pp%20Ak%20Brain%20Processes%20Images.png"
+    ],
+    "keywords": [
+      "greek",
+      "amphora",
+      "over",
+      "years",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -3064,6 +4518,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/12%20Tutorials%20-%20Heres%20Sticks%20%2B.png"
+    ],
+    "keywords": [
+      "massively",
+      "underrated",
+      "artists",
+      "highly",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "march"
     ]
   },
   {
@@ -3079,6 +4550,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/2%20Only%2018.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/4%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "real",
+      "opportunity",
+      "only",
+      "implementation",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3109,6 +4599,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/17%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/19%20Here'S%20Full%20Framework.png"
+    ],
+    "keywords": [
+      "section",
+      "nano",
+      "banana",
+      "framework",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3140,6 +4649,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/20%20Bpdetaspeca%20He%20Fast.png"
+    ],
+    "keywords": [
+      "smm",
+      "easy",
+      "next",
+      "gen",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3155,6 +4683,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/2%202026%20E.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/4%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "bigdataspecialist",
+      "became",
+      "bad",
+      "bpdetaspeca",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3167,6 +4703,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Eee%20Peele%20Eere%20Beer/_Preview%20-%20Eee%20Peele%20Eere%20Beer.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Eee%20Peele%20Eere%20Beer/1%20Enune%20An%20Million%20People%20E.png"
+    ],
+    "keywords": [
+      "eee",
+      "peele",
+      "eere",
+      "beer",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3186,6 +4730,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/8%20Steal%20My%20Roadmap.png"
+    ],
+    "keywords": [
+      "week",
+      "people",
+      "refine",
+      "foundation",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3198,6 +4757,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Week%20Blog%20Digital%20Publish/_Preview%20-%20Week%20Blog%20Digital%20Publish.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Week%20Blog%20Digital%20Publish/1%2006%2008%20Hq%20Digital%20Publish.png"
+    ],
+    "keywords": [
+      "week",
+      "blog",
+      "digital",
+      "publish",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3212,6 +4779,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/1%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/2%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "tooling",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3231,6 +4813,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/8%201.png"
+    ],
+    "keywords": [
+      "question",
+      "human",
+      "answer",
+      "insert",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3244,6 +4845,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/1%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/2%20Want%20To%20Dive%20Deeper.png"
+    ],
+    "keywords": [
+      "want",
+      "dive",
+      "deeper",
+      "eze",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3257,6 +4875,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/1%20Done%20Is%20Better%20Perfect.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/2%205.png"
+    ],
+    "keywords": [
+      "done",
+      "better",
+      "perfect",
+      "pay",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3270,6 +4896,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/1%20Youneed%20Science%20Speaks%20Human.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/2%20Nora%20Norepinephrine%20-Aka%20Noradrenaline%20Nora%20Brings.png"
+    ],
+    "keywords": [
+      "nora",
+      "she",
+      "youneed",
+      "science",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3310,6 +4944,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/27%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/28%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/29%20Corty%20Cortisol%20Corty%20Is%20Stress%20Dealer.png"
+    ],
+    "keywords": [
+      "corty",
+      "cortisol",
+      "down",
+      "there",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3337,6 +4984,24 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/14%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/15%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/16%20Ra%20Stu%20Is%20Truth.png"
+    ],
+    "keywords": [
+      "problems",
+      "mind",
+      "illusion",
+      "ityou",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "psychology",
+      "cognition",
+      "mental",
+      "brain",
+      "consciousness",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3389,6 +5054,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/39%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/40%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/41%20But%20Does%20Brain%20Produce.png"
+    ],
+    "keywords": [
+      "but",
+      "nick",
+      "sweeney",
+      "hip",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3405,6 +5089,26 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "lead",
+      "time",
+      "agents",
+      "missed",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "gemini",
+      "model",
+      "tooling",
+      "ai agent",
+      "assistant",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3426,6 +5130,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/10%20Camera.png"
+    ],
+    "keywords": [
+      "abcdefghijklm",
+      "nopqrstuvxyz",
+      "abcdefghijkimn",
+      "opqrstuvwxyz",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3442,6 +5163,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "one",
+      "awareness",
+      "raised",
+      "valle",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3477,6 +5206,15 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/22%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/23%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/24%20I.png"
+    ],
+    "keywords": [
+      "far",
+      "right",
+      "wave",
+      "hala",
+      "personal",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3542,6 +5280,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/52%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/53%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/54%20Identity.png"
+    ],
+    "keywords": [
+      "story",
+      "same",
+      "people",
+      "one",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3554,6 +5311,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Design%20Studio/Design%20Studio%20mT/_Preview%20-%20Design%20Studio%20mT.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Design%20Studio/Design%20Studio%20mT/1%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "design",
+      "studio",
+      "design studio",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3573,6 +5343,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/8%20Want%20To%20Put%20Practice.png"
+    ],
+    "keywords": [
+      "goodneuroscience",
+      "ever",
+      "had",
+      "conversation",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3605,6 +5383,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/21%20Stop%20Multitasking%20Multitasking%20Doesn%20T%20Time.png"
+    ],
+    "keywords": [
+      "auth",
+      "every",
+      "multitasking",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3625,6 +5419,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/9%20Before%20Reacting%20White%20What'S%20True.png"
+    ],
+    "keywords": [
+      "hat",
+      "better",
+      "blue",
+      "come",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3649,6 +5460,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/13%20Is%20My%20Phone%20Looks%20Built.png"
+    ],
+    "keywords": [
+      "help",
+      "reel",
+      "carousels",
+      "btw",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3661,6 +5480,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Keep%20Wealth%20Hacks%20Goldmine/_Preview%20-%20Keep%20Wealth%20Hacks%20Goldmine.jpg",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Keep%20Wealth%20Hacks%20Goldmine/1%20Wealth%20Hacks%20A%20Goldmine.png"
+    ],
+    "keywords": [
+      "keep",
+      "wealth",
+      "hacks",
+      "goldmine",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3679,6 +5506,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/7%20Letter%20A%2001000001.png"
+    ],
+    "keywords": [
+      "binary",
+      "every",
+      "second",
+      "one",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3698,6 +5541,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/8%20Here'S%20A%20Breakdown%20Of%20His%20Approach.png"
+    ],
+    "keywords": [
+      "focus",
+      "want",
+      "build",
+      "work",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "create",
+      "develop",
+      "make",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3768,6 +5630,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/57%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/58%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/59%201.png"
+    ],
+    "keywords": [
+      "his",
+      "one",
+      "other",
+      "content",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3782,6 +5660,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/1%20If%20Better%20Thinking%20Wasn%20T.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/2%206%20Thinking%20Hats%20Thinking%20Always%20Feels.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "thinking",
+      "better",
+      "wasn",
+      "being",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3803,6 +5689,28 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/10%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "learning",
+      "tasks",
+      "knowledge",
+      "multi",
+      "task",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "education",
+      "study",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3817,6 +5725,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/1%20N.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/2%20Project%20Presentation%20Handoff.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "phase",
+      "project",
+      "siar",
+      "see",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3837,6 +5762,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/9%203%20Ac%20Brand%20Identity%20Design%20Agreement.png"
+    ],
+    "keywords": [
+      "documents",
+      "workflow",
+      "yes",
+      "onno",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3863,6 +5803,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/14%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/15%20Sure%20To%20Start.png"
+    ],
+    "keywords": [
+      "let",
+      "phase",
+      "soosussnnnpntcnmnonnnne",
+      "armen",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3877,6 +5832,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/1%20F%201%20Autonomous%20Ops%20Assistant.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/2%207.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "invoice",
+      "srey",
+      "eee",
+      "autonomous",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3898,6 +5861,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/10%20Es%20Al%20Outbound%20Caller%20Calls.png"
+    ],
+    "keywords": [
+      "one",
+      "ores",
+      "start",
+      "codex",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3919,6 +5895,31 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/10%20Create%20A%20Detailed%20Hero%20Illustration%20Showing.png"
+    ],
+    "keywords": [
+      "design",
+      "typography",
+      "direction",
+      "works",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "ui",
+      "ux",
+      "graphic",
+      "visual",
+      "creative",
+      "branding",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3940,6 +5941,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/10%204An%20Arndule%20Ge%20Endl%20Ee.png"
+    ],
+    "keywords": [
+      "inkdescription",
+      "bef",
+      "siac",
+      "take",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3965,6 +5983,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/14%20S%20Find%20Out%20At.png"
+    ],
+    "keywords": [
+      "kafka",
+      "messages",
+      "consumer",
+      "find",
+      "tools (learning)",
+      "tools",
+      "learning",
+      "tutorial",
+      "education",
+      "study",
+      "knowledge",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3978,6 +6011,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/1%20P%20Find%20Out%20At.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/2%20Fon%20Jimoon%20Take%20Theese%20Businessss.png"
+    ],
+    "keywords": [
+      "want",
+      "become",
+      "dev",
+      "one",
+      "developer",
+      "development",
+      "engineering",
+      "software",
+      "2026",
+      "february"
     ]
   },
   {
@@ -3996,6 +6041,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/7%20Three%20Apps%20Already.png"
+    ],
+    "keywords": [
+      "already",
+      "tracker",
+      "money",
+      "stops",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4035,6 +6093,27 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/26%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/27%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/28%2044%20Outline.png"
+    ],
+    "keywords": [
+      "agent",
+      "teach",
+      "core",
+      "idea",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "ai agent",
+      "assistant",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4049,6 +6128,15 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/1%20Low%20Capacity.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/2%20Deeper%20Concepts.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "low",
+      "never",
+      "thecodex",
+      "self",
+      "sabotage",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4073,6 +6161,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/11%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/13%20Notice%20Natural%20Judgements%20Towards%20Others.png"
+    ],
+    "keywords": [
+      "meets",
+      "system",
+      "overflow",
+      "snseooes",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4089,6 +6193,19 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "sales",
+      "content",
+      "because",
+      "every",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4108,6 +6225,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/8%20S%20Database%20Crm%20Reporting%20Dashboard%20In.png"
+    ],
+    "keywords": [
+      "call",
+      "data",
+      "vapi",
+      "summary",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4140,6 +6280,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/21%20An%20Hat%20Wring%20On.png"
+    ],
+    "keywords": [
+      "aren",
+      "asa",
+      "detailed",
+      "account",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4173,6 +6332,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/21%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/22%204.png"
+    ],
+    "keywords": [
+      "archetypes",
+      "inspire",
+      "eee",
+      "growth",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4190,6 +6366,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "train",
+      "test",
+      "model",
+      "inport",
+      "ai",
+      "ml",
+      "machine learning",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4208,6 +6395,27 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/7%20Computer%20Programmer%20Api%20Is%20Epic.png"
+    ],
+    "keywords": [
+      "computer",
+      "programmer",
+      "check",
+      "api",
+      "tools (learning)",
+      "tools",
+      "learning",
+      "tutorial",
+      "education",
+      "software",
+      "tech",
+      "engineering",
+      "developer",
+      "engineer",
+      "coder",
+      "study",
+      "knowledge",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4238,6 +6446,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/17%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/18%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/19%20Error%20Modulenotfoundetror%20No%20Module%20Named.png"
+    ],
+    "keywords": [
+      "csv",
+      "spaces",
+      "data",
+      "chunk",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4263,6 +6494,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/12%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/14%20Sn%20Ee%20Salesperson%20A%20Seaklarantve%20Swmeevert.png"
+    ],
+    "keywords": [
+      "ota",
+      "eee",
+      "vanna",
+      "ory",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4279,6 +6529,17 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "content",
+      "agent",
+      "say",
+      "oss",
+      "ai agent",
+      "automation",
+      "assistant",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4293,6 +6554,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/1%20Is%20N8N%20%26%20Matters%20Ss.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/2%20Example.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/3%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "data",
+      "n8n",
+      "automation",
+      "expressions",
+      "analytics",
+      "database",
+      "dataset",
+      "insights",
+      "automate",
+      "workflow",
+      "ai",
+      "agents",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4313,6 +6590,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/9%2008%20Best%20Onboarding%20Feels%20Invisible.png"
+    ],
+    "keywords": [
+      "design",
+      "users",
+      "progress",
+      "creates",
+      "design studio",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "customers",
+      "audience",
+      "people",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4333,6 +6629,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/9%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "deck",
+      "preview",
+      "startup",
+      "slides",
+      "tools (learning)",
+      "tools",
+      "learning",
+      "tutorial",
+      "education",
+      "study",
+      "knowledge",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4352,6 +6663,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/8%20Crisis%20M%20Notry%20Catch.png"
+    ],
+    "keywords": [
+      "npm",
+      "staged",
+      "publishing",
+      "find",
+      "tools (learning)",
+      "tools",
+      "learning",
+      "tutorial",
+      "education",
+      "study",
+      "knowledge",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4373,6 +6699,22 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/10%20Spiritual%20Bypassing%20Extra%20Steps.png"
+    ],
+    "keywords": [
+      "didn",
+      "thecodex",
+      "autonomous",
+      "own",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4406,6 +6748,26 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/21%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/22%20Benchmark%20Paperbananabench%20Neurips%202025%20Papers.png"
+    ],
+    "keywords": [
+      "background",
+      "generate",
+      "visuals",
+      "gemini",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "model",
+      "tooling",
+      "google",
+      "google ai",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4419,6 +6781,14 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/1%20Brand%20Content%20Sells.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/2%20S%20Paperbanana%20Al%20Learned%20To%20Think.png"
+    ],
+    "keywords": [
+      "brand",
+      "art",
+      "paperbanana",
+      "workflow",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4435,6 +6805,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/5%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "image",
+      "turn",
+      "any",
+      "text",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "graphic",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4456,6 +6843,18 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/10%20Business%20Tools%20Actually%20Worth%20Itas.png"
+    ],
+    "keywords": [
+      "icon",
+      "business",
+      "cont",
+      "describe",
+      "work",
+      "client",
+      "professional",
+      "project",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4474,6 +6873,28 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/7%20Wt%20Analytics%20Vidhya.png"
+    ],
+    "keywords": [
+      "gateway",
+      "computer",
+      "through",
+      "control",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "software",
+      "tech",
+      "engineering",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4487,6 +6908,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/1%20Caogle%20Ke.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/2%20C%20Og%20Ee.png"
+    ],
+    "keywords": [
+      "caogle",
+      "google",
+      "has",
+      "quietly",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "cloud",
+      "workspace",
+      "tech",
+      "gemini",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4504,6 +6944,24 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "platforms",
+      "full",
+      "social",
+      "media",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "creator",
+      "studio",
+      "instagram",
+      "marketing",
+      "video",
+      "creative",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4524,6 +6982,21 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/9%20O%20Y%208%20Sentences%20Gave.png"
+    ],
+    "keywords": [
+      "wanted",
+      "longer",
+      "stay",
+      "wrong",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "2026",
+      "february"
     ]
   },
   {
@@ -4537,6 +7010,33 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/1%20Build%20Weekly%20Al%20Brief%201%20E.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/2%20Google%20Labs%20Tools%20Worth%20Opening%20Today.png"
+    ],
+    "keywords": [
+      "build",
+      "weekly",
+      "brief",
+      "google",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "create",
+      "develop",
+      "make",
+      "recurring",
+      "newsletter",
+      "digest",
+      "summary",
+      "report",
+      "cloud",
+      "workspace",
+      "tech",
+      "gemini",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4552,6 +7052,30 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/2%20Social%20Shells%20Caption%20Writing%20Strategic.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/3%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/4%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "social",
+      "media",
+      "client",
+      "graphic",
+      "design studio",
+      "design",
+      "ui",
+      "ux",
+      "branding",
+      "visual",
+      "creative",
+      "studio",
+      "social media",
+      "instagram",
+      "content",
+      "marketing",
+      "video",
+      "customer",
+      "business",
+      "art",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4570,6 +7094,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/6%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/7%20Rencon%20Aee%20Biggest%20Drop%20Yet.png"
+    ],
+    "keywords": [
+      "top",
+      "remote",
+      "computer",
+      "programmer",
+      "work from home",
+      "distributed",
+      "wfh",
+      "software",
+      "tech",
+      "engineering",
+      "developer",
+      "engineer",
+      "coder",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4605,6 +7146,30 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/22%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/23%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/24%20Computer%20Programmer%20A%20Trusted%20Site.png"
+    ],
+    "keywords": [
+      "jobs",
+      "computer",
+      "programmer",
+      "companies",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "career",
+      "employment",
+      "hiring",
+      "software",
+      "tech",
+      "engineering",
+      "developer",
+      "engineer",
+      "coder",
+      "enterprise",
+      "company",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4625,6 +7190,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/9%205.png"
+    ],
+    "keywords": [
+      "embeddings",
+      "token",
+      "vector",
+      "positional",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "ai",
+      "nlp",
+      "machine learning",
+      "search",
+      "transformer",
+      "llm",
+      "database",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4642,6 +7230,23 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/4%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/5%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/6%20Visual%20Save.png"
+    ],
+    "keywords": [
+      "much",
+      "information",
+      "kills",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "mind",
+      "neural",
+      "memory",
+      "learning",
+      "data",
+      "knowledge",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4674,6 +7279,29 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/21%20Matters%20Revenue%20Is%20Proof%20Someone%20Values.png"
+    ],
+    "keywords": [
+      "churn",
+      "users",
+      "month",
+      "mrr",
+      "work",
+      "client",
+      "professional",
+      "business",
+      "project",
+      "retention",
+      "customer",
+      "metrics",
+      "analytics",
+      "customers",
+      "audience",
+      "people",
+      "revenue",
+      "subscription",
+      "saas",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4700,6 +7328,37 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/13%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/14%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/15%20Of%20Gemma3%201B%20999.png"
+    ],
+    "keywords": [
+      "chat",
+      "coding",
+      "dev",
+      "llm",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "chatbot",
+      "conversation",
+      "assistant",
+      "messaging",
+      "code",
+      "programming",
+      "development",
+      "software",
+      "engineering",
+      "developer",
+      "language model",
+      "gpt",
+      "nlp",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4732,6 +7391,33 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/19%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/20%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/21%20Oa%20%26%205M%20S%20Followers%2015.png"
+    ],
+    "keywords": [
+      "initialization",
+      "production",
+      "winning",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "gemini",
+      "model",
+      "tooling",
+      "setup",
+      "configuration",
+      "startup",
+      "deployment",
+      "release",
+      "launch",
+      "success",
+      "growth",
+      "wins",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4752,6 +7438,25 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/9%20Pt%20Fae%20A.png"
+    ],
+    "keywords": [
+      "pee",
+      "cpt",
+      "fie",
+      "saas",
+      "fandom studio",
+      "content",
+      "social media",
+      "fandom",
+      "media",
+      "creator",
+      "studio",
+      "software",
+      "product",
+      "startup",
+      "subscription",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4772,6 +7477,24 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/7%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/8%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/9%20Ups%20Education%20Utsaah%20Sis%20Structuralism.png"
+    ],
+    "keywords": [
+      "mind",
+      "asked",
+      "structuralism",
+      "neuroscience",
+      "brain",
+      "cognition",
+      "psychology",
+      "neural",
+      "memory",
+      "learning",
+      "mental",
+      "consciousness",
+      "theory",
+      "philosophy",
+      "2026",
+      "january"
     ]
   },
   {
@@ -4794,6 +7517,30 @@ export const GENERATED_MEDIA: MediaItem[] = [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/9%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/10%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/11%206%20Generative%20Al%20Labs%20Gemini.png"
+    ],
+    "keywords": [
+      "gemini",
+      "lab",
+      "google",
+      "vertex",
+      "ai tooling",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "ml",
+      "llm",
+      "automation",
+      "agents",
+      "model",
+      "tooling",
+      "google ai",
+      "cloud",
+      "workspace",
+      "tech",
+      "google cloud",
+      "platform",
+      "2026",
+      "january"
     ]
   }
 ];
