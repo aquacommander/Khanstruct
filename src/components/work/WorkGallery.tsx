@@ -16,7 +16,7 @@ import {
   GALLERY_PAGE_SIZE,
 } from '@/lib/showreel';
 import { track } from '@/lib/analytics';
-import { CollectionRow } from '@/components/showreel/CollectionRow';
+import { WorkCard } from '@/components/showreel/WorkCard';
 import styles from './WorkGallery.module.css';
 
 export function WorkGallery() {
@@ -63,9 +63,9 @@ export function WorkGallery() {
                 {group.label}
                 <span className={styles.groupCount}>{group.items.length}</span>
               </h2>
-              <div className={styles.rows}>
+              <div className={styles.cards}>
                 {group.items.map((item) => (
-                  <CollectionRow key={item.id} item={item} />
+                  <WorkCard key={item.id} item={item} />
                 ))}
               </div>
             </section>
