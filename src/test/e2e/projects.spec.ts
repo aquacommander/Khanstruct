@@ -10,18 +10,17 @@ test.describe('Projects Pages', () => {
 
   test('project cards are listed', async ({ page }) => {
     await page.goto('/projects');
-    const cards = page.locator('article[role="listitem"]');
-    await expect(cards).not.toHaveCount(0);
+    const cards = page.locator('a[href^="/projects/"]');
+    await expect(cards.first()).toBeVisible();
   });
 
   test('clicking a project card navigates to detail', async ({ page }) => {
     await page.goto('/projects');
-    const firstCard = page.locator('article[role="listitem"]').first();
-    const link = firstCard.locator('a');
-    const href = await link.getAttribute('href');
+    const firstCard = page.locator('a[href^="/projects/"]').first();
+    const href = await firstCard.getAttribute('href');
     expect(href).toMatch(/^\/projects\//);
 
-    await link.click();
+    await firstCard.click();
     await page.waitForLoadState('domcontentloaded');
     const url = page.url();
     expect(url).toContain('/projects/');

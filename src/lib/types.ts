@@ -142,6 +142,8 @@ export interface MediaItem {
   aspect?: MediaAspect;
   description?: string;
   tags?: string[];
+  /** SEO/search keywords (title tokens + category synonyms + date) for the search bar. */
+  keywords?: string[];
   /** Surfaced in the homepage curated reel when true. */
   featured?: boolean;
 }

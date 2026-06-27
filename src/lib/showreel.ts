@@ -25,6 +25,11 @@ export function categoryLabel(id: string): string {
   return CATEGORY_NAMES.get(id) ?? id;
 }
 
+/** Lowercased searchable text for an item (title + category + SEO keywords). */
+export function itemSearchText(item: MediaItem): string {
+  return `${item.title} ${item.categoryName} ${(item.keywords ?? []).join(' ')}`.toLowerCase();
+}
+
 /** Curated set for the homepage reel — featured if flagged, else newest. */
 export function getFeatured(limit = 8): MediaItem[] {
   const featured = MEDIA_ITEMS.filter((m) => m.featured);
