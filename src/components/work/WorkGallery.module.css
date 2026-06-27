@@ -1,5 +1,5 @@
 .wrap {
-  max-width: 920px;
+  max-width: var(--max-w);
   margin: 0 auto;
 }
 
@@ -74,9 +74,21 @@
   color: var(--color-text-dim);
 }
 
-.rows {
-  display: flex;
-  flex-direction: column;
+/* Auto-fitting grid — cards stay a comfortable ~210px wide on every screen
+   (never one giant full-width card on mobile). */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: clamp(0.65rem, 1.4vw, 1.1rem);
+  margin-top: 1.5rem;
+}
+
+/* On small phones, force 2 snug columns instead of one big card. */
+@media (max-width: 520px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+  }
 }
 
 /* ── States ──────────────────────────────────────────────────────────────── */

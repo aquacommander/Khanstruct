@@ -11,7 +11,7 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import { getFeatured } from '@/lib/showreel';
 import { useRevealAll } from '@/hooks/useScrollReveal';
-import { MediaCard } from '@/components/showreel/MediaCard';
+import { WorkCard } from '@/components/showreel/WorkCard';
 import styles from './Showreel.module.css';
 
 export function Showreel() {
@@ -48,7 +48,7 @@ export function Showreel() {
               className={`${styles.cell} reveal`}
               data-delay={`${0.16 + i * 0.06}`}
             >
-              <MediaCard item={item} />
+              <WorkCard item={item} />
             </div>
           ))}
         </div>
