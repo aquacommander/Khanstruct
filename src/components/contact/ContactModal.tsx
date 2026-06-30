@@ -9,11 +9,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useContactModal } from '@/store/contact';
 import { EMAIL } from '@/lib/content';
+import { submitToWeb3Forms } from '@/lib/web3forms';
 import styles from './ContactModal.module.css';
-
-// Web3Forms access key — public by design (spam-guarded server-side + honeypot).
-// Set NEXT_PUBLIC_WEB3FORMS_KEY in .env.local (and in your host's env).
-const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
@@ -95,19 +92,15 @@ export function ContactModal() {
     setStatus('sending');
     setError('');
     try {
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: ACCESS_KEY,
-          subject: `New message from ${data.get('name') || 'a portfolio visitor'}`,
-          from_name: 'Khanstruct Portfolio',
-          name: data.get('name'),
-          email: data.get('email'),
-          message: data.get('message'),
-        }),
+      // Delivered to BOTH inboxes (Zain's + Suyama's) — one email per key.
+      const json = await submitToWeb3Forms({
+        subject: `New message from ${data.get('name') || 'a portfolio visitor'}`,
+        from_name: 'Khanstruct Portfolio',
+        name: data.get('name'),
+        email: data.get('email'),
+        replyto: data.get('email'),
+        message: data.get('message'),
       });
-      const json = await res.json();
       if (json.success) {
         setStatus('success');
         form.reset();

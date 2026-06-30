@@ -74,7 +74,7 @@ function NetworkVisual() {
           y1={nodes[a].y}
           x2={nodes[b].x}
           y2={nodes[b].y}
-          stroke="rgba(215,255,63,0.15)"
+          stroke="rgba(244,63,94,0.15)"
           strokeWidth="0.5"
         />
       ))}
@@ -85,7 +85,7 @@ function NetworkVisual() {
           cy={node.y}
           r={node.r}
           fill="none"
-          stroke={i === 0 ? 'rgba(215,255,63,0.5)' : 'rgba(215,255,63,0.2)'}
+          stroke={i === 0 ? 'rgba(244,63,94,0.5)' : 'rgba(244,63,94,0.2)'}
           strokeWidth="0.5"
           className={styles.svgNode}
           style={{ animationDelay: `${i * 0.3}s` }}
@@ -97,10 +97,10 @@ function NetworkVisual() {
           cx={node.x}
           cy={node.y}
           r={1.5}
-          fill="rgba(215,255,63,0.4)"
+          fill="rgba(244,63,94,0.4)"
         />
       ))}
-      <circle cx={50} cy={50} r={3} fill="rgba(215,255,63,0.8)" />
+      <circle cx={50} cy={50} r={3} fill="rgba(244,63,94,0.8)" />
     </svg>
   );
 }

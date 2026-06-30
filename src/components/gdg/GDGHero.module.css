@@ -33,7 +33,7 @@
   padding: 0.45rem 0.9rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--color-border);
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(15, 15, 25, 0.02);
   font-family: var(--font-mono);
   font-size: 0.6875rem;
   letter-spacing: 0.08em;
@@ -121,7 +121,7 @@
   margin: -0.85cqw 0 0 -0.85cqw;
   border-radius: 50%;
   background: var(--color-accent);
-  box-shadow: 0 0 1.6cqw 0.5cqw rgba(215, 255, 63, 0.7);
+  box-shadow: 0 0 1.6cqw 0.5cqw rgba(244, 63, 94, 0.7);
   animation: tulsaCore 2.4s ease-in-out infinite;
 }
 

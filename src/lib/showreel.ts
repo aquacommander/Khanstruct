@@ -11,7 +11,81 @@ import { GENERATED_MEDIA } from './generated/media';
    manifest regenerated. No component edits needed.
    ──────────────────────────────────────────────────────────────────────── */
 
-export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA;
+/* ── Topic classification ────────────────────────────────────────────────────
+   Collapse the raw R2 folder categories (inconsistent, ~32% "Uncategorized")
+   into 5 clean topics so every item lands in exactly one. Applied here at the
+   data boundary, so new R2 syncs auto-classify with no manifest/component edits.
+   Known topic folders map directly; everything else is scored by the item's
+   title + SEO keywords. Zero-signal items default to AI & Automation (the
+   dominant theme). */
+type Topic = { id: string; label: string; tok: string[]; ph: string[] };
+
+const MEDIA_CATEGORIES: Topic[] = [
+  {
+    id: 'ai-automation',
+    label: 'AI & Automation',
+    tok: ['ai', 'llm', 'ml', 'gemini', 'gemma', 'claude', 'openai', 'anthropic', 'gpt', 'gpts', 'agent', 'agents', 'agentic', 'automation', 'prompt', 'prompts', 'rag', 'vector', 'embeddings', 'embedding', 'chatbot', 'genai', 'model', 'models', 'tooling', 'airtable', 'n8n', 'codex', 'workflow', 'workflows', 'multimodal', 'autonomous', 'robotics', 'robot', 'transformer', 'transformers'],
+    ph: ['machine learning', 'artificial intelligence', 'ai tooling', 'language model'],
+  },
+  {
+    id: 'design-branding',
+    label: 'Design & Branding',
+    tok: ['design', 'figma', 'ui', 'ux', 'typography', 'visual', 'branding', 'brand', 'graphic', 'logo', 'packshot', 'mockup', 'dashboard', 'creative', 'studio', 'color', 'colour', 'layout', 'poster', 'aesthetic', 'font', 'fonts', 'illustration', 'render', 'motion'],
+    ph: ['design studio', 'pack shots', 'graphic design'],
+  },
+  {
+    id: 'engineering',
+    label: 'Engineering',
+    tok: ['api', 'apis', 'code', 'coding', 'kafka', 'npm', 'extension', 'frontend', 'backend', 'typescript', 'javascript', 'python', 'ruby', 'database', 'devops', 'git', 'deploy', 'server', 'microservices', 'sdk', 'cli', 'validation', 'dev', 'developer', 'programmer', 'monitoring', 'security', 'penetration', 'pentest', 'testing', 'data', 'pipeline', 'infrastructure', 'saas'],
+    ph: ['chrome extension', 'open banking', 'dev tools'],
+  },
+  {
+    id: 'mind-learning',
+    label: 'Mind & Learning',
+    tok: ['brain', 'neuroscience', 'neural', 'neuron', 'neurons', 'cognition', 'cognitive', 'mind', 'mindset', 'psychology', 'memory', 'focus', 'learning', 'dopamine', 'cortisol', 'consciousness', 'structuralism', 'quantum', 'immune', 'physiology', 'emotion', 'emotions', 'emotionally', 'unconscious', 'neutrophils', 'lymphocytes', 'diaphragm', 'awareness', 'thinking', 'discipline', 'habit', 'habits', 'science', 'wisdom', 'knowledge', 'philosophy'],
+    ph: ['deep work', 'self-sabotage'],
+  },
+  {
+    id: 'content-growth',
+    label: 'Content & Growth',
+    tok: ['content', 'social', 'audience', 'fandom', 'viral', 'growth', 'business', 'marketing', 'smm', 'creator', 'creators', 'sales', 'selling', 'templates', 'template', 'pitch', 'brief', 'revenue', 'monetize', 'reel', 'reels', 'carousel', 'carousels', 'blog', 'publish', 'wealth', 'money', 'startup', 'venture', 'invoice', 'market', 'newsletter'],
+    ph: ['social media', 'go to market', 'content creation'],
+  },
+];
+
+// Raw R2 folder names that already map cleanly onto a topic.
+const DIRECT_TOPIC: Record<string, string> = {
+  'AI Tooling': 'ai-automation',
+  'Design Studio': 'design-branding',
+  Neuroscience: 'mind-learning',
+  'Fandom Studio': 'content-growth',
+  'Tools (learning)': 'engineering',
+};
+
+function classifyTopic(item: MediaItem): Topic {
+  const direct = DIRECT_TOPIC[item.categoryName];
+  if (direct) return MEDIA_CATEGORIES.find((c) => c.id === direct)!;
+  const raw = `${item.title} ${(item.keywords ?? []).join(' ')}`.toLowerCase();
+  const tokens = new Set(raw.split(/[^a-z0-9]+/).filter(Boolean));
+  let best = MEDIA_CATEGORIES[0]; // default: AI & Automation
+  let bestScore = 0;
+  for (const c of MEDIA_CATEGORIES) {
+    let score = 0;
+    for (const t of c.tok) if (tokens.has(t)) score += 1;
+    for (const p of c.ph) if (raw.includes(p)) score += 1;
+    if (score > bestScore) {
+      bestScore = score;
+      best = c;
+    }
+  }
+  return best;
+}
+
+// Re-categorise every item into one of the 5 clean topics at the data boundary.
+export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.map((m) => {
+  const topic = classifyTopic(m);
+  return { ...m, category: topic.id, categoryName: topic.label };
+});
 
 export const GALLERY_PAGE_SIZE = 12;
 

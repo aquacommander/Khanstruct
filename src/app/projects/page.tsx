@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { ProjectCard } from '@/components/projects/ProjectCard';
-import { PROJECTS } from '@/lib/content';
+import { ProjectsExplorer } from '@/components/projects/ProjectsExplorer';
 import styles from './projects.module.css';
 
 export const metadata: Metadata = {
@@ -30,14 +29,8 @@ export default function ProjectsPage() {
         </section>
 
         <section className={styles.grid} aria-labelledby="projects-list-heading">
-          <div className={styles.inner}>
-            <h2 id="projects-list-heading" className="sr-only">All Projects</h2>
-            <div className={styles.cards}>
-              {PROJECTS.map((project) => (
-                <ProjectCard key={project.slug} project={project} />
-              ))}
-            </div>
-          </div>
+          <h2 id="projects-list-heading" className="sr-only">Projects by discipline</h2>
+          <ProjectsExplorer />
         </section>
       </main>
       <Footer />
