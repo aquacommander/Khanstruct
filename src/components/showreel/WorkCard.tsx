@@ -1,14 +1,12 @@
 'use client';
 
 /* ════════════════════════════════════════════════════════════════════════
-   WORK CARD — stacked-card rotation + content-reveal hover.
+   WORK CARD — 3D flip on hover (same motion as the project-category cards,
+   but WITHOUT the colored panel underneath — that stays exclusive to the
+   category cards).
 
-   Initial: a tall dark card with the cover image, the title at the bottom-left,
-   and a round accent arrow at the bottom-right. On hover an accent layer fans
-   out behind it (clockwise) while the front card tilts the other way, the
-   description reveals beneath the title, and the card lifts with an accent glow.
-
-   Dark-themed to match the site (accent lime, not the reference's white/red).
+   Front: cover image, category + title, round accent arrow.
+   Back:  accent-tinted panel with the title, description, image count + arrow.
    Clicking opens the project's image album in the Lightbox.
    ──────────────────────────────────────────────────────────────────────── */
 
@@ -18,6 +16,22 @@ import type { MediaItem } from '@/lib/types';
 import styles from './WorkCard.module.css';
 
 /* eslint-disable @next/next/no-img-element */
+
+function ArrowIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M5 12h13" />
+      <path d="m12.5 5.5 6.5 6.5-6.5 6.5" />
+    </svg>
+  );
+}
 
 export function WorkCard({ item }: { item: MediaItem }) {
   const openAlbum = useGallery((s) => s.openAlbum);
@@ -30,29 +44,47 @@ export function WorkCard({ item }: { item: MediaItem }) {
       onClick={() => openAlbum(item.images, item.title)}
       aria-label={`View ${item.title}`}
     >
-      {/* accent layer that fans out behind on hover */}
+      {/* Crooked accent panel — flares in behind the card on hover only. */}
       <span className={styles.back} aria-hidden="true" />
 
-      <span className={styles.front}>
-        <span className={styles.media}>
-          <img
-            className={styles.thumb}
-            src={item.thumb}
-            alt={item.title}
-            loading="lazy"
-            decoding="async"
-          />
-          <span className={styles.scrim} aria-hidden="true" />
+      <span className={styles.flip}>
+        {/* ── Front face ───────────────────────────────────────────────── */}
+        <span className={`${styles.face} ${styles.faceFront}`}>
+          <span className={styles.media}>
+            <img
+              className={styles.thumb}
+              src={item.thumb}
+              alt={item.title}
+              loading="lazy"
+              decoding="async"
+            />
+            <span className={styles.scrim} aria-hidden="true" />
+          </span>
+
+          <span className={styles.body}>
+            <span className={styles.category}>{categoryLabel(item.category)}</span>
+            <span className={styles.heading}>{item.title}</span>
+          </span>
+
+          <span className={styles.arrow} aria-hidden="true">
+            <ArrowIcon />
+          </span>
         </span>
 
-        <span className={styles.body}>
+        {/* ── Back face (alternate content) ────────────────────────────── */}
+        <span className={`${styles.face} ${styles.faceBack}`}>
           <span className={styles.category}>{categoryLabel(item.category)}</span>
-          <span className={styles.heading}>{item.title}</span>
+          <span className={styles.backHeading}>{item.title}</span>
           {item.description && <span className={styles.desc}>{item.description}</span>}
-        </span>
 
-        <span className={styles.arrow} aria-hidden="true">
-          {count > 1 ? count : '→'}
+          <span className={styles.backFoot}>
+            <span className={styles.backCount}>
+              {count} image{count > 1 ? 's' : ''}
+            </span>
+            <span className={styles.arrow} aria-hidden="true">
+              <ArrowIcon />
+            </span>
+          </span>
         </span>
       </span>
     </button>

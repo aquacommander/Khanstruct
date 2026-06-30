@@ -58,7 +58,8 @@ export default async function ProjectDetailPage({ params }: Props) {
               style={{ '--accent': project.accentColor } as React.CSSProperties}
               aria-hidden="true"
             >
-              <span className={styles.heroInitial}>{project.title.charAt(0)}</span>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className={styles.heroCover} src={project.coverImage} alt="" />
             </div>
           </div>
         </section>

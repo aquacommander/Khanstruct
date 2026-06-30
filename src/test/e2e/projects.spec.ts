@@ -8,33 +8,33 @@ test.describe('Projects Pages', () => {
     await expect(heading).toBeVisible();
   });
 
-  test('project cards are listed', async ({ page }) => {
+  test('discipline cards are shown', async ({ page }) => {
     await page.goto('/projects');
-    const cards = page.locator('a[href^="/projects/"]');
-    await expect(cards.first()).toBeVisible();
+    await expect(page.getByRole('button', { name: /Frontend/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /Backend/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /AI/i })).toBeVisible();
   });
 
-  test('clicking a project card navigates to detail', async ({ page }) => {
+  test('drilling into a discipline shows project cards linking to live projects', async ({ page }) => {
     await page.goto('/projects');
-    const firstCard = page.locator('a[href^="/projects/"]').first();
+    // Level 1 → pick a discipline
+    await page.getByRole('button', { name: /AI/i }).click();
+    // Level 2 → project cards open the real project URL in a new tab
+    const firstCard = page.locator('main a[target="_blank"]').first();
+    await expect(firstCard).toBeVisible();
     const href = await firstCard.getAttribute('href');
-    expect(href).toMatch(/^\/projects\//);
-
-    await firstCard.click();
-    await page.waitForLoadState('domcontentloaded');
-    const url = page.url();
-    expect(url).toContain('/projects/');
+    expect(href).toMatch(/^https?:\/\//);
   });
 
   test('project detail has back navigation', async ({ page }) => {
-    await page.goto('/projects/cortana-ai-agent');
+    await page.goto('/projects/zebracat');
     const back = page.locator('a:has-text("All Projects")');
     await expect(back).toBeVisible();
     await expect(back).toHaveAttribute('href', '/projects');
   });
 
   test('project detail has next project link', async ({ page }) => {
-    await page.goto('/projects/cortana-ai-agent');
+    await page.goto('/projects/zebracat');
     const next = page.locator('a:has-text("Next Project")').or(
       page.locator('.next')
     );

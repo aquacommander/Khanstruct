@@ -45,33 +45,184 @@
   margin-bottom: 3rem;
 }
 
+/* ── 3D flip card ──────────────────────────────────────────────────────────
+   The card rotates around its vertical centre on hover: the front face turns
+   edge-on (narrowing to a thin sliver at the midpoint, where the colored panel
+   behind shows through) and the back face rotates into view. Centred, no
+   vertical resize, no positional jump. Eased gently → faster → gently. */
 .card {
+  position: relative;
+  border-radius: var(--radius);
+  perspective: 1600px;
+}
+
+/* Colored panel layered behind the card (raised / stacked look). At rest it is
+   offset; on hover it slides home behind the now-thin card so it reads clearly. */
+.panel {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: var(--radius);
+  /* Solid, vivid accent slab behind the card (like the reference). */
+  background: linear-gradient(
+    155deg,
+    var(--accent, var(--color-accent)),
+    color-mix(in srgb, var(--accent, var(--color-accent)) 70%, #000 10%)
+  );
+  transform: translate(10px, 12px) rotate(0deg);
+  transition: transform 0.6s var(--ease-in-out);
+}
+
+/* On hover the slab pushes further out and tilts, so it reads clearly behind
+   the card as it turns edge-on. Returns to its resting offset on leave. */
+.card:hover .panel,
+.card:focus-within .panel {
+  transform: translate(16px, 18px) rotate(4deg);
+}
+
+/* The rotating element — holds both faces in 3D space. */
+.flip {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  transform-style: preserve-3d;
+  transition: transform 0.6s var(--ease-in-out);
+}
+
+.card:hover .flip,
+.card:focus-within .flip {
+  transform: rotateY(180deg);
+}
+
+.face {
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   background: var(--color-panel);
   overflow: hidden;
-  transition: border-color 0.35s, transform 0.35s var(--ease-out),
-    box-shadow 0.35s var(--ease-out);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.card:hover {
-  border-color: var(--color-border-active);
-  transform: translateY(-4px);
-  box-shadow: 0 24px 60px -34px rgba(0, 0, 0, 0.85);
-}
-
-.cardLink {
+/* Front face sits in flow and defines the card's height. */
+.faceFront {
+  position: relative;
   display: flex;
   flex-direction: column;
-  text-decoration: none;
-  color: inherit;
   height: 100%;
+}
+
+/* Back face is overlaid, pre-rotated so it reads correctly once flipped in.
+   Title at the top, a short description below, circular button bottom-right. */
+.faceBack {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1.85rem;
+  background: linear-gradient(
+    150deg,
+    color-mix(in srgb, var(--accent, var(--color-accent)) 18%, var(--color-panel)),
+    var(--color-panel) 70%
+  );
+  border-color: color-mix(in srgb, var(--accent, var(--color-accent)) 45%, var(--color-border));
+}
+
+.backTitle {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--color-text);
+}
+
+.backDesc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 90%;
+}
+
+/* Circular accent button (front + back), bottom-right corner — like the
+   reference. White/contrasting arrow via the accent-text token. */
+.iconBtn {
+  position: absolute;
+  right: 1.15rem;
+  bottom: 1.15rem;
+  z-index: 3;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--accent, var(--color-accent));
+  color: var(--color-accent-text);
+  box-shadow:
+    0 0 0 0 color-mix(in srgb, var(--accent, var(--color-accent)) 40%, transparent),
+    0 10px 24px -10px color-mix(in srgb, var(--accent, var(--color-accent)) 80%, transparent);
+  transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+}
+
+.iconBtn svg {
+  width: 19px;
+  height: 19px;
+  display: block;
+}
+
+/* Arrow nudges right + the button lifts a touch on hover. */
+.card:hover .iconBtn,
+.card:focus-within .iconBtn {
+  box-shadow:
+    0 0 0 6px color-mix(in srgb, var(--accent, var(--color-accent)) 16%, transparent),
+    0 12px 26px -10px color-mix(in srgb, var(--accent, var(--color-accent)) 85%, transparent);
+}
+
+.card:hover .iconBtn svg,
+.card:focus-within .iconBtn svg {
+  animation: icon-nudge 0.5s var(--ease-out);
+}
+
+@keyframes icon-nudge {
+  50% { transform: translateX(3px); }
 }
 
 .imageWrapper {
   position: relative;
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  background: var(--color-bg-elevated);
+}
+
+/* Category photo (modern stock imagery per discipline) */
+.cardImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.card:hover .cardImage {
+  transform: scale(1.05);
+}
+
+/* Accent wash over the photo so each card stays on-brand */
+.imageTint {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    155deg,
+    color-mix(in srgb, var(--accent, var(--color-accent)) 28%, transparent),
+    transparent 55%
+  );
 }
 
 .imagePlaceholder {
@@ -98,7 +249,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(4px);
 }
 
@@ -165,8 +316,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin-top: 0.6rem;
+  margin-top: auto;
   padding-top: 1rem;
+  padding-right: 2.8rem; /* clear the circular corner button */
   border-top: 1px solid var(--color-border);
 }
 
@@ -177,7 +329,7 @@
   padding: 4px 9px;
   border-radius: var(--radius-pill);
   border: 1px solid var(--color-border);
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(15, 15, 25, 0.02);
   color: var(--color-text-muted);
 }
 
@@ -195,5 +347,16 @@
 @media (max-width: 640px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Respect reduced motion — keep the front face, no rotation snap. */
+@media (prefers-reduced-motion: reduce) {
+  .card:hover .flip,
+  .card:focus-within .flip {
+    transform: none;
+  }
+  .panel {
+    transform: translate(8px, 10px);
   }
 }

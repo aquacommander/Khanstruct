@@ -23,14 +23,12 @@ import {
   type LeadDetails,
 } from '@/lib/funnel';
 import { track } from '@/lib/analytics';
+import { submitToWeb3Forms } from '@/lib/web3forms';
 import styles from './QualifierModal.module.css';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-// Web3Forms key — used CLIENT-SIDE (free tier blocks server-side submissions).
-const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
 
 const EMPTY_DETAILS: LeadDetails = { company: '', name: '', email: '', phone: '' };
 
@@ -167,23 +165,18 @@ export function QualifierModal() {
     const service = typeof answers.service === 'string' ? answers.service : '';
 
     try {
-      // Email the lead via Web3Forms — CLIENT-SIDE (free tier rejects server calls).
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: ACCESS_KEY,
-          subject: `New project lead — ${PRIORITY_META[priority].label}${service ? ` · ${service}` : ''}`,
-          from_name: 'Khanstruct — Project Funnel',
-          name: details.name,
-          email: details.email,
-          replyto: details.email,
-          message: summary,
-        }),
+      // Email the lead via Web3Forms — CLIENT-SIDE (free tier rejects server
+      // calls). Delivered to BOTH inboxes (Zain's + Suyama's) — one per key.
+      const json = await submitToWeb3Forms({
+        subject: `New project lead — ${PRIORITY_META[priority].label}${service ? ` · ${service}` : ''}`,
+        from_name: 'Khanstruct — Project Funnel',
+        name: details.name,
+        email: details.email,
+        replyto: details.email,
+        message: summary,
       });
-      const json = (await res.json().catch(() => ({}))) as { success?: boolean; message?: string };
 
-      if (res.ok && json.success) {
+      if (json.success) {
         // Fire-and-forget: also push to Notion via the server route (no-op until a
         // NOTION token is configured). Never blocks the visitor's success.
         fetch('/api/lead', {
