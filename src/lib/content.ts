@@ -600,7 +600,6 @@ export const CONTACT_LINKS = [
   { label: 'Google Dev Profile', sublabel: 'g.dev/khanstruct', url: 'https://g.dev/khanstruct' },
   { label: 'Devpost', sublabel: 'Level 6 · 16 Hackathons', url: 'https://devpost.com/zainkhan1994-zk' },
   { label: 'Kaggle', sublabel: 'zainkhan1994', url: 'https://www.kaggle.com/zainkhan1994zk' },
-  { label: 'LinkedIn', sublabel: 'Connect with Zain', url: 'https://www.linkedin.com/in/zainkhan23/' },
 ];
 
 export const EMAIL = 'zain@thekhanstruct.com';
