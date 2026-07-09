@@ -11,14 +11,14 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import { getFeatured } from '@/lib/showreel';
 import { useRevealAll } from '@/hooks/useScrollReveal';
-import { WorkCard } from '@/components/showreel/WorkCard';
+import { CascadingSlider } from '@/components/showreel/CascadingSlider';
 import styles from './Showreel.module.css';
 
 export function Showreel() {
   const sectionRef = useRef<HTMLElement>(null);
   useRevealAll(sectionRef);
 
-  const featured = getFeatured(8);
+  const featured = getFeatured(6);
   if (featured.length === 0) return null;
 
   return (
@@ -41,16 +41,8 @@ export function Showreel() {
           </p>
         </div>
 
-        <div className={styles.grid}>
-          {featured.map((item, i) => (
-            <div
-              key={item.id}
-              className={`${styles.cell} reveal`}
-              data-delay={`${0.16 + i * 0.06}`}
-            >
-              <WorkCard item={item} />
-            </div>
-          ))}
+        <div className="reveal" data-delay="0.16">
+          <CascadingSlider items={featured} />
         </div>
 
         <div className={`${styles.footer} reveal`} data-delay="0.4">
