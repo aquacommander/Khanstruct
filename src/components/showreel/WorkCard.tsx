@@ -11,7 +11,7 @@
    ──────────────────────────────────────────────────────────────────────── */
 
 import { useGallery } from '@/store/gallery';
-import { categoryLabel } from '@/lib/showreel';
+import { categoryLabel, formatDate } from '@/lib/showreel';
 import type { MediaItem } from '@/lib/types';
 import styles from './WorkCard.module.css';
 
@@ -37,12 +37,18 @@ export function WorkCard({ item }: { item: MediaItem }) {
   const openAlbum = useGallery((s) => s.openAlbum);
   const count = item.images.length;
 
+  // Clean, honest labels — the raw R2 folder titles are auto-generated noise, so
+  // the card reads as a dated collection: Topic (tag) + date (heading).
+  const topic = categoryLabel(item.category);
+  const date = formatDate(item.date);
+  const albumTitle = `${topic} · ${date}`;
+
   return (
     <button
       type="button"
       className={styles.card}
-      onClick={() => openAlbum(item.images, item.title)}
-      aria-label={`View ${item.title}`}
+      onClick={() => openAlbum(item.images, albumTitle)}
+      aria-label={`View ${topic} collection from ${date}`}
     >
       {/* Crooked accent panel — flares in behind the card on hover only. */}
       <span className={styles.back} aria-hidden="true" />
@@ -54,7 +60,7 @@ export function WorkCard({ item }: { item: MediaItem }) {
             <img
               className={styles.thumb}
               src={item.thumb}
-              alt={item.title}
+              alt=""
               loading="lazy"
               decoding="async"
             />
@@ -62,8 +68,8 @@ export function WorkCard({ item }: { item: MediaItem }) {
           </span>
 
           <span className={styles.body}>
-            <span className={styles.category}>{categoryLabel(item.category)}</span>
-            <span className={styles.heading}>{item.title}</span>
+            <span className={styles.category}>{topic}</span>
+            <span className={styles.heading}>{date}</span>
           </span>
 
           <span className={styles.arrow} aria-hidden="true">
@@ -73,8 +79,8 @@ export function WorkCard({ item }: { item: MediaItem }) {
 
         {/* ── Back face (alternate content) ────────────────────────────── */}
         <span className={`${styles.face} ${styles.faceBack}`}>
-          <span className={styles.category}>{categoryLabel(item.category)}</span>
-          <span className={styles.backHeading}>{item.title}</span>
+          <span className={styles.category}>{topic}</span>
+          <span className={styles.backHeading}>{date}</span>
           {item.description && <span className={styles.desc}>{item.description}</span>}
 
           <span className={styles.backFoot}>

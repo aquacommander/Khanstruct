@@ -1,0 +1,178 @@
+.wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+/* ── Counter (03 / 05) ───────────────────────────────────────────────────── */
+.counter {
+  display: inline-flex;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+}
+.counterActive {
+  padding: 0.18rem 0.45rem;
+  border-radius: 6px;
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-weight: 700;
+}
+.counterTotal {
+  padding: 0.18rem 0.45rem;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+/* ── Panel + track ───────────────────────────────────────────────────────── */
+.panel {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  padding: clamp(0.9rem, 2.5vw, 1.75rem);
+  background: var(--color-panel);
+  border: 1px solid var(--color-border);
+}
+.track {
+  display: flex;
+  gap: 0.55rem;
+  height: clamp(230px, 34vw, 340px);
+}
+
+/* Each card: slivers by default, the active one grows to fill. Transitioning
+   flex-grow morphs the widths — the "cascade". */
+.card {
+  position: relative;
+  flex: 1 1 0;
+  flex-grow: 1;
+  min-width: 42px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--color-bg-elevated);
+  transition: flex-grow 0.6s var(--ease-in-out);
+}
+.cardActive {
+  flex-grow: 9;
+  cursor: zoom-in;
+}
+.card:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.78) saturate(1.02);
+  transition: filter 0.5s var(--ease-out, ease), transform 0.7s var(--ease-out, ease);
+}
+.cardActive .img {
+  filter: brightness(0.94) saturate(1.05);
+}
+.card:hover .img {
+  transform: scale(1.04);
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(7, 7, 10, 0.9), rgba(7, 7, 10, 0.1) 55%, transparent);
+  opacity: 0;
+  transition: opacity 0.5s var(--ease-out, ease);
+}
+.cardActive .scrim {
+  opacity: 1;
+}
+
+.caption {
+  position: absolute;
+  left: clamp(0.9rem, 2vw, 1.4rem);
+  bottom: clamp(0.9rem, 2vw, 1.25rem);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  /* fade in after the card has widened enough to read */
+  animation: cs-cap-in 0.5s 0.15s var(--ease-out, ease) both;
+}
+.capTopic {
+  font-size: clamp(1.1rem, 2.6vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: #fff;
+  white-space: nowrap;
+}
+.capDate {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@keyframes cs-cap-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ── Controls ────────────────────────────────────────────────────────────── */
+.controls {
+  display: flex;
+  gap: 0.6rem;
+}
+.navBtn {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-panel);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s var(--ease-out, ease);
+}
+.navBtn:hover {
+  background: var(--color-panel-hover);
+  border-color: var(--color-border-active);
+  transform: translateY(-1px);
+}
+.navBtn svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 640px) {
+  .card {
+    min-width: 26px;
+  }
+  .capTopic {
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .img,
+  .scrim {
+    transition: none;
+  }
+  .caption {
+    animation: none;
+  }
+}

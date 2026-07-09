@@ -19,7 +19,12 @@ import {
 } from '@/lib/showreel';
 import { track } from '@/lib/analytics';
 import { WorkCard } from '@/components/showreel/WorkCard';
+import { CascadingSlider } from '@/components/showreel/CascadingSlider';
 import styles from './WorkGallery.module.css';
+
+// How many pieces headline the cascading slider (curated — the full set stays
+// browsable in the grid below). Zain can later flag exactly which to feature.
+const SLIDER_COUNT = 8;
 
 export function WorkGallery() {
   const [activeCat, setActiveCat] = useState('all');
@@ -27,6 +32,12 @@ export function WorkGallery() {
   const [visible, setVisible] = useState(GALLERY_PAGE_SIZE);
 
   const categories = useMemo(() => categoriesWithCounts(), []);
+
+  // Featured cascade for the active category (newest N). Independent of search.
+  const sliderItems = useMemo(
+    () => sortByDateDesc(filterByCategory(activeCat)).slice(0, SLIDER_COUNT),
+    [activeCat],
+  );
 
   const filtered = useMemo(() => {
     let res = sortByDateDesc(filterByCategory(activeCat));
@@ -110,6 +121,14 @@ export function WorkGallery() {
           </button>
         ))}
       </div>
+
+      {/* Featured cascade — one wide slide + slivers; click opens the content.
+          Hidden while searching (search shows the full result grid instead). */}
+      {!query && sliderItems.length > 0 && (
+        <div className={styles.slider}>
+          <CascadingSlider items={sliderItems} />
+        </div>
+      )}
 
       {shown.length === 0 ? (
         <p className={styles.empty}>

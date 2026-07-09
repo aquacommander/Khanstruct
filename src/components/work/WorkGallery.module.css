@@ -103,6 +103,10 @@
 }
 
 /* ── Collection (grouped-by-month list) ──────────────────────────────────── */
+.slider {
+  margin-bottom: clamp(2.25rem, 5vw, 3.5rem);
+}
+
 .collection {
   display: flex;
   flex-direction: column;

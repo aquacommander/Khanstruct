@@ -81,10 +81,18 @@ function classifyTopic(item: MediaItem): Topic {
   return best;
 }
 
-// Re-categorise every item into one of the 5 clean topics at the data boundary.
+// Re-categorise every item into one of the 5 clean topics. The cover is the
+// folder's DESIGNATED preview (m.thumb, the `_Preview` image set in each R2
+// folder) so Zain controls the subject shown per piece — falling back to the
+// first album slide only when a folder has no preview.
 export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.map((m) => {
   const topic = classifyTopic(m);
-  return { ...m, category: topic.id, categoryName: topic.label };
+  return {
+    ...m,
+    category: topic.id,
+    categoryName: topic.label,
+    thumb: m.thumb || m.images?.[0] || '',
+  };
 });
 
 export const GALLERY_PAGE_SIZE = 12;
