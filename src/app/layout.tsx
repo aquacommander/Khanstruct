@@ -3,7 +3,7 @@ import { Space_Grotesk, Space_Mono } from 'next/font/google';
 import './globals.css';
 import { ExperienceProvider } from '@/components/canvas/ExperienceProvider';
 import { CustomCursor } from '@/components/ui/CustomCursor';
-import { SiteLoader } from '@/components/loader/SiteLoader';
+import { IntroVideo } from '@/components/loader/IntroVideo';
 import { ContactModal } from '@/components/contact/ContactModal';
 import { QualifierModal } from '@/components/funnel/QualifierModal';
 import { Lightbox } from '@/components/showreel/Lightbox';
@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <div className="grain" aria-hidden="true" />
         <CustomCursor />
-        <SiteLoader />
+        <IntroVideo />
         <ExperienceProvider>
           <div id="main-content" className="page-content" tabIndex={-1}>
             {children}

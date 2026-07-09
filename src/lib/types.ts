@@ -5,12 +5,11 @@ export type ExperienceSection =
   | 'services'
   | 'metrics'
   | 'projects'
-  | 'gdg'
   | 'about'
   | 'contact';
 
 export type QualityTier = 'high' | 'medium' | 'low';
-export type RouteTransition = 'idle' | 'to-gdg' | 'to-home';
+export type RouteTransition = 'idle' | 'to-home';
 
 export interface ExperienceState {
   activeSection: ExperienceSection;
@@ -73,20 +72,6 @@ export interface Hackathon {
   project: string;
   inPerson?: boolean;
   location?: string;
-}
-
-export interface GDGEvent {
-  id: string;
-  title: string;
-  date: string;
-  startTime: string;
-  endTime: string;
-  timezone: string;
-  location: string;
-  description: string;
-  registrationUrl: string;
-  coordinates?: { lat: number; lng: number };
-  status: 'upcoming' | 'past' | 'canceled';
 }
 
 export interface NavItem {

@@ -6,7 +6,6 @@ import {
   NAV_ITEMS,
   EXPERIENCE,
   HACKATHONS,
-  GDG_EVENTS,
   EMAIL,
 } from '@/lib/content';
 
@@ -94,21 +93,6 @@ describe('Content Data', () => {
   describe('Contact', () => {
     it('has a valid email', () => {
       expect(EMAIL).toMatch(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
-    });
-  });
-
-  describe('GDG Events', () => {
-    it('is an array', () => {
-      expect(GDG_EVENTS).toBeInstanceOf(Array);
-    });
-
-    it('no events have fake/placeholder URLs', () => {
-      GDG_EVENTS.forEach((event) => {
-        if (event.registrationUrl) {
-          expect(event.registrationUrl).not.toBe('#');
-          expect(event.registrationUrl).toMatch(/^https?:\/\//);
-        }
-      });
     });
   });
 
