@@ -95,11 +95,6 @@ export function Hero() {
             <span className={styles.credValue}>205+</span>
             <span className={styles.credLabel}>GitHub Repos</span>
           </div>
-          <div className={styles.credDivider} aria-hidden="true" />
-          <div className={styles.credItem}>
-            <span className={styles.credValue}>GDG</span>
-            <span className={styles.credLabel}>Tulsa Lead</span>
-          </div>
         </div>
 
         {/* Gravity-well fabric — wide centerpiece beneath the hero copy */}

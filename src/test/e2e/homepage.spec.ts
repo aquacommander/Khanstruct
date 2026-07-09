@@ -36,7 +36,6 @@ test.describe('Homepage', () => {
     await expect(nav.locator('a:has-text("Home")')).toBeVisible();
     await expect(nav.locator('a:has-text("Services")')).toBeVisible();
     await expect(nav.locator('a:has-text("Projects")')).toBeVisible();
-    await expect(nav.locator('a:has-text("GDG Tulsa")')).toBeVisible();
   });
 
   test('services section is present', async ({ page }) => {

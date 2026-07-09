@@ -4,7 +4,6 @@ import type {
   Hackathon,
   Metric,
   Service,
-  GDGEvent,
   NavItem,
 } from './types';
 
@@ -16,7 +15,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Projects', href: '/projects' },
   { label: 'Work', href: '/work' },
   { label: 'Domains', href: '/domains' },
-  { label: 'GDG Tulsa', href: '/gdg-tulsa' },
   { label: 'About', href: '/#about' },
   { label: 'Contact', href: '/#contact' },
 ];
@@ -546,51 +544,6 @@ export const METRICS: Metric[] = [
   { value: '16', label: 'Hackathons Entered', numericTarget: 16, verified: true },
   { value: '205+', label: 'GitHub Repositories', numericTarget: 205, verified: true },
   { value: '$3M+', label: 'Prize Pools Entered', verified: true },
-];
-
-// ─── GDG Events ───────────────────────────────────────────────────────────
-
-export const GDG_EVENTS: GDGEvent[] = [
-  // No upcoming events confirmed — leaving empty for client to populate
-];
-
-// ─── GDG Focus Areas ──────────────────────────────────────────────────────
-
-export const GDG_FOCUS_AREAS = [
-  {
-    id: 'google-tech',
-    icon: 'google',
-    title: 'Google Technologies',
-    description:
-      'From Android to Cloud, we explore the best of Google developer tools and platforms.',
-  },
-  {
-    id: 'career',
-    icon: 'trending-up',
-    title: 'Career Growth',
-    description: 'Helping developers level up their skills and advance their careers.',
-  },
-  {
-    id: 'community',
-    icon: 'users',
-    title: 'Community Impact',
-    description: 'Using technology to solve real problems and give back to our community.',
-  },
-  {
-    id: 'diversity',
-    icon: 'heart',
-    title: 'Diversity & Inclusion',
-    description: 'Creating an inclusive space for everyone to learn, share, and grow together.',
-  },
-];
-
-// ─── GDG Metrics ──────────────────────────────────────────────────────────
-
-export const GDG_METRICS: Metric[] = [
-  { value: '500+', label: 'Members', verified: false },
-  { value: '25+', label: 'Events Hosted', verified: false },
-  { value: '50+', label: 'Workshops', verified: false },
-  { value: '15+', label: 'Community Partners', verified: false },
 ];
 
 // ─── Contact Links ────────────────────────────────────────────────────────

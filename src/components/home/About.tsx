@@ -54,7 +54,7 @@ export function About() {
             </p>
             <p>
               16 hackathons. 205 GitHub repos. Devpost Level 6. Google Developer Program
-              since 2022. GDG Tulsa organizer.
+              since 2022.
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export function About() {
               { n: '01', title: 'Evidence before narrative', body: 'Every layer grounded in verifiable inputs with explicit source boundaries. No drift.' },
               { n: '02', title: 'Ship, then iterate', body: 'A deployed agent that does one thing correctly beats a prototype doing everything in theory.' },
               { n: '03', title: 'Hierarchies clarify everything', body: 'Good architecture is a taxonomy. The right structure makes every failure diagnosable.' },
-              { n: '04', title: 'Community is infrastructure', body: 'Running GDG Tulsa is part of the engineering ecosystem.' },
+              { n: '04', title: 'Community is infrastructure', body: 'Open work and community engagement are part of the engineering ecosystem.' },
             ].map((p) => (
               <div key={p.n} className={styles.principle}>
                 <span className={styles.principleNum}>{p.n}</span>

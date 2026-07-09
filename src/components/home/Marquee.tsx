@@ -11,7 +11,6 @@ const ITEMS: { label: string; icon: string }[] = [
   { label: 'Vector Search', icon: 'vector-search' },
   { label: 'Knowledge Graphs', icon: 'knowledge-graphs' },
   { label: 'Google ADK', icon: 'google-adk' },
-  { label: 'GDG Tulsa', icon: 'google-adk' },
   { label: 'Devpost Level 6', icon: 'devpost' },
   { label: 'LangChain', icon: 'langchain' },
 ];
