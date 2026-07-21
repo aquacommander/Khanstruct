@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google';
+import { Space_Grotesk, Space_Mono } from 'next/font/google';
 import './globals.css';
 import { ExperienceProvider } from '@/components/canvas/ExperienceProvider';
 import { CustomCursor } from '@/components/ui/CustomCursor';
@@ -18,50 +18,39 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-space-grotesk',
   display: 'swap',
-  weight: ['400', '500', '600', '700'],
+  weight: ['300', '400', '500', '600', '700'],
 });
 
-const inter = Inter({
+const spaceMono = Space_Mono({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-space-mono',
   display: 'swap',
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  variable: '--font-jetbrains-mono',
-  display: 'swap',
-  weight: ['400', '500', '600'],
+  weight: ['400', '700'],
 });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Khanstruct — Complex problems. Working systems.',
+    default: 'Khanstruct — Design. Data. AI Implementation.',
     template: '%s | Khanstruct',
   },
   description:
-    'Khanstruct is a studio that turns complex business, data, and AI problems into working systems — from strategy and design through implementation.',
-  keywords: [
-    'software studio',
-    'AI implementation',
-    'data platforms',
-    'product development',
-    'system design',
-    'automation',
-  ],
+    'Khanstruct helps organizations design better experiences, manage data intelligently, and implement AI systems that drive real impact.',
+  keywords: ['AI implementation', 'design systems', 'data management', 'Tulsa', 'Zain Khan'],
+  authors: [{ name: 'Zain Khan' }],
+  creator: 'Zain Khan',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     siteName: 'Khanstruct',
-    title: 'Khanstruct — Complex problems. Working systems.',
+    title: 'Khanstruct — Design. Data. AI Implementation.',
     description:
-      'A studio that turns complex business, data, and AI problems into working systems people can use.',
+      'Khanstruct helps organizations design better experiences, manage data intelligently, and implement AI that drives real impact.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Khanstruct — Complex problems. Working systems.',
+    title: 'Khanstruct — Design. Data. AI Implementation.',
     description:
-      'A studio that turns complex business, data, and AI problems into working systems people can use.',
+      'Khanstruct helps organizations design better experiences, manage data intelligently, and implement AI that drives real impact.',
   },
   robots: { index: true, follow: true },
 };
@@ -70,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
+      className={`${spaceGrotesk.variable} ${spaceMono.variable}`}
       suppressHydrationWarning
     >
       <head>

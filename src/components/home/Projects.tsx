@@ -19,13 +19,13 @@ export function Projects() {
     >
       <div className={styles.inner}>
         <div className={styles.header}>
-          <p className="label reveal">Problems I&apos;ve Solved</p>
+          <p className="label reveal">Selected Work</p>
           <h2 id="projects-heading" className={`${styles.heading} reveal`} data-delay="0.08">
-            Real problems,<br />
-            <em>real solutions.</em>
+            Building solutions<br />
+            <em>that make an impact</em>
           </h2>
           <p className={`${styles.subheading} reveal`} data-delay="0.12">
-            Explore the work by discipline — pick a category to see the problems I&apos;ve solved.
+            Explore the work by discipline — pick a category to see the related projects.
           </p>
         </div>
 
