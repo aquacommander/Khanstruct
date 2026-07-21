@@ -66,7 +66,7 @@ export function Hero() {
         </p>
 
         <div className={`${styles.ctas} ${styles.hiddenInit}`} data-reveal data-delay="0.52">
-          <Link href="/#contact" className="btn-primary">
+          <Link href="/#projects" className="btn-primary">
             <span>Work With Me</span>
             <span aria-hidden="true">→</span>
           </Link>

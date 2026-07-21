@@ -14,7 +14,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Services', href: '/#services' },
   { label: 'Projects', href: '/projects' },
   { label: 'Work', href: '/work' },
-  { label: 'Domains', href: '/domains' },
   { label: 'About', href: '/#about' },
   { label: 'Contact', href: '/#contact' },
 ];
@@ -549,7 +548,6 @@ export const METRICS: Metric[] = [
 // ─── Contact Links ────────────────────────────────────────────────────────
 
 export const CONTACT_LINKS = [
-  { label: 'GitHub', sublabel: 'zainkhan1994 · 205 repos', url: 'https://github.com/zainkhan1994' },
   { label: 'Google Dev Profile', sublabel: 'g.dev/khanstruct', url: 'https://g.dev/khanstruct' },
   { label: 'Devpost', sublabel: 'Level 6 · 16 Hackathons', url: 'https://devpost.com/zainkhan1994-zk' },
   { label: 'Kaggle', sublabel: 'zainkhan1994', url: 'https://www.kaggle.com/zainkhan1994zk' },

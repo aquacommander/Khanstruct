@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { NAV_ITEMS, BOOK_MEETING_URL } from '@/lib/content';
-import { useExperience } from '@/store/experience';
 import styles from './Header.module.css';
 
 export function Header() {
@@ -13,17 +12,6 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   const menuRef = useRef<HTMLDivElement>(null);
-  const corePresent = useExperience((s) => s.corePresent);
-  const toggleCore = useExperience((s) => s.toggleCore);
-
-  // On the homepage, clicking the logo toggles the core sphere (and flips the
-  // status switch) instead of navigating — a big, easy click target.
-  const onLogoClick = (e: React.MouseEvent) => {
-    if (pathname === '/') {
-      e.preventDefault();
-      toggleCore();
-    }
-  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -69,14 +57,9 @@ export function Header() {
       role="banner"
     >
       <div className={styles.inner}>
-        {/* Logo + core toggle (the switch slides out on hover) */}
+        {/* Logo */}
         <div className={styles.brand}>
-          <Link
-            href="/"
-            className={styles.logo}
-            aria-label="Khanstruct home"
-            onClick={onLogoClick}
-          >
+          <Link href="/" className={styles.logo} aria-label="Khanstruct home">
             <Image
               src="/logo.png"
               alt="Khanstruct"
@@ -86,17 +69,6 @@ export function Header() {
               priority
             />
           </Link>
-          <button
-            type="button"
-            className={`${styles.coreToggle} ${corePresent ? styles.coreToggleOn : ''}`}
-            role="switch"
-            aria-checked={corePresent}
-            aria-label={corePresent ? 'Hide the hero core sphere' : 'Show the hero core sphere'}
-            title="Toggle core sphere"
-            onClick={toggleCore}
-          >
-            <span className={styles.toggleKnob} aria-hidden="true" />
-          </button>
         </div>
 
         {/* Desktop Nav */}
@@ -127,7 +99,7 @@ export function Header() {
             <span>Book a Meeting</span>
             <span aria-hidden="true">↗</span>
           </a>
-          <Link href="/#contact" className={styles.cta}>
+          <Link href="/#projects" className={styles.cta}>
             <span>Work With Me</span>
             <span aria-hidden="true">→</span>
           </Link>
@@ -182,7 +154,7 @@ export function Header() {
             ))}
           </ul>
           <div className={styles.mobileCta}>
-            <Link href="/#contact" className="btn-primary" onClick={() => setMenuOpen(false)}>
+            <Link href="/#projects" className="btn-primary" onClick={() => setMenuOpen(false)}>
               <span>Work With Me</span>
               <span aria-hidden="true">→</span>
             </Link>
