@@ -29,7 +29,9 @@ export const useExperience = create<ExperienceStore>((set) => ({
   webglAvailable: true,
   earthFormed: false,
   activeService: null,
-  introDone: false,
+  // Intro video removed: the page starts "post-intro" so the hero entrance and
+  // particles kick off immediately on load.
+  introDone: true,
   corePresent: true,
 
   setActiveSection: (section) => set({ activeSection: section }),

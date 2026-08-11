@@ -3,16 +3,10 @@ import { Space_Grotesk, Space_Mono } from 'next/font/google';
 import './globals.css';
 import { ExperienceProvider } from '@/components/canvas/ExperienceProvider';
 import { CustomCursor } from '@/components/ui/CustomCursor';
-import { IntroVideo } from '@/components/loader/IntroVideo';
 import { ContactModal } from '@/components/contact/ContactModal';
 import { QualifierModal } from '@/components/funnel/QualifierModal';
 import { Lightbox } from '@/components/showreel/Lightbox';
 import { Analytics } from '@/components/analytics/Analytics';
-
-// Runs before first paint: lock scroll synchronously so there is no flash or
-// scroll jump before React hydrates the loader. The loader removes the class
-// once it hands off to the page (and <noscript> below covers JS-disabled).
-const NO_FLASH_SCRIPT = `try{document.documentElement.classList.add('loader-active')}catch(e){}`;
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -65,11 +59,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="mask-icon" href="/favicon.svg" color="#d7ff3f" />
-        <script dangerouslySetInnerHTML={{ __html: NO_FLASH_SCRIPT }} />
-        <noscript>
-          {/* Without JS the loader can't tear itself down — hide it and unlock. */}
-          <style>{`#site-loader{display:none!important}html.loader-active{overflow:auto!important}`}</style>
-        </noscript>
       </head>
       <body>
         <a href="#main-content" className="skip-link">
@@ -77,7 +66,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <div className="grain" aria-hidden="true" />
         <CustomCursor />
-        <IntroVideo />
         <ExperienceProvider>
           <div id="main-content" className="page-content" tabIndex={-1}>
             {children}

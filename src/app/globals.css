@@ -59,17 +59,6 @@ html {
   scrollbar-gutter: stable;
 }
 
-/* ─── Loader Scroll-Lock ─────────────────────────────────────────────────── */
-/* Applied pre-paint by an inline script; removed by SiteLoader on handoff. */
-html.loader-active,
-html.loader-active body {
-  overflow: hidden;
-  overscroll-behavior: none;
-}
-body.is-loading {
-  /* Belt-and-braces: the full-screen loader already blocks pointer events. */
-  touch-action: none;
-}
 /* Programmatic focus target after handoff — no focus ring for mouse users. */
 .page-content:focus {
   outline: none;
