@@ -206,4 +206,3 @@ Optimized for **Vercel** (zero config). Also compatible with:
 - Any Node.js host running `next start`
 - Static export (`next build && next export`) if dynamic routes aren't needed
 
-Environment variables: none required for current implementation.
