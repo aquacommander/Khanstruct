@@ -1,0 +1,352 @@
+.root {
+  position: relative;
+  /* Scrub vars land here; children read them. Declared so the first frame
+     before the rAF loop starts still has sane values. */
+  --sp: 0;
+  --px: 0;
+  --py: 0;
+}
+
+/* ─── Scroll progress rail ──────────────────────────────────────────────── */
+.rail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 60;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+.railFill {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #c084fc, var(--color-accent) 50%, #86efac);
+  transform-origin: 0 50%;
+  transform: scaleX(var(--sp, 0));
+}
+
+/* ─── Hero ──────────────────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  min-height: 160vh; /* extra travel so the title has room to scrub away */
+  padding: 11rem var(--section-px) 0;
+  overflow: clip;
+}
+
+.starfield {
+  position: absolute;
+  inset: -20% -10%;
+  pointer-events: none;
+}
+/* Three depths, each drifting at its own rate — the parallax reads as space. */
+.layerA,
+.layerB,
+.layerC {
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  will-change: transform;
+}
+.layerA {
+  background-image: radial-gradient(1.6px 1.6px at 30px 40px, rgba(255, 255, 255, 0.5), transparent);
+  background-size: 210px 210px;
+  transform: translate3d(calc(var(--px) * -34px), calc(var(--p, 0) * -190px + var(--py) * -22px), 0);
+  opacity: 0.6;
+}
+.layerB {
+  background-image: radial-gradient(1.2px 1.2px at 90px 120px, rgba(215, 255, 63, 0.45), transparent);
+  background-size: 330px 330px;
+  transform: translate3d(calc(var(--px) * -18px), calc(var(--p, 0) * -110px + var(--py) * -12px), 0);
+  opacity: 0.45;
+}
+.layerC {
+  background-image: radial-gradient(1px 1px at 160px 70px, rgba(192, 132, 252, 0.4), transparent);
+  background-size: 470px 470px;
+  transform: translate3d(calc(var(--px) * -8px), calc(var(--p, 0) * -52px + var(--py) * -5px), 0);
+  opacity: 0.4;
+}
+
+.heroInner {
+  position: sticky;
+  top: 24vh;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  /* Fade + recede as you scroll past, so the first panel arrives over it. */
+  opacity: calc(1 - var(--p, 0) * 1.35);
+  transform: translate3d(0, calc(var(--p, 0) * -60px), 0) scale(calc(1 - var(--p, 0) * 0.08));
+}
+
+.heroLabel {
+  transform: translate3d(calc(var(--px) * 6px), 0, 0);
+}
+
+.heading {
+  font-size: clamp(3rem, 12vw, 9rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 0.95;
+  display: flex;
+}
+/* Per-letter drift: the word loosens as the page moves. */
+.char {
+  display: inline-block;
+  transform: translate3d(
+    calc(var(--px) * (var(--i) - 3) * 3.4px),
+    calc(var(--p, 0) * (var(--i) - 3) * 9px),
+    0
+  );
+}
+
+.desc {
+  font-size: 1.0625rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  max-width: 560px;
+  transform: translate3d(calc(var(--px) * 10px), 0, 0);
+}
+
+.cue {
+  margin-top: 1.5rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  opacity: calc(1 - var(--p, 0) * 3);
+}
+.cueLine {
+  width: 1px;
+  height: 46px;
+  background: linear-gradient(to bottom, transparent, var(--color-accent));
+  animation: cue 2.2s var(--ease-in-out) infinite;
+}
+@keyframes cue {
+  0%, 100% { transform: scaleY(0.35); opacity: 0.35; transform-origin: top; }
+  50% { transform: scaleY(1); opacity: 1; transform-origin: top; }
+}
+
+/* ─── Domain panel ──────────────────────────────────────────────────────────
+   Each panel is a 200vh section whose inner is sticky for the first 100vh —
+   the pinned stretch is the scrub range. The -100vh bottom margin pulls the
+   NEXT section up so it slides over this one instead of waiting for it to
+   scroll away, and a rising z-index puts it on top.
+
+   Height matters: with section height H the panel pins for H-100vh, and the
+   next panel only appears once past H-200vh. At H=200vh that is zero, so the
+   next panel is already peeking at the bottom edge the whole time. H=280vh
+   buys ~80vh of clean, uninterrupted scrub before the hand-off begins. */
+.panel {
+  position: relative;
+  height: 280vh;
+  z-index: var(--z, 1);
+}
+.panel:not(:last-of-type) {
+  margin-bottom: -100vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: clip;
+  /* Opaque so the incoming panel actually covers the outgoing one; the tint
+     keeps each domain's colour present without washing out the type. */
+  background:
+    radial-gradient(
+      120% 80% at 50% 110%,
+      color-mix(in srgb, var(--domain-color) 11%, transparent),
+      transparent 70%
+    ),
+    var(--color-bg);
+  border-top: 1px solid color-mix(in srgb, var(--domain-color) 22%, transparent);
+}
+
+/* Oversized ordinal, deepest layer. */
+.ordinal {
+  position: absolute;
+  font-size: clamp(16rem, 42vw, 34rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: color-mix(in srgb, var(--domain-color) 7%, transparent);
+  transform: translate3d(
+    calc(var(--px) * 14px),
+    calc((var(--p, 0) - 0.5) * 160px + var(--py) * 10px),
+    0
+  );
+  user-select: none;
+  pointer-events: none;
+}
+
+.panelInner {
+  position: relative;
+  z-index: 2;
+  max-width: 680px;
+  padding: 0 var(--section-px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.15rem;
+  /* Rises through the panel's scroll range — the copy tracks your scroll. */
+  transform: translate3d(0, calc((0.5 - var(--p, 0)) * 150px), 0);
+  opacity: clamp(0.25, calc(1 - abs(var(--p, 0) - 0.5) * 1.15), 1);
+}
+
+.status {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--domain-color);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--domain-color) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--domain-color) 30%, transparent);
+}
+
+.panelTitle {
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  color: var(--domain-color);
+}
+
+.hook {
+  font-size: clamp(1.05rem, 2.4vw, 1.6rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.panelDesc {
+  font-size: 0.9875rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+/* ─── Enter button ──────────────────────────────────────────────────────── */
+.enter {
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.95rem 1.7rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid color-mix(in srgb, var(--domain-color) 40%, transparent);
+  background: color-mix(in srgb, var(--domain-color) 8%, transparent);
+  color: var(--color-text);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s var(--ease-out);
+}
+.enter:hover {
+  background: color-mix(in srgb, var(--domain-color) 16%, transparent);
+  border-color: var(--domain-color);
+  transform: translateY(-2px);
+}
+.enter:focus-visible {
+  outline: 2px solid var(--domain-color);
+  outline-offset: 3px;
+}
+.enterEmoji {
+  font-size: 1.15rem;
+}
+.enterArrow {
+  transition: transform 0.3s var(--ease-out);
+}
+.enter:hover .enterArrow {
+  transform: translateX(4px);
+}
+
+/* Click ink — injected at the pointer, removed after it plays. */
+.ripple {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--domain-color, var(--color-accent));
+  pointer-events: none;
+  animation: ripple 0.65s var(--ease-out) forwards;
+}
+@keyframes ripple {
+  from { transform: scale(1); opacity: 0.55; }
+  to { transform: scale(46); opacity: 0; }
+}
+
+/* ─── Morph overlay ─────────────────────────────────────────────────────── */
+.morph {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: grid;
+  place-items: center;
+  background: var(--domain-color);
+  clip-path: circle(0% at 50% 60%);
+  animation: morph 0.62s var(--ease-in-out) forwards;
+}
+@keyframes morph {
+  to { clip-path: circle(140% at 50% 60%); }
+}
+.morphLabel {
+  font-size: clamp(2rem, 7vw, 4.5rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  color: #07070a;
+  opacity: 0;
+  animation: morphLabel 0.5s 0.2s var(--ease-out) forwards;
+}
+@keyframes morphLabel {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ─── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .hero { min-height: 130vh; }
+  .panel { height: 240vh; }
+}
+@media (max-width: 600px) {
+  .hero { padding-top: 8rem; }
+  .heading { letter-spacing: -0.03em; }
+}
+
+/* ─── Reduced motion: a plain, static, fully readable list ──────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .hero { min-height: auto; padding-bottom: 4rem; }
+  .heroInner { position: static; opacity: 1; transform: none; }
+  .panel { height: auto; padding: 3rem 0; margin-bottom: 0; }
+  .panel:not(:last-of-type) { margin-bottom: 0; }
+  .sticky { position: static; height: auto; opacity: 1; min-height: auto; padding: 4rem 0; }
+  .panelInner { opacity: 1; }
+  .panelInner,
+  .ordinal,
+  .char,
+  .desc,
+  .heroLabel,
+  .layerA,
+  .layerB,
+  .layerC { transform: none; }
+  .cue { display: none; }
+  .morph { animation: none; clip-path: none; }
+}

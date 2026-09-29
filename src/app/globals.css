@@ -1,3 +1,5 @@
+@import 'lenis/dist/lenis.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,7 +54,9 @@
 }
 
 html {
-  overflow-x: hidden;
+  /* `clip` not `hidden`: `hidden` turns <html> into a scroll container, which
+     silently kills `position: sticky` (the /domains scroll pins depend on it). */
+  overflow-x: clip;
   scroll-behavior: smooth;
   /* Reserve the scrollbar gutter so toggling the loader's scroll-lock never
      shifts layout horizontally (no jump when scrolling is restored). */
@@ -68,7 +72,7 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
-  overflow-x: hidden;
+  overflow-x: clip;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

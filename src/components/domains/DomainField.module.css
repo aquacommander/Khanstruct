@@ -1,0 +1,69 @@
+.field {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(92vw, 780px);
+  height: min(92vw, 780px);
+  overflow: visible;
+  /* Depth: the artwork sits behind the type and drifts further per pointer,
+     which is what sells it as a layer rather than a background image. */
+  transform: translate3d(
+      calc(var(--px, 0) * 26px),
+      calc(var(--py, 0) * 20px + (var(--p, 0) - 0.5) * -90px),
+      0
+    )
+    scale(calc(0.86 + var(--vis, 0) * 0.18)) rotate(calc(var(--p, 0) * 12deg));
+  opacity: calc(0.25 + var(--vis, 0) * 0.75);
+  will-change: transform, opacity;
+}
+
+.halo {
+  transform-origin: 300px 300px;
+  transform: scale(calc(0.8 + var(--vis, 0) * 0.35));
+}
+
+.web line {
+  stroke-width: 0.8;
+  opacity: 0.3;
+  stroke-dasharray: 400;
+  stroke-dashoffset: calc(400 - var(--vis, 0) * 400);
+}
+
+.node {
+  opacity: calc(0.35 + var(--vis, 0) * 0.65);
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(calc(0.4 + var(--vis, 0) * 0.6));
+}
+
+.rings circle {
+  stroke-width: 1;
+  opacity: calc(0.16 + var(--vis, 0) * 0.2);
+  transform-origin: 300px 300px;
+  transform: rotate(calc(var(--p, 0) * (30deg + var(--i) * 22deg)))
+    scale(calc(0.9 + var(--vis, 0) * 0.1));
+}
+
+.orbits ellipse {
+  stroke-width: 1.1;
+  transform-origin: 300px 300px;
+  transform: rotate(calc(var(--p, 0) * (var(--i) * 14deg - 24deg)));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .field {
+    transform: none;
+    opacity: 0.55;
+  }
+  .web line {
+    stroke-dashoffset: 0;
+  }
+  .node {
+    transform: none;
+    opacity: 0.8;
+  }
+  .rings circle,
+  .orbits ellipse {
+    transform: none;
+  }
+}
