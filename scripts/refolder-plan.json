@@ -1,0 +1,555 @@
+{
+  "plan": [
+    {
+      "id": "2026-06-21-brain-every-emotionally-unconscious",
+      "title": "Brain Every Emotionally Unconscious",
+      "date": "2026-06-21",
+      "images": 60,
+      "topic": "mind-learning",
+      "topicLabel": "Mind & Learning",
+      "dest": "Neuroscience",
+      "score": 9,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Brain Every Emotionally Unconscious/",
+      "newPrefix": "2026/06_June/2026-06-21/Neuroscience/Brain Every Emotionally Unconscious/"
+    },
+    {
+      "id": "2026-06-21-brain-learning-change-focus",
+      "title": "Brain Learning Change Focus",
+      "date": "2026-06-21",
+      "images": 10,
+      "topic": "mind-learning",
+      "topicLabel": "Mind & Learning",
+      "dest": "Neuroscience",
+      "score": 9,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Brain Learning Change Focus/",
+      "newPrefix": "2026/06_June/2026-06-21/Neuroscience/Brain Learning Change Focus/"
+    },
+    {
+      "id": "2026-06-21-brain-movement-learn-customise",
+      "title": "Brain Movement Learn Customise",
+      "date": "2026-06-21",
+      "images": 26,
+      "topic": "mind-learning",
+      "topicLabel": "Mind & Learning",
+      "dest": "Neuroscience",
+      "score": 6,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Brain Movement Learn Customise/",
+      "newPrefix": "2026/06_June/2026-06-21/Neuroscience/Brain Movement Learn Customise/"
+    },
+    {
+      "id": "2026-06-21-cloud-john-lewis-data",
+      "title": "Cloud John Lewis Data",
+      "date": "2026-06-21",
+      "images": 7,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Cloud John Lewis Data/",
+      "newPrefix": "2026/06_June/2026-06-21/Tools (learning)/Cloud John Lewis Data/"
+    },
+    {
+      "id": "2026-06-21-company-need-brain-map",
+      "title": "Company Need Brain Map",
+      "date": "2026-06-21",
+      "images": 8,
+      "topic": "mind-learning",
+      "topicLabel": "Mind & Learning",
+      "dest": "Neuroscience",
+      "score": 6,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Company Need Brain Map/",
+      "newPrefix": "2026/06_June/2026-06-21/Neuroscience/Company Need Brain Map/"
+    },
+    {
+      "id": "2026-06-21-data-x1440px-stays-device",
+      "title": "Data X1440px Stays Device",
+      "date": "2026-06-21",
+      "images": 62,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Data X1440px Stays Device/",
+      "newPrefix": "2026/06_June/2026-06-21/Tools (learning)/Data X1440px Stays Device/"
+    },
+    {
+      "id": "2026-06-21-design-resource-skills-etc",
+      "title": "Design Resource Skills Etc",
+      "date": "2026-06-21",
+      "images": 14,
+      "topic": "design-branding",
+      "topicLabel": "Design & Branding",
+      "dest": "Design Studio",
+      "score": 7,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Design Resource Skills Etc/",
+      "newPrefix": "2026/06_June/2026-06-21/Design Studio/Design Resource Skills Etc/"
+    },
+    {
+      "id": "2026-06-21-frontend-validation-api-keys",
+      "title": "Frontend Validation Api Keys",
+      "date": "2026-06-21",
+      "images": 8,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 3,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Frontend Validation Api Keys/",
+      "newPrefix": "2026/06_June/2026-06-21/Tools (learning)/Frontend Validation Api Keys/"
+    },
+    {
+      "id": "2026-06-21-gemini-e-g-chunks-text",
+      "title": "Gemini E.g Chunks Text",
+      "date": "2026-06-21",
+      "images": 8,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 4,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Gemini E.g Chunks Text/",
+      "newPrefix": "2026/06_June/2026-06-21/AI Tooling/Gemini E.g Chunks Text/"
+    },
+    {
+      "id": "2026-06-21-gemini-rrooranmne-nus-ideas",
+      "title": "Gemini Rrooranmne Nus Ideas",
+      "date": "2026-06-21",
+      "images": 8,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 4,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Gemini Rrooranmne Nus Ideas/",
+      "newPrefix": "2026/06_June/2026-06-21/AI Tooling/Gemini Rrooranmne Nus Ideas/"
+    },
+    {
+      "id": "2026-06-21-gemma-runs-multimodal-flagship",
+      "title": "Gemma Runs Multimodal Flagship",
+      "date": "2026-06-21",
+      "images": 36,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Gemma Runs Multimodal Flagship/",
+      "newPrefix": "2026/06_June/2026-06-21/AI Tooling/Gemma Runs Multimodal Flagship/"
+    },
+    {
+      "id": "2026-06-21-google-generative-search-eee",
+      "title": "Google Generative Search Eee",
+      "date": "2026-06-21",
+      "images": 10,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 3,
+      "runnerUp": 1,
+      "oldPrefix": "2026/06_June/2026-06-21/Google Generative Search Eee/",
+      "newPrefix": "2026/06_June/2026-06-21/AI Tooling/Google Generative Search Eee/"
+    },
+    {
+      "id": "2026-06-21-llm-wiki-video-generators",
+      "title": "Llm Wiki Video Generators",
+      "date": "2026-06-21",
+      "images": 37,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 6,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Llm Wiki Video Generators/",
+      "newPrefix": "2026/06_June/2026-06-21/AI Tooling/Llm Wiki Video Generators/"
+    },
+    {
+      "id": "2026-06-21-mobile-design-claude-f12",
+      "title": "Mobile Design Claude F12",
+      "date": "2026-06-21",
+      "images": 9,
+      "topic": "design-branding",
+      "topicLabel": "Design & Branding",
+      "dest": "Design Studio",
+      "score": 7,
+      "runnerUp": 1,
+      "oldPrefix": "2026/06_June/2026-06-21/Mobile Design Claude F12/",
+      "newPrefix": "2026/06_June/2026-06-21/Design Studio/Mobile Design Claude F12/"
+    },
+    {
+      "id": "2026-06-21-penetration-testing-runs-itself",
+      "title": "Penetration Testing Runs Itself",
+      "date": "2026-06-21",
+      "images": 6,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Penetration Testing Runs Itself/",
+      "newPrefix": "2026/06_June/2026-06-21/Tools (learning)/Penetration Testing Runs Itself/"
+    },
+    {
+      "id": "2026-06-21-specs-dev-tools-monitoring",
+      "title": "Specs Dev Tools Monitoring",
+      "date": "2026-06-21",
+      "images": 16,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 4,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Specs Dev Tools Monitoring/",
+      "newPrefix": "2026/06_June/2026-06-21/Tools (learning)/Specs Dev Tools Monitoring/"
+    },
+    {
+      "id": "2026-06-21-stitch-claude-code-design",
+      "title": "Stitch Claude Code Design",
+      "date": "2026-06-21",
+      "images": 8,
+      "topic": "design-branding",
+      "topicLabel": "Design & Branding",
+      "dest": "Design Studio",
+      "score": 7,
+      "runnerUp": 2,
+      "oldPrefix": "2026/06_June/2026-06-21/Stitch Claude Code Design/",
+      "newPrefix": "2026/06_June/2026-06-21/Design Studio/Stitch Claude Code Design/"
+    },
+    {
+      "id": "2026-06-21-venture-market-product-show",
+      "title": "Venture Market Product Show",
+      "date": "2026-06-21",
+      "images": 14,
+      "topic": "content-growth",
+      "topicLabel": "Content & Growth",
+      "dest": "Fandom Studio",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/06_June/2026-06-21/Venture Market Product Show/",
+      "newPrefix": "2026/06_June/2026-06-21/Fandom Studio/Venture Market Product Show/"
+    },
+    {
+      "id": "2026-02-28-week-blog-digital-publish",
+      "title": "Week Blog Digital Publish",
+      "date": "2026-02-28",
+      "images": 1,
+      "topic": "content-growth",
+      "topicLabel": "Content & Growth",
+      "dest": "Fandom Studio",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/02_February/2026-02-28/Week Blog Digital Publish/",
+      "newPrefix": "2026/02_February/2026-02-28/Fandom Studio/Week Blog Digital Publish/"
+    },
+    {
+      "id": "2026-02-20-help-reel-carousels-btw",
+      "title": "Help Reel Carousels Btw",
+      "date": "2026-02-20",
+      "images": 13,
+      "topic": "content-growth",
+      "topicLabel": "Content & Growth",
+      "dest": "Fandom Studio",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/02_February/2026-02-20/Help Reel Carousels Btw/",
+      "newPrefix": "2026/02_February/2026-02-20/Fandom Studio/Help Reel Carousels Btw/"
+    },
+    {
+      "id": "2026-02-18-want-become-dev-one",
+      "title": "Want Become Dev One",
+      "date": "2026-02-18",
+      "images": 2,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/02_February/2026-02-18/Want Become Dev One/",
+      "newPrefix": "2026/02_February/2026-02-18/Tools (learning)/Want Become Dev One/"
+    },
+    {
+      "id": "2026-02-11-train-test-model-inport",
+      "title": "Train Test Model Inport",
+      "date": "2026-02-11",
+      "images": 6,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 4,
+      "runnerUp": 1,
+      "oldPrefix": "2026/02_February/2026-02-11/Train Test Model Inport/",
+      "newPrefix": "2026/02_February/2026-02-11/AI Tooling/Train Test Model Inport/"
+    },
+    {
+      "id": "2026-02-09-content-agent-say-oss",
+      "title": "Content Agent Say Oss",
+      "date": "2026-02-09",
+      "images": 5,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 3,
+      "runnerUp": 1,
+      "oldPrefix": "2026/02_February/2026-02-09/Content Agent Say Oss/",
+      "newPrefix": "2026/02_February/2026-02-09/AI Tooling/Content Agent Say Oss/"
+    },
+    {
+      "id": "2026-02-09-data-n8n-automation-expressions",
+      "title": "Data N8n Automation Expressions",
+      "date": "2026-02-09",
+      "images": 3,
+      "topic": "ai-automation",
+      "topicLabel": "AI & Automation",
+      "dest": "AI Tooling",
+      "score": 5,
+      "runnerUp": 2,
+      "oldPrefix": "2026/02_February/2026-02-09/Data N8n Automation Expressions/",
+      "newPrefix": "2026/02_February/2026-02-09/AI Tooling/Data N8n Automation Expressions/"
+    },
+    {
+      "id": "2026-01-30-top-remote-computer-programmer",
+      "title": "Top Remote Computer Programmer",
+      "date": "2026-01-30",
+      "images": 7,
+      "topic": "engineering",
+      "topicLabel": "Engineering",
+      "dest": "Tools (learning)",
+      "score": 2,
+      "runnerUp": 0,
+      "oldPrefix": "2026/01_January/2026-01-30/Top Remote Computer Programmer/",
+      "newPrefix": "2026/01_January/2026-01-30/Tools (learning)/Top Remote Computer Programmer/"
+    }
+  ],
+  "skipped": [
+    {
+      "title": "2026-06-21 oq",
+      "date": "2026-06-21",
+      "images": 1,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/2026-06-21 oq/"
+    },
+    {
+      "title": "Aiwithanushka Leads Sack Dats",
+      "date": "2026-06-21",
+      "images": 7,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Aiwithanushka Leads Sack Dats/"
+    },
+    {
+      "title": "Assumed Seed Demand Who",
+      "date": "2026-06-21",
+      "images": 59,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Assumed Seed Demand Who/"
+    },
+    {
+      "title": "Beat Everywhere Idea Claude",
+      "date": "2026-06-21",
+      "images": 50,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Beat Everywhere Idea Claude/"
+    },
+    {
+      "title": "Bohr Quantum Theory Energy",
+      "date": "2026-06-21",
+      "images": 62,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Bohr Quantum Theory Energy/"
+    },
+    {
+      "title": "Cal.diy Yt-dlp Calcom Dak",
+      "date": "2026-06-21",
+      "images": 13,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Cal.diy Yt-dlp Calcom Dak/"
+    },
+    {
+      "title": "Canceteo Total Adam Build",
+      "date": "2026-06-21",
+      "images": 6,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Canceteo Total Adam Build/"
+    },
+    {
+      "title": "Capital Figma Value Start",
+      "date": "2026-06-21",
+      "images": 68,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Capital Figma Value Start/"
+    },
+    {
+      "title": "Centre Research Laelia Tube",
+      "date": "2026-06-21",
+      "images": 10,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Centre Research Laelia Tube/"
+    },
+    {
+      "title": "Claude Starts After Setup",
+      "date": "2026-06-21",
+      "images": 11,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Claude Starts After Setup/"
+    },
+    {
+      "title": "Don Frequency Thecodex Time",
+      "date": "2026-06-21",
+      "images": 92,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Don Frequency Thecodex Time/"
+    },
+    {
+      "title": "Extragt Individual Fanmes Voila",
+      "date": "2026-06-21",
+      "images": 52,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Extragt Individual Fanmes Voila/"
+    },
+    {
+      "title": "Inside Alscript Generator Auto",
+      "date": "2026-06-21",
+      "images": 10,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Inside Alscript Generator Auto/"
+    },
+    {
+      "title": "Just Therishishine Same But",
+      "date": "2026-06-21",
+      "images": 14,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Just Therishishine Same But/"
+    },
+    {
+      "title": "Level Every Prompt Obsidian",
+      "date": "2026-06-21",
+      "images": 9,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Level Every Prompt Obsidian/"
+    },
+    {
+      "title": "Meyer Power Anyone Attention",
+      "date": "2026-06-21",
+      "images": 18,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/06_June/2026-06-21/Meyer Power Anyone Attention/"
+    },
+    {
+      "title": "Official Underwriting Business Footprint",
+      "date": "2026-06-21",
+      "images": 8,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Official Underwriting Business Footprint/"
+    },
+    {
+      "title": "React Server Before Jordan",
+      "date": "2026-06-21",
+      "images": 7,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/React Server Before Jordan/"
+    },
+    {
+      "title": "Retrieval-augmented Generation Che Client",
+      "date": "2026-06-21",
+      "images": 30,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Retrieval-augmented Generation Che Client/"
+    },
+    {
+      "title": "Simplified Series Robotics World",
+      "date": "2026-06-21",
+      "images": 6,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Simplified Series Robotics World/"
+    },
+    {
+      "title": "Terms Legal Set Users",
+      "date": "2026-06-21",
+      "images": 8,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/06_June/2026-06-21/Terms Legal Set Users/"
+    },
+    {
+      "title": "Bigdataspecialist Became Bad Bpdetaspeca",
+      "date": "2026-02-28",
+      "images": 4,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/02_February/2026-02-28/Bigdataspecialist Became Bad Bpdetaspeca/"
+    },
+    {
+      "title": "Eee Peele Eere Beer",
+      "date": "2026-02-28",
+      "images": 1,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/02_February/2026-02-28/Eee Peele Eere Beer/"
+    },
+    {
+      "title": "Done Better Perfect Pay",
+      "date": "2026-02-25",
+      "images": 2,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/02_February/2026-02-25/Done Better Perfect Pay/"
+    },
+    {
+      "title": "Nora She Youneed Science",
+      "date": "2026-02-25",
+      "images": 2,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/02_February/2026-02-25/Nora She Youneed Science/"
+    },
+    {
+      "title": "One Awareness Raised Valle",
+      "date": "2026-02-23",
+      "images": 5,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/02_February/2026-02-23/One Awareness Raised Valle/"
+    },
+    {
+      "title": "Goodneuroscience Ever Had Conversation",
+      "date": "2026-02-21",
+      "images": 8,
+      "reason": "no keyword signal",
+      "oldPrefix": "2026/02_February/2026-02-21/Goodneuroscience Ever Had Conversation/"
+    },
+    {
+      "title": "Keep Wealth Hacks Goldmine",
+      "date": "2026-02-20",
+      "images": 1,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/02_February/2026-02-20/Keep Wealth Hacks Goldmine/"
+    },
+    {
+      "title": "Thinking Better Wasn Being",
+      "date": "2026-02-20",
+      "images": 3,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/02_February/2026-02-20/Thinking Better Wasn Being/"
+    },
+    {
+      "title": "Invoice Srey Eee Autonomous",
+      "date": "2026-02-19",
+      "images": 3,
+      "reason": "weak/tied (top 1 vs runner-up 1)",
+      "oldPrefix": "2026/02_February/2026-02-19/Invoice Srey Eee Autonomous/"
+    },
+    {
+      "title": "Low Never Thecodex Self-sabotage",
+      "date": "2026-02-16",
+      "images": 3,
+      "reason": "weak/tied (top 1 vs runner-up 0)",
+      "oldPrefix": "2026/02_February/2026-02-16/Low Never Thecodex Self-sabotage/"
+    },
+    {
+      "title": "Brand Art Paperbanana Workflow",
+      "date": "2026-02-03",
+      "images": 2,
+      "reason": "weak/tied (top 1 vs runner-up 1)",
+      "oldPrefix": "2026/02_February/2026-02-03/Brand Art Paperbanana Workflow/"
+    }
+  ]
+}
