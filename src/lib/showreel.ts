@@ -62,7 +62,98 @@ const DIRECT_TOPIC: Record<string, string> = {
   'Tools (learning)': 'engineering',
 };
 
+/* ── Verified topics ─────────────────────────────────────────────────────────
+   56 projects were imported without a category folder, so the scorer below
+   had to guess them from auto-generated titles like "Assumed Seed Demand Who" —
+   which carry no signal. These were instead read off the artwork itself (the
+   first slide of each album) and recorded here, so the classification is
+   observed rather than inferred.
+
+   Checked against the scorer: it disagreed on 5 of the 25 it rated confidently,
+   e.g. "Stitch Claude Code Design" is a Claude Code MCP workflow, not branding.
+
+   Keyed by manifest id, which gen-manifest derives from date + folder name, so
+   these survive a regenerate. If the files are ever moved into real category
+   folders in R2, DIRECT_TOPIC takes over and the matching lines can go. */
+const VERIFIED_TOPIC: Record<string, string> = {
+
+  // ── AI & Automation ─────────────────────────────────────────
+  '2026-06-21-aiwithanushka-leads-sack-dats': 'ai-automation', // AI support agent (Gmail/Supabase/OpenAI/Slack)
+  '2026-02-28-bigdataspecialist-became-bad-bpdetaspeca': 'ai-automation', // ML as decision engine
+  '2026-06-21-canceteo-total-adam-build': 'ai-automation', // replacing Mailchimp with Claude Code
+  '2026-06-21-claude-starts-after-setup': 'ai-automation', // Claude as strategist/researcher
+  '2026-06-21-company-need-brain-map': 'ai-automation', // "company brain" as AI context layer
+  '2026-02-09-content-agent-say-oss': 'ai-automation', // n8n + Claude content agent
+  '2026-02-09-data-n8n-automation-expressions': 'ai-automation', // what is n8n
+  '2026-06-21-data-x1440px-stays-device': 'ai-automation', // Google AI Studio / Gemma on-device
+  '2026-02-28-eee-peele-eere-beer': 'ai-automation', // global AI adoption dataviz
+  '2026-06-21-gemini-e-g-chunks-text': 'ai-automation', // Gemini ML.GENERATE_TEXT graph extraction
+  '2026-06-21-gemini-rrooranmne-nus-ideas': 'ai-automation', // NotebookLM / Pomelli / AI Mode research
+  '2026-06-21-gemma-runs-multimodal-flagship': 'ai-automation', // Gemma model sizes per device
+  '2026-06-21-google-generative-search-eee': 'ai-automation', // Google Generative UI & Search AI Mode
+  '2026-06-21-inside-alscript-generator-auto': 'ai-automation', // AI video pipeline (script gen, TTS, subtitles)
+  '2026-02-19-invoice-srey-eee-autonomous': 'ai-automation', // autonomous ops assistant
+  '2026-06-21-level-every-prompt-obsidian': 'ai-automation', // Obsidian vault as LLM knowledge base
+  '2026-06-21-llm-wiki-video-generators': 'ai-automation', // AI video generators (Veo 3, Weavy)
+  '2026-06-21-retrieval-augmented-generation-che-client': 'ai-automation', // RAG paper walkthrough
+  '2026-06-21-simplified-series-robotics-world': 'ai-automation', // AI + quantum + robotics explainer
+  '2026-06-21-stitch-claude-code-design': 'ai-automation', // Stitch MCP -> Claude Code design tokens
+  '2026-02-11-train-test-model-inport': 'ai-automation', // sklearn supervised learning
+
+  // ── Content & Growth ─────────────────────────────────────────
+  '2026-06-21-assumed-seed-demand-who': 'content-growth', // startup stage-failure patterns (pre-seed..growth)
+  '2026-06-21-beat-everywhere-idea-claude': 'content-growth', // competitor research w/ Claude, market insights
+  '2026-06-21-capital-figma-value-start': 'content-growth', // prompt pack: partnership proposal deck (DART model)
+  '2026-02-20-help-reel-carousels-btw': 'content-growth', // personal brand launch funnel
+  '2026-06-21-just-therishishine-same-but': 'content-growth', // creator positioning / coaching content
+  '2026-02-20-keep-wealth-hacks-goldmine': 'content-growth', // wealth/action motivation carousel
+  '2026-06-21-meyer-power-anyone-attention': 'content-growth', // audience attention / creator growth
+  '2026-06-21-official-underwriting-business-footprint': 'content-growth', // operational vs underwriting, business funding
+  '2026-02-23-one-awareness-raised-valle': 'content-growth', // 12 startup slides that raised $2M
+  '2026-06-21-terms-legal-set-users': 'content-growth', // terms of use / legal shield for apps
+  '2026-01-30-top-remote-computer-programmer': 'content-growth', // Toptal freelance platform
+  '2026-06-21-venture-market-product-show': 'content-growth', // new venture competition pitch template
+  '2026-02-28-week-blog-digital-publish': 'content-growth', // publish less, distribute more (SEO/AEO)
+
+  // ── Design & Branding ─────────────────────────────────────────
+  '2026-02-03-brand-art-paperbanana-workflow': 'design-branding', // brand visual workflow, campaign hero shots
+  '2026-06-21-extragt-individual-fanmes-voila': 'design-branding', // AI animation frame extraction, character art
+  '2026-06-21-mobile-design-claude-f12': 'design-branding', // design masterclass: mobile iteration
+
+  // ── Engineering ─────────────────────────────────────────
+  '2026-06-21-bohr-quantum-theory-energy': 'engineering', // Module Federation microfrontends
+  '2026-06-21-cal-diy-yt-dlp-calcom-dak': 'engineering', // cal.com open-source scheduling
+  '2026-06-21-centre-research-laelia-tube': 'engineering', // patent doc: tube signalling control rooms
+  '2026-06-21-cloud-john-lewis-data': 'engineering', // Google Cloud customer builds
+  '2026-06-21-design-resource-skills-etc': 'engineering', // Design Engineering role at Vercel
+  '2026-06-21-frontend-validation-api-keys': 'engineering', // client vs backend validation, security
+  '2026-06-21-penetration-testing-runs-itself': 'engineering', // AI penetration testing (Maced)
+  '2026-06-21-react-server-before-jordan': 'engineering', // React virtual DOM history
+  '2026-06-21-specs-dev-tools-monitoring': 'engineering', // ai-website-cloner repo, design tokens -> code
+  '2026-02-18-want-become-dev-one': 'engineering', // GreatFrontEnd dev interview prep
+
+  // ── Mind & Learning ─────────────────────────────────────────
+  '2026-06-21-brain-every-emotionally-unconscious': 'mind-learning', // "You Are Always Programming" mindset
+  '2026-06-21-brain-learning-change-focus': 'mind-learning', // changing the brain: state, environment, habits
+  '2026-06-21-brain-movement-learn-customise': 'mind-learning', // second-brain customisation
+  '2026-06-21-don-frequency-thecodex-time': 'mind-learning', // mindset: childhood pain -> next win
+  '2026-02-25-done-better-perfect-pay': 'mind-learning', // "done is better than perfect" mindset
+  '2026-02-21-goodneuroscience-ever-had-conversation': 'mind-learning', // metacognition
+  '2026-02-16-low-never-thecodex-self-sabotage': 'mind-learning', // self-sabotage / capacity
+  '2026-02-25-nora-she-youneed-science': 'mind-learning', // nervous-system regulation, brain health
+  '2026-02-20-thinking-better-wasn-being': 'mind-learning', // better thinking = better system
+};
+
+/* Dropped from the gallery: a single 1-image entry that is a 1 image, 150x150, unreadable - import artifact.
+   It is not work, and it opened the grid before the ordering fix sank it. */
+const EXCLUDED_IDS = new Set<string>([
+  '2026-06-21-2026-06-21-oq', // 2026-06-21 oq
+]);
+
 function classifyTopic(item: MediaItem): Topic {
+  // Read off the artwork; beats both the folder name and the scorer.
+  const verified = VERIFIED_TOPIC[item.id];
+  if (verified) return MEDIA_CATEGORIES.find((c) => c.id === verified)!;
   const direct = DIRECT_TOPIC[item.categoryName];
   if (direct) return MEDIA_CATEGORIES.find((c) => c.id === direct)!;
   const raw = `${item.title} ${(item.keywords ?? []).join(' ')}`.toLowerCase();
@@ -84,7 +175,9 @@ function classifyTopic(item: MediaItem): Topic {
 // Re-categorise every item into one of the 5 clean topics. The cover is the
 // first real slide of the album (see gen-manifest.mjs) — the `_Preview` files
 // are tall auto-generated contact sheets and crop into unreadable fragments.
-export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.map((m) => {
+export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.filter(
+  (m) => !EXCLUDED_IDS.has(m.id),
+).map((m) => {
   const topic = classifyTopic(m);
   return {
     ...m,

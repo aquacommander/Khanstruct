@@ -115,4 +115,29 @@ describe('Showreel ordering', () => {
       expect([...keys].sort().reverse()).toEqual(keys);
     });
   });
+
+  describe('verified topics', () => {
+    it('drops the unreadable import artifact from the gallery', () => {
+      expect(MEDIA_ITEMS.some((m) => m.id === '2026-06-21-2026-06-21-oq')).toBe(false);
+    });
+
+    it('uses the topic read off the artwork, not the scored title', () => {
+      const cases: [string, string][] = [
+        ['2026-06-21-data-x1440px-stays-device', 'ai-automation'], // Google AI Studio / Gemma on-device
+        ['2026-06-21-company-need-brain-map', 'ai-automation'], // "company brain" as AI context layer
+        ['2026-06-21-stitch-claude-code-design', 'ai-automation'], // Stitch MCP -> Claude Code design tokens
+        ['2026-01-30-top-remote-computer-programmer', 'content-growth'], // Toptal freelance platform
+      ];
+      for (const [id, topic] of cases) {
+        const item = MEDIA_ITEMS.find((m) => m.id === id);
+        expect(item, id).toBeDefined();
+        expect(item!.category, id).toBe(topic);
+      }
+    });
+
+    it('leaves no item stranded without a topic', () => {
+      const ids = new Set(categoriesWithCounts().map((c) => c.id));
+      expect(MEDIA_ITEMS.every((m) => ids.has(m.category))).toBe(true);
+    });
+  });
 });
