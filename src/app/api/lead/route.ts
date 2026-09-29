@@ -29,6 +29,37 @@ const NOTION_VERSION = '2022-06-28';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+/* ── Rate limiting ────────────────────────────────────────────────────────
+   This endpoint is public and writes to the CRM, so throttle it per client
+   IP. In-memory only: it resets on cold start and is per-instance, which is
+   fine for a portfolio funnel — it stops casual spam, not a botnet.        */
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000; // 1 hour
+const hits = new Map<string, number[]>();
+
+function clientIp(request: Request): string {
+  const fwd = request.headers.get('x-forwarded-for');
+  if (fwd) return fwd.split(',')[0]!.trim();
+  return request.headers.get('x-real-ip') ?? 'unknown';
+}
+
+/** Returns true when the caller is over quota. Prunes expired entries. */
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const cutoff = now - RATE_LIMIT_WINDOW_MS;
+
+  for (const [key, stamps] of hits) {
+    const kept = stamps.filter((t) => t > cutoff);
+    if (kept.length) hits.set(key, kept);
+    else hits.delete(key);
+  }
+
+  const recent = hits.get(ip) ?? [];
+  if (recent.length >= RATE_LIMIT_MAX) return true;
+  hits.set(ip, [...recent, now]);
+  return false;
+}
+
 interface LeadPayload {
   answers: FunnelAnswers;
   details: LeadDetails;
@@ -77,6 +108,13 @@ async function writeToNotion(answers: FunnelAnswers, details: LeadDetails, prior
 }
 
 export async function POST(request: Request) {
+  if (isRateLimited(clientIp(request))) {
+    return NextResponse.json(
+      { success: false, message: 'Too many submissions. Please try again later.' },
+      { status: 429 },
+    );
+  }
+
   let payload: LeadPayload;
   try {
     payload = (await request.json()) as LeadPayload;
