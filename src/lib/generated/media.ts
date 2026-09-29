@@ -10,7 +10,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/2026-06-21%20oq/_Preview%20-%202026-06-21%20oq.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/2026-06-21%20oq/1%20X.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/2026-06-21%20oq/1%20X.png"
     ],
@@ -26,7 +26,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/_Preview%20-%20Aiwithanushka%20Leads%20Sack%20Dats.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/1%20Dats%20Rep.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/1%20Dats%20Rep.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Aiwithanushka%20Leads%20Sack%20Dats/2%20R%20Qe%20Esc%20Al%20Aiwithanushka.png",
@@ -52,7 +52,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/_Preview%20-%20Assumed%20Seed%20Demand%20Who.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/1%20E%20Pre-Seed%20Assumed%20Problem%20Real.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/1%20E%20Pre-Seed%20Assumed%20Problem%20Real.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Assumed%20Seed%20Demand%20Who/2%20E%2010%20000%20Waitlist%20Signups.png",
@@ -130,7 +130,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/_Preview%20-%20Beat%20Everywhere%20Idea%20Claude.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/1%20Create%20Better.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/1%20Create%20Better.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Beat%20Everywhere%20Idea%20Claude/2%20Repurpose%20Once.png",
@@ -199,7 +199,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/_Preview%20-%20Bohr%20Quantum%20Theory%20Energy.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/1%20Roadsidecoder%20Tt%20E%20E%20Viac.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/1%20Roadsidecoder%20Tt%20E%20E%20Viac.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Bohr%20Quantum%20Theory%20Energy/2%20B%20N%202%202%20Au%20Ae.png",
@@ -280,7 +280,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/_Preview%20-%20Brain%20Every%20Emotionally%20Unconscious.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/1%20Frequency%20Mastery%20Always%20Programming%20Every.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/1%20Frequency%20Mastery%20Always%20Programming%20Every.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Every%20Emotionally%20Unconscious/2%20%26%20Subscribe%20To%208020Ai.png",
@@ -368,7 +368,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/_Preview%20-%20Brain%20Learning%20Change%20Focus.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/1%20Real%20Takeaway%20If%20Want%20To%20Change.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/1%20Real%20Takeaway%20If%20Want%20To%20Change.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Learning%20Change%20Focus/2%20Think%20Of%20Neuroplasticity%20Learning%20Metaplasticity.png",
@@ -405,7 +405,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/_Preview%20-%20Brain%20Movement%20Learn%20Customise.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/1%20You'Ll%20Learn%20To%20Customise%20Second.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/1%20You'Ll%20Learn%20To%20Customise%20Second.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Brain%20Movement%20Learn%20Customise/2%20If%20Feels%20Hard%20You'Re%20Doing%20Right.png",
@@ -455,7 +455,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/_Preview%20-%20Cal.diy%20Yt-dlp%20Calcom%20Dak.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/1%209%20Cal.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/1%209%20Cal.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cal.diy%20Yt-dlp%20Calcom%20Dak/2%202%20Plausible.png",
@@ -488,7 +488,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/_Preview%20-%20Canceteo%20Total%20Adam%20Build.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/1%20You'Re%20Paying%20%2B%20Drip%20Campaigns.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/1%20You'Re%20Paying%20%2B%20Drip%20Campaigns.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Canceteo%20Total%20Adam%20Build/2%20Hafner.png",
@@ -516,7 +516,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/_Preview%20-%20Capital%20Figma%20Value%20Start.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/1%20Do%20Start%20'Who%20We.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/1%20Do%20Start%20'Who%20We.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Capital%20Figma%20Value%20Start/2%201.png",
@@ -603,7 +603,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/_Preview%20-%20Centre%20Research%20Laelia%20Tube.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/1%20Lb%20Centre%20Research.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/1%20Lb%20Centre%20Research.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Centre%20Research%20Laelia%20Tube/2%20F.png",
@@ -632,7 +632,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/_Preview%20-%20Claude%20Starts%20After%20Setup.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/1%20After%20Setup%20Claude%20Stops%20Sounding.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/1%20After%20Setup%20Claude%20Stops%20Sounding.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Claude%20Starts%20After%20Setup/2%20Guessing.png",
@@ -662,7 +662,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/_Preview%20-%20Cloud%20John%20Lewis%20Data.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/1%20Google%20Cloud%20I-%20I%20-S.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/1%20Google%20Cloud%20I-%20I%20-S.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Cloud%20John%20Lewis%20Data/2%20H.png",
@@ -692,7 +692,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/_Preview%20-%20Company%20Need%20Brain%20Map.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/1%20Be%20Postgres.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/1%20Be%20Postgres.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Company%20Need%20Brain%20Map/2%20Who%20Is%20Writing%20Down%20Company.png",
@@ -724,7 +724,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/_Preview%20-%20Data%20X1440px%20Stays%20Device.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/1%20Gemma%204%20Doesn'T.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/1%20Gemma%204%20Doesn'T.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Data%20X1440px%20Stays%20Device/2%20Genthurugt%20Ea%20A%2010%201080X1440Px%20Carousel.png",
@@ -809,7 +809,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/_Preview%20-%20Design%20Resource%20Skills%20Etc.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/1%20Vercel%20Hires%20Team%20Operates%20Looks%20In.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/1%20Vercel%20Hires%20Team%20Operates%20Looks%20In.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Design%20Resource%20Skills%20Etc/2%20Resource%205%2010%20Ui%20Skills.png",
@@ -848,7 +848,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/_Preview%20-%20Don%20Frequency%20Thecodex%20Time.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/1%20Thecodex%20G%20Ty%20We%20Time.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/1%20Thecodex%20G%20Ty%20We%20Time.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Don%20Frequency%20Thecodex%20Time/2%20Body%20Knows%20To%20Hold.png",
@@ -959,7 +959,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/_Preview%20-%20Extragt%20Individual%20Fanmes%20Voila.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/1%207%202.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/1%207%202.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Extragt%20Individual%20Fanmes%20Voila/2%20Sales%20Used%20To%20Reward%20Two%20Things.png",
@@ -1030,7 +1030,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/_Preview%20-%20Frontend%20Validation%20Api%20Keys.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/1%20So%20Frontend%20Validation%20Is%20Security.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/1%20So%20Frontend%20Validation%20Is%20Security.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Frontend%20Validation%20Api%20Keys/2%20Frontend%20Security%20Basics.png",
@@ -1057,7 +1057,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/_Preview%20-%20Gemini%20E.g%20Chunks%20Text.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/1%203.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/1%203.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20E.g%20Chunks%20Text/2%202.png",
@@ -1088,7 +1088,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/_Preview%20-%20Gemini%20Rrooranmne%20Nus%20Ideas.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/1%203D%20Rrooranmne%20Nus%20Dacaarr%20Notebooklm.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/1%203D%20Rrooranmne%20Nus%20Dacaarr%20Notebooklm.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemini%20Rrooranmne%20Nus%20Ideas/2%203D%20Rrooranmne%20Nus%202%202.png",
@@ -1120,7 +1120,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/_Preview%20-%20Gemma%20Runs%20Multimodal%20Flagship.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/1%20C%20On%2020%20Fy%20Opnfe%20A.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/1%20C%20On%2020%20Fy%20Opnfe%20A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Gemma%20Runs%20Multimodal%20Flagship/2%2014.png",
@@ -1175,7 +1175,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/_Preview%20-%20Google%20Generative%20Search%20Eee.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/1%20Era%20Eee%20Ey%20Answers%20Reimagined.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/1%20Era%20Eee%20Ey%20Answers%20Reimagined.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Google%20Generative%20Search%20Eee/2%20Ieee%20Ieee%20Structure%20Instantly.png",
@@ -1211,7 +1211,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/_Preview%20-%20Inside%20Alscript%20Generator%20Auto.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/1%20What'S%20Inside%20Alscript%20Generator%20Auto.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/1%20What'S%20Inside%20Alscript%20Generator%20Auto.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Inside%20Alscript%20Generator%20Auto/2%20Lt%20Actually%20Works.png",
@@ -1240,7 +1240,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/_Preview%20-%20Just%20Therishishine%20Same%20But.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/1%20Therishishine%2007%2013%20Same%20Topic.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/1%20Therishishine%2007%2013%20Same%20Topic.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Just%20Therishishine%20Same%20But/2%20Therishishine%2011%2013%20Personal%20Stories.png",
@@ -1272,7 +1272,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/_Preview%20-%20Level%20Every%20Prompt%20Obsidian.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/1%20Level%2004%20Obsidian%20L%20T%20S.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/1%20Level%2004%20Obsidian%20L%20T%20S.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Level%20Every%20Prompt%20Obsidian/2%20Level%2002%20Claude.png",
@@ -1300,7 +1300,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/_Preview%20-%20Llm%20Wiki%20Video%20Generators.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/1%20Video%20Generators%20G%20Google%20Veo.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/1%20Video%20Generators%20G%20Google%20Veo.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Llm%20Wiki%20Video%20Generators/2%20Sc%20Simplifying.png",
@@ -1361,7 +1361,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/_Preview%20-%20Meyer%20Power%20Anyone%20Attention.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/1%20Here%20S.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/1%20Here%20S.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Meyer%20Power%20Anyone%20Attention/2%20Dust%20Shoot%20Shot.png",
@@ -1398,7 +1398,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/_Preview%20-%20Mobile%20Design%20Claude%20F12.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/1%20P%20Don%20T%20Skip.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/1%20P%20Don%20T%20Skip.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Mobile%20Design%20Claude%20F12/2%20Build%20Stunning%20Sites.png",
@@ -1432,7 +1432,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/_Preview%20-%20Official%20Underwriting%20Business%20Footprint.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/1%20Left%20%26%20Operational%20Vs.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/1%20Left%20%26%20Operational%20Vs.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Official%20Underwriting%20Business%20Footprint/2%20Protections.png",
@@ -1459,7 +1459,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/_Preview%20-%20Penetration%20Testing%20Runs%20Itself.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/1%20Al%20Penetration%20Testing%20Runs%20Itself.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/1%20Al%20Penetration%20Testing%20Runs%20Itself.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Penetration%20Testing%20Runs%20Itself/2%20Hiteoce%20Foote%20Comet%20Teun%20Demo.png",
@@ -1484,7 +1484,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/_Preview%20-%20React%20Server%20Before%20Jordan.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/1%20Render%20Everything.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/1%20Render%20Everything.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/React%20Server%20Before%20Jordan/2%20Component%20Has%20Data%20Before%20Client%20Even.png",
@@ -1510,7 +1510,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/_Preview%20-%20Retrieval-augmented%20Generation%20Che%20Client.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/1%20Retrieval-Augmented%20Generation%20Knowledge-Intensive%20Nlp%20Tasks.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/1%20Retrieval-Augmented%20Generation%20Knowledge-Intensive%20Nlp%20Tasks.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Retrieval-augmented%20Generation%20Che%20Client/2%20Choose%20Between%20Great%20Greater.png",
@@ -1562,7 +1562,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/_Preview%20-%20Simplified%20Series%20Robotics%20World.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/1%20Oot.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/1%20Oot.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Simplified%20Series%20Robotics%20World/2%20Me'S%20Ww%202.png",
@@ -1587,7 +1587,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/_Preview%20-%20Specs%20Dev%20Tools%20Monitoring.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/1%20'7%20%2B%20Does%20Screenshots.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/1%20'7%20%2B%20Does%20Screenshots.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Specs%20Dev%20Tools%20Monitoring/2%20Dev%20Tools%20%26%20Monitoring%20A.png",
@@ -1626,7 +1626,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/_Preview%20-%20Stitch%20Claude%20Code%20Design.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/1%20Tool%2003%2005%20Stitch%20Talks%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/1%20Tool%2003%2005%20Stitch%20Talks%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Stitch%20Claude%20Code%20Design/2%20Old%20Way%20Vs%20Way.png",
@@ -1663,7 +1663,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/_Preview%20-%20Terms%20Legal%20Set%20Users.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/1%202.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/1%202.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Terms%20Legal%20Set%20Users/2%20A%20Privacy%20Policy%20Set%20Clear.png",
@@ -1693,7 +1693,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-06-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/_Preview%20-%20Venture%20Market%20Product%20Show.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/1%20Date%20Presenter%20Name%20Say%20Clearly%20Venture.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/1%20Date%20Presenter%20Name%20Say%20Clearly%20Venture.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/06_June/2026-06-21/Venture%20Market%20Product%20Show/2%20Michael%20Skok%20Identify%20Profile%20Customer%20Serve.png",
@@ -1726,7 +1726,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/_Preview%20-%20Adjusting%20Years%20Design%20Archetypes.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/1%20We%20Adjusting%20Years.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/1%20We%20Adjusting%20Years.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Adjusting%20Years%20Design%20Archetypes/2%20F%203%20Design%20Archetypes%20Ai%20Companies.png",
@@ -1767,7 +1767,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/_Preview%20-%20Knowledge%20Base%20Raw%20Wiki.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/1%20Create%20One%20File%20Called%20Claude.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/1%20Create%20One%20File%20Called%20Claude.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Knowledge%20Base%20Raw%20Wiki/2%20Second%20Brain.png",
@@ -1800,7 +1800,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/_Preview%20-%20Tasks%20Agent%20Heartbeat%20Ceo.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/1%20Describe%20S%20Trying%20To%20Achieve.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/1%20Describe%20S%20Trying%20To%20Achieve.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/AI%20Tooling/Tasks%20Agent%20Heartbeat%20Ceo/2%20Start%20A%20Task%20Read%20Context%20Act.png",
@@ -1843,7 +1843,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/_Preview%20-%20Ask%20Plugin%20Inside%20Skill.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/1%20Onemtveseson%20Onrasensieenen%20Sontmicperens%20Ps%20Tacaeconptaton.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/1%20Onemtveseson%20Onrasensieenen%20Sontmicperens%20Ps%20Tacaeconptaton.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Ask%20Plugin%20Inside%20Skill/2%20Abhinavbwj.png",
@@ -1879,7 +1879,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/_Preview%20-%20Chrome%20Extension%20Prompts%20Apps.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/1%20Kromio%20Chrome%20Extension%20Bulkier%20Simple%20Prompts.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/1%20Kromio%20Chrome%20Extension%20Bulkier%20Simple%20Prompts.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Chrome%20Extension%20Prompts%20Apps/2%20Vo%20By%20Vercel%20Na%20React.png",
@@ -1912,7 +1912,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/_Preview%20-%20Design%20Zones%20Logic%20Map.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/1%202025%20Stay%20Updated.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/1%202025%20Stay%20Updated.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Design%20Zones%20Logic%20Map/2%20O2Ipesonroac%20Mar%202%20Asavererseesmry%20I%20Wer.png",
@@ -1959,7 +1959,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/_Preview%20-%20Nautex%20Build%20Design%20Need.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/1%20Nautex%20Al%20Oonxx%20M.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/1%20Nautex%20Al%20Oonxx%20M.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/Nautex%20Build%20Design%20Need/2%20Pov%20You'Re%20Lost%20In%20Design.png",
@@ -2011,7 +2011,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-04-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/_Preview%20-%20One%20Consuming%20Should%20Compounding.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/1%20If%20You'Re%20Consuming%20Should%20Be%20Compounding.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/1%20If%20You'Re%20Consuming%20Should%20Be%20Compounding.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-10/Work/One%20Consuming%20Should%20Compounding/2%20Schema%20File.png",
@@ -2040,7 +2040,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-04-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/_Preview%20-%20Generate%20Claude.md%20Typescript%20Projects.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/1%2003%20E%20Mechanism%20Solve.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/1%2003%20E%20Mechanism%20Solve.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Generate%20Claude.md%20Typescript%20Projects/2%20Secret%20Weapon%20Claude%20Code%20Reads%20Claude.png",
@@ -2097,7 +2097,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-04-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/_Preview%20-%20Reading%20Copy%20Data%20Should.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/1%2006.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/1%2006.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/04_April/2026-04-06/AI%20Tooling/Reading%20Copy%20Data%20Should/2%20Ol.png",
@@ -2141,7 +2141,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-31",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/_Preview%20-%20Design%20Studio%20nv.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/1%207A.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/1%207A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Design%20Studio%20nv/2%20Ss.png",
@@ -2170,7 +2170,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-31",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/_Preview%20-%20Position%20Diaphragm%20Point%20Exhale.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/1%20E.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/1%20E.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-31/Design%20Studio/Position%20Diaphragm%20Point%20Exhale/2%20Domed%20Position.png",
@@ -2206,7 +2206,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-24",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/_Preview%20-%20Awards%20Generate%20Pack%20Shots.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/1%20Generate%20Pack%20Shots%20Products%20At.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/1%20Generate%20Pack%20Shots%20Products%20At.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Awards%20Generate%20Pack%20Shots/2%20Xx%203%20F%20Ny%20Xn%209.png",
@@ -2247,7 +2247,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-24",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/_Preview%20-%20Gemini%20Model%20Flash%20Google.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/1%20Gemini%203%20Flash%20Gemini%203.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/1%20Gemini%203%20Flash%20Gemini%203.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Gemini%20Model%20Flash%20Google/2%20Ece%20Google'S%20Full-Stack%20Al%20Ecosystem.png",
@@ -2286,7 +2286,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-24",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/_Preview%20-%20Stitch%20Dashboard%20Side%20Live.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/1%203%2010.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/1%203%2010.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-24/Design%20Studio/Stitch%20Dashboard%20Side%20Live/2%20Stitch%20Designed%20Both%20Simultaneously.png",
@@ -2363,7 +2363,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/_Preview%20-%20Beautiful%20Business%20House%20World.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/1%20Understanding%20Systems%201S%20No%20Longer%20Optional.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/1%20Understanding%20Systems%201S%20No%20Longer%20Optional.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Beautiful%20Business%20House%20World/2%20Design%20Insights%20Cost%20%26%20Timeline.png",
@@ -2405,7 +2405,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/_Preview%20-%20Cold%20Water%20Train%20Every.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/1%20Train%20Engine.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/1%20Train%20Engine.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Cold%20Water%20Train%20Every/2%20Body%20Shifts%20Instantly%20Calm%20Mode.png",
@@ -2473,7 +2473,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/_Preview%20-%20Ph.d%20Robots%20Kun%20Lab.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/1%20Kun%20Lab.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/1%20Kun%20Lab.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-23/Design%20Studio/Ph.d%20Robots%20Kun%20Lab/2%20Militarized%20Robots%20Julie%20Carpenter%20Ph.png",
@@ -2504,7 +2504,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/_Preview%20-%20Edits%20Updates%20Plus%20Few.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/1%20Plus%20A%20Few%20Prompts%20I'Ve%20Created.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/1%20Plus%20A%20Few%20Prompts%20I'Ve%20Created.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/AI%20Tooling/Edits%20Updates%20Plus%20Few/2%207%20Skills%20T%20Replace%20Last%20One.png",
@@ -2622,7 +2622,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/_Preview%20-%20Mins%20Before%20Deep%20Work.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/1%20Checklist.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/1%20Checklist.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Mins%20Before%20Deep%20Work/2%20A%203.png",
@@ -2683,7 +2683,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/_Preview%20-%20Notion%20Templates%20Every%20Day.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/1%20Some%20A%20Few%20Hundred%20Dollars%20Others.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/1%20Some%20A%20Few%20Hundred%20Dollars%20Others.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-20/Neuroscience/Notion%20Templates%20Every%20Day/2%20H%20H%20Notion%20Isn%20T.png",
@@ -2718,7 +2718,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/_Preview%20-%20Generative%20Patterns%20Core%20Idea.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/1%202.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/1%202.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Generative%20Patterns%20Core%20Idea/2%209.png",
@@ -2761,7 +2761,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/_Preview%20-%20Product%20Beauty%20Social%20Media.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/1%20Iy%20Tus.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/1%20Iy%20Tus.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Product%20Beauty%20Social%20Media/2%20Social%20Media%20Marketing.png",
@@ -2822,7 +2822,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/_Preview%20-%20Wadi%20Rum%20Jordan%20Ily.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/1%20Wadi%20Rum%20-%20Jordan.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/1%20Wadi%20Rum%20-%20Jordan.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/AI%20Tooling/Wadi%20Rum%20Jordan%20Ily/2%20A%20Ily%20I.png",
@@ -2860,7 +2860,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/_Preview%20-%20Airgesrened%20Gee%20Boy%20Jaa.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/1%20A%202018.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/1%20A%202018.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Airgesrened%20Gee%20Boy%20Jaa/2%20Os%20Image%20Omer.png",
@@ -2915,7 +2915,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/_Preview%20-%20Free%20Gallery%20Cas%20Eee.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/1%20Asegpts.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/1%20Asegpts.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Free%20Gallery%20Cas%20Eee/2%20B%20Ap%20Ds%20Ap%20Rue%20Bren.png",
@@ -2951,7 +2951,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/_Preview%20-%20Here%20One%20Topic%20Question.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/1%20Boston.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/1%20Boston.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Here%20One%20Topic%20Question/2%201%20Claude%20Code%20One%20Prompt.png",
@@ -2991,7 +2991,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/_Preview%20-%20Rizona%20Ogee.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/1%20I.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/1%20I.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Design%20Studio/Rizona%20Ogee/2%20Ae%20A%20Ee%20Ogee.png",
@@ -3020,7 +3020,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/_Preview%20-%20Audience%20Struggle%20Content%20Hero.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/1%20A%20Human.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/1%20A%20Human.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Fandom%20Studio/Audience%20Struggle%20Content%20Hero/2%20Framework%20Is%20One.png",
@@ -3051,7 +3051,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/_Preview%20-%20Ihave%20App%20Always%20Wanted.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/1%20Ihave%201.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/1%20Ihave%201.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-19/Work/Ihave%20App%20Always%20Wanted/2%20Mas.png",
@@ -3121,7 +3121,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-15",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/_Preview%20-%20Asked%20Everyone%20Bee%20Should.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/1%2025%20I%20Ll%20Send%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/1%2025%20I%20Ll%20Send%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Asked%20Everyone%20Bee%20Should/2%20Ever%20Asked%20A%20Raise.png",
@@ -3158,7 +3158,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-15",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/_Preview%20-%20People%20Think%20Oooooooooo%20January.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/1%20Sone%20Ners%201200%20A%20A%20Es.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/1%20Sone%20Ners%201200%20A%20A%20Es.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/People%20Think%20Oooooooooo%20January/2%20People%20Think%20Everyone%20Is%20Al.png",
@@ -3210,7 +3210,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-15",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/_Preview%20-%20Sct%20Wabi.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/1%20Wo%20Pm%20St%20Og%20I%20A.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/1%20Wo%20Pm%20St%20Og%20I%20A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-15/Design%20Studio/Sct%20Wabi/2%20Wabi%202.png",
@@ -3239,7 +3239,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/_Preview%20-%20Claude%20Code%20Infographics%20Real.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/1%20R%20Eemins.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/1%20R%20Eemins.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/AI%20Tooling/Claude%20Code%20Infographics%20Real/2%20B.png",
@@ -3286,7 +3286,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/_Preview%20-%20Don%20Does%20Thebami%20Only.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/1%2013.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/1%2013.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Don%20Does%20Thebami%20Only/2%20Amazing%20Tools%20Wa.png",
@@ -3330,7 +3330,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/_Preview%20-%20Ogfolio%20Mode%20Links%20Light.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/1%20Com.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/1%20Com.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Ogfolio%20Mode%20Links%20Light/2%20A%20Playa%20Sport%20Take%20Stars.png",
@@ -3364,7 +3364,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/_Preview%20-%20Scale%20Come%20Back%20Need.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/1%20Come%20Back%20To%20Need.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/1%20Come%20Back%20To%20Need.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Scale%20Come%20Back%20Need/2%20Under%2050%20Words%20Each.png",
@@ -3437,7 +3437,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/_Preview%20-%20Stress%20Effects%20Body%20Just.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/1%20Effects%20On%20Body%20Stress%20Is%20Just.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/1%20Effects%20On%20Body%20Stress%20Is%20Just.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Stress%20Effects%20Body%20Just/2%20Com%20%2B%20Airtable%20Notion.png"
@@ -3465,7 +3465,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Text%20Images%20Audio%20Fine-tuning/_Preview%20-%20Text%20Images%20Audio%20Fine-tuning.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Text%20Images%20Audio%20Fine-tuning/1%20Fine-Tuning%20Adjusting%20A%20Pre-Trained%20Model.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Neuroscience/Text%20Images%20Audio%20Fine-tuning/1%20Fine-Tuning%20Adjusting%20A%20Pre-Trained%20Model.png"
     ],
@@ -3494,7 +3494,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/_Preview%20-%20Broken%20Systems%20Character%20Flaw.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/1%20Ff.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/1%20Ff.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Broken%20Systems%20Character%20Flaw/2%20Oe.png",
@@ -3537,7 +3537,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/_Preview%20-%20Eliminate%20Every%20Agent%20Claude.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/1%20Is%20Agent%20Failing%20Or%20Hallucinating.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/1%20Is%20Agent%20Failing%20Or%20Hallucinating.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Eliminate%20Every%20Agent%20Claude/2%20Claude%20To%20Think%20Or%20Just%20To.png",
@@ -3653,7 +3653,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/_Preview%20-%20Model%20Data%20Yrs%20Terms.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/1%20Yrs%20Al%20Terms%20Need%20To%20Know.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/1%20Yrs%20Al%20Terms%20Need%20To%20Know.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Model%20Data%20Yrs%20Terms/2%20Al%20Model%20A%20System%20Trained.png",
@@ -3687,7 +3687,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/_Preview%20-%20Set%20Ready%20Make.com%20Airtable.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/1%20Set%20Up%20Yourself%20Following%20Accounts%20Ready.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/1%20Set%20Up%20Yourself%20Following%20Accounts%20Ready.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Set%20Ready%20Make.com%20Airtable/2%20%2B%20Feelit%20Safely.png",
@@ -3725,7 +3725,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/_Preview%20-%20Spiral%20Ever-growing%20Collection%20Carefully.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/1%20Sak%20Est%20E%20A%20Design%20Every.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/1%20Sak%20Est%20E%20A%20Design%20Every.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-14/Work/Spiral%20Ever-growing%20Collection%20Carefully/2%20Found%20Useful.png",
@@ -3757,7 +3757,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/_Preview%20-%20Exif%20Metadata%20Image%20Location.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/1%20Cameratrace%20-%20Tracks%20Camera%20Id%20Across.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/1%20Cameratrace%20-%20Tracks%20Camera%20Id%20Across.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Exif%20Metadata%20Image%20Location/2%20Any%20Location%20Sin%20I%208%20Ptuuls.png",
@@ -3793,7 +3793,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/_Preview%20-%20Fine-tuning%20Bad%20Agentic%20Agents.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/1%20Ie%20Want%20Links.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/1%20Ie%20Want%20Links.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Fine-tuning%20Bad%20Agentic%20Agents/2%204%20Agentic%20Al%20Multiple%20Agents.png",
@@ -3880,7 +3880,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/_Preview%20-%20Firefly%20Daily%20Reminder%20Goated.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/1%20Hs%20Ae.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/1%20Hs%20Ae.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Firefly%20Daily%20Reminder%20Goated/2%20Daily%20Reminder%20Re%20Goated.png",
@@ -3923,7 +3923,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/_Preview%20-%20Need%20Uxui%20Heroes%20Viral.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/1%20Uxui%20Heroes%20Hl.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/1%20Uxui%20Heroes%20Hl.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Neuroscience/Need%20Uxui%20Heroes%20Viral/2%20Viral%20Hooks%20Instantly%20People%20Stop%20Scrolling.png",
@@ -3970,7 +3970,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/_Preview%20-%20Aiagently%20Agents%20Eee%20Stay.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/1%20Stay%20Ahead%20In%20Design.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/1%20Stay%20Ahead%20In%20Design.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Aiagently%20Agents%20Eee%20Stay/2%204K%2056%20Followers%20Following%20Usama%20Akram.png",
@@ -4017,7 +4017,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/_Preview%20-%20Gemini%20Prompts%20Coding%20Stitch.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/1%20Stitch%20Turn%20Prompts%20Complex%20Ul.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/1%20Stitch%20Turn%20Prompts%20Complex%20Ul.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Gemini%20Prompts%20Coding%20Stitch/2%20Gemini%20Cli%20Open%20Source%20Agent.png",
@@ -4064,7 +4064,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/_Preview%20-%20Immune%20Neutrophils%20Lymphocytes%20Eosinophils.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/1%20Uxui%20Heroes%20Uxui.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/1%20Uxui%20Heroes%20Uxui.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Immune%20Neutrophils%20Lymphocytes%20Eosinophils/2%20Shiny.png",
@@ -4101,7 +4101,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Twice%20Gat/_Preview%20-%20Twice%20Gat.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Twice%20Gat/1%20Gettwice%20Twice%20Twice%20Twice%20Gat%20Twice.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-10/Work/Twice%20Gat/1%20Gettwice%20Twice%20Twice%20Twice%20Gat%20Twice.png"
     ],
@@ -4124,7 +4124,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/_Preview%20-%20Nein%20Ich%20Frege%20Aeetieht.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/1%20Rl.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/1%20Rl.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Nein%20Ich%20Frege%20Aeetieht/2%20Al.png",
@@ -4155,7 +4155,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Yeaa%20Preset%20Reporting%20Live/_Preview%20-%20Yeaa%20Preset%20Reporting%20Live.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Yeaa%20Preset%20Reporting%20Live/1%20Yeaa%20Preset.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Design%20Studio/Yeaa%20Preset%20Reporting%20Live/1%20Yeaa%20Preset.png"
     ],
@@ -4184,7 +4184,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/_Preview%20-%20Notion%20Selling%20Templates%20Build.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/1%20Ty%20Templates%20So%20Damn%20Profitable.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/1%20Ty%20Templates%20So%20Damn%20Profitable.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-06/Work/Notion%20Selling%20Templates%20Build/2%20It'S%20Selling%20A%20Spreadsheet%20On%20Steroids.png",
@@ -4224,7 +4224,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-03-05",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/_Preview%20-%20Brain%20Out%20Reality%20Identity.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/1%20If%20You'Re%20Ready%20To%20Stop.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/1%20If%20You'Re%20Ready%20To%20Stop.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/Brain%20Out%20Reality%20Identity/2%20Explains%20Beliefs%20Shape%20Perception%20At%20Neural.png",
@@ -4265,7 +4265,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-03-05",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/_Preview%20-%20People%20Skill%20Identity%20Claude.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/1%20Skill%20Claude%20Code%20Connects%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/1%20Skill%20Claude%20Code%20Connects%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-05/Fandom%20Studio/People%20Skill%20Identity%20Claude/2%20Pull.png",
@@ -4312,7 +4312,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-03-04",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/_Preview%20-%20Research%20Pitch%20Compete%20Plan.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/1%20Ai%20Doesn%20T%20Replace%20Research.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/1%20Ai%20Doesn%20T%20Replace%20Research.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/AI%20Tooling/Research%20Pitch%20Compete%20Plan/2%20Schedule%20Time%20To%20Take%20First.png",
@@ -4355,7 +4355,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-04",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/_Preview%20-%20Design%20Infrastructure%20Data%20Agents.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/1%20%2B.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/1%20%2B.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Design%20Infrastructure%20Data%20Agents/2%20Provide%20A%20Unified%20Brand%20Alignment%20Roadmap.png",
@@ -4399,7 +4399,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-03-04",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/_Preview%20-%20Nb2%20Without%20Danger%20Bee.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/1.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/1.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-04/Work/Nb2%20Without%20Danger%20Bee/2%20Ai%20Tool.png",
@@ -4454,7 +4454,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/_Preview%20-%20Greek%20Amphora%20Over%20Years.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/1%20Is%20A%20Greek%20Amphora.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/1%20Is%20A%20Greek%20Amphora.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Greek%20Amphora%20Over%20Years/2%20To%20Visual%20Storytelling%202.png",
@@ -4504,7 +4504,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-03-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/_Preview%20-%20Massively%20Underrated%20Artists%20Highly.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/1%20N%20Md%20Massively%20Underrated%20By.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/1%20N%20Md%20Massively%20Underrated%20By.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/03_March/2026-03-03/Design%20Studio/Massively%20Underrated%20Artists%20Highly/2%2090-Day%20Front%20End%20Roadmap.png",
@@ -4544,7 +4544,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/_Preview%20-%20Real%20Opportunity%20Only%20Implementation.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/1%208.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/1%208.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Real%20Opportunity%20Only%20Implementation/2%20Only%2018.png",
@@ -4578,7 +4578,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/_Preview%20-%20Section%20Nano%20Banana%20Framework.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/1%20Floorplan%20To%20Section%20Output%20Image%20Eh.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/1%20Floorplan%20To%20Section%20Output%20Image%20Eh.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Section%20Nano%20Banana%20Framework/2%20Turn%20Io%20Rnd%20Ae%20Mat.png",
@@ -4627,7 +4627,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/_Preview%20-%20Smm%20Easy%20Next%20Gen.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/1%20I'Ll%20Show%20Works.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/1%20I'Ll%20Show%20Works.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/AI%20Tooling/Smm%20Easy%20Next%20Gen/2%20In%207%20A.png",
@@ -4677,7 +4677,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/_Preview%20-%20Bigdataspecialist%20Became%20Bad%20Bpdetaspeca.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/1%20Bpdetaspeca%20Rules%20Became%20Guardrails.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/1%20Bpdetaspeca%20Rules%20Became%20Guardrails.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Bigdataspecialist%20Became%20Bad%20Bpdetaspeca/2%202026%20E.png",
@@ -4700,7 +4700,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Eee%20Peele%20Eere%20Beer/_Preview%20-%20Eee%20Peele%20Eere%20Beer.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Eee%20Peele%20Eere%20Beer/1%20Enune%20An%20Million%20People%20E.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Eee%20Peele%20Eere%20Beer/1%20Enune%20An%20Million%20People%20E.png"
     ],
@@ -4720,7 +4720,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/_Preview%20-%20Week%20People%20Refine%20Foundation.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/1%20Week%201-2%20Foundation%20%26%20Clarity.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/1%20Week%201-2%20Foundation%20%26%20Clarity.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Fandom%20Studio/Week%20People%20Refine%20Foundation/2%20Double%20Down%20On%20Grows%20Converts.png",
@@ -4754,7 +4754,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-28",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Week%20Blog%20Digital%20Publish/_Preview%20-%20Week%20Blog%20Digital%20Publish.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Week%20Blog%20Digital%20Publish/1%2006%2008%20Hq%20Digital%20Publish.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-28/Week%20Blog%20Digital%20Publish/1%2006%2008%20Hq%20Digital%20Publish.png"
     ],
@@ -4774,7 +4774,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-26",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/_Preview%20-%20AI%20Tooling%20mY.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/1%20Visual%20Save.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/1%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/AI%20Tooling%20mY/2%20Visual%20Save.png",
@@ -4803,7 +4803,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-26",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/_Preview%20-%20Question%20Human%20Answer%20Insert.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/1%202.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/1%202.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-26/AI%20Tooling/Question%20Human%20Answer%20Insert/2%206.png",
@@ -4841,7 +4841,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/_Preview%20-%20Want%20Dive%20Deeper%20Eze.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/1%20Visual%20Save.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/1%20Visual%20Save.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Design%20Studio/Want%20Dive%20Deeper%20Eze/2%20Want%20To%20Dive%20Deeper.png"
@@ -4871,7 +4871,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/_Preview%20-%20Done%20Better%20Perfect%20Pay.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/1%20Done%20Is%20Better%20Perfect.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/1%20Done%20Is%20Better%20Perfect.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Done%20Better%20Perfect%20Pay/2%205.png"
@@ -4892,7 +4892,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/_Preview%20-%20Nora%20She%20Youneed%20Science.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/1%20Youneed%20Science%20Speaks%20Human.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/1%20Youneed%20Science%20Speaks%20Human.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Nora%20She%20Youneed%20Science/2%20Nora%20Norepinephrine%20-Aka%20Noradrenaline%20Nora%20Brings.png"
@@ -4913,7 +4913,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/_Preview%20-%20Corty%20Cortisol%20Down%20There.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/1%20There%20Only%202%20Wayys%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/1%20There%20Only%202%20Wayys%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Corty%20Cortisol%20Down%20There/2%20L%20Maog%20A%2030Min%20Video.png",
@@ -4966,7 +4966,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/_Preview%20-%20Problems%20Mind%20Illusion%20Ityou.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/1%20Problems%20W%20Rn%20E%20Mind.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/1%20Problems%20W%20Rn%20E%20Mind.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-25/Work/Problems%20Mind%20Illusion%20Ityou/2%20Ut%20Ityou%20Wn%20Wnat%2014207.png",
@@ -5011,7 +5011,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/_Preview%20-%20But%20Nick%20Sweeney%20Hip.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/1%20Yu.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/1%20Yu.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/But%20Nick%20Sweeney%20Hip/2%20T7111%201%20See%20Inion%20Ce%20Ter.png",
@@ -5082,7 +5082,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/_Preview%20-%20Lead%20Time%20Agents%20Missed.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/1%20W%20Is.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/1%20W%20Is.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/AI%20Tooling/Lead%20Time%20Agents%20Missed/2%201-%20Real%20Estate%20Agents%20Ry.png",
@@ -5118,7 +5118,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/_Preview%20-%20Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/1%20Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz%201234567890%20Is.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/1%20Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz%201234567890%20Is.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Design%20Studio/Abcdefghijklm%20Nopqrstuvxyz%20Abcdefghijkimn%20Opqrstuvwxyz/2%20Oz%20Eos%20Im%20Want%20Tips.png",
@@ -5156,7 +5156,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/_Preview%20-%20One%20Awareness%20Raised%20Valle.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/1%207%20Ve%20A.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/1%207%20Ve%20A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/One%20Awareness%20Raised%20Valle/2%20Tool%20Curate%20Enters%20Awareness.png",
@@ -5180,7 +5180,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Personal",
     "date": "2026-02-23",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/_Preview%20-%20Far%20Right%20Wave%20Hala.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/1%20A4.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/1%20A4.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-23/Personal/Far%20Right%20Wave%20Hala/2%20Ve%20Olboleonarc%20Bower%20Tnt%20Rpseni2%20284.png",
@@ -5224,7 +5224,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/_Preview%20-%20Story%20Same%20People%20One.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/1%20You'Re%20Having%20Same%20Arguments.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/1%20You'Re%20Having%20Same%20Arguments.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/AI%20Tooling/Story%20Same%20People%20One/2%20Smartest%20People%20Don'T%20Higher%20Iqs.png",
@@ -5308,7 +5308,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Design%20Studio/Design%20Studio%20mT/_Preview%20-%20Design%20Studio%20mT.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Design%20Studio/Design%20Studio%20mT/1%20Visual%20Save.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Design%20Studio/Design%20Studio%20mT/1%20Visual%20Save.png"
     ],
@@ -5333,7 +5333,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-21",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/_Preview%20-%20Goodneuroscience%20Ever%20Had%20Conversation.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/1%20Ever%20Had%20A%20Conversation%20You'Re%20Arguing.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/1%20Ever%20Had%20A%20Conversation%20You'Re%20Arguing.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-21/Goodneuroscience%20Ever%20Had%20Conversation/2%20Anatomy%20Of%20An%20Llm%20Prompt%20To.png",
@@ -5360,7 +5360,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/_Preview%20-%20Auth%20Every%20Multitasking%20A-c.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/1%20Silence.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/1%20Silence.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Auth%20Every%20Multitasking%20A-c/2%20Le%20Authentication%20Isn%20T%20Making%20Work.png",
@@ -5408,7 +5408,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/_Preview%20-%20Hat%20Better%20Blue%20Come.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/1%20Blue%20Hat%20Direction%20Gq%20Stop%20Spiraling.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/1%20Blue%20Hat%20Direction%20Gq%20Stop%20Spiraling.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Design%20Studio/Hat%20Better%20Blue%20Come/2%20Of%20Us%20Wear%20One%20Hat%20Time.png",
@@ -5445,7 +5445,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/_Preview%20-%20Help%20Reel%20Carousels%20Btw.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/1%20Btw%20If%20You'Re%20Ready%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/1%20Btw%20If%20You'Re%20Ready%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Help%20Reel%20Carousels%20Btw/2%201.png",
@@ -5477,7 +5477,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Keep%20Wealth%20Hacks%20Goldmine/_Preview%20-%20Keep%20Wealth%20Hacks%20Goldmine.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Keep%20Wealth%20Hacks%20Goldmine/1%20Wealth%20Hacks%20A%20Goldmine.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Keep%20Wealth%20Hacks%20Goldmine/1%20Wealth%20Hacks%20A%20Goldmine.png"
     ],
@@ -5497,7 +5497,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/_Preview%20-%20Binary%20Every%20Second%20One.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/1%20Powerful%20Idea%20In%20Human%20History.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/1%20Powerful%20Idea%20In%20Human%20History.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Binary%20Every%20Second%20One/2%20Smartphone%20Has%2015%20Billion%20Transistors.png",
@@ -5531,7 +5531,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/_Preview%20-%20Focus%20Want%20Build%20Work.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/1%20Group%20Similar%20Activities%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/1%20Group%20Similar%20Activities%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/Focus%20Want%20Build%20Work/2%20A.png",
@@ -5569,7 +5569,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/_Preview%20-%20His%20One%20Other%20Content.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/1%201.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/1%201.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Neuroscience/His%20One%20Other%20Content/2%20I%20Highly%20Recommend.png",
@@ -5655,7 +5655,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-20",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/_Preview%20-%20Thinking%20Better%20Wasn%20Being.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/1%20If%20Better%20Thinking%20Wasn%20T.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/1%20If%20Better%20Thinking%20Wasn%20T.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-20/Thinking%20Better%20Wasn%20Being/2%206%20Thinking%20Hats%20Thinking%20Always%20Feels.png",
@@ -5677,7 +5677,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/_Preview%20-%20Learning%20Tasks%20Knowledge%20Multi-task.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/1%20Knowledge%20-%20M%20A%20Aifolks.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/1%20Knowledge%20-%20M%20A%20Aifolks.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/AI%20Tooling/Learning%20Tasks%20Knowledge%20Multi-task/2%20Aifolks.png",
@@ -5720,7 +5720,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/_Preview%20-%20Phase%20Project%20Siar%20See.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/1%20N.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/1%20N.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Design%20Studio/Phase%20Project%20Siar%20See/2%20Project%20Presentation%20Handoff.png",
@@ -5751,7 +5751,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/_Preview%20-%20Documents%20Workflow%20Yes%20Onno.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/1%20Documents%20Of%20Workflow.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/1%20Documents%20Of%20Workflow.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Documents%20Workflow%20Yes%20Onno/2%202%20Packages%20Comparison.png",
@@ -5786,7 +5786,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/_Preview%20-%20Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/1%20Ae%204%20Phase%20Soosussnnnpntcnmnonnnne%20Armen.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/1%20Ae%204%20Phase%20Soosussnnnpntcnmnonnnne%20Armen.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Fandom%20Studio/Let%20Phase%20Soosussnnnpntcnmnonnnne%20Armen/2%20R.png",
@@ -5827,7 +5827,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/_Preview%20-%20Invoice%20Srey%20Eee%20Autonomous.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/1%20F%201%20Autonomous%20Ops%20Assistant.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/1%20F%201%20Autonomous%20Ops%20Assistant.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Invoice%20Srey%20Eee%20Autonomous/2%207.png",
@@ -5849,7 +5849,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-19",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/_Preview%20-%20One%20Ores%20Start%20Codex.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/1%202%20Give%20Context%20%2B%20Constraints.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/1%202%20Give%20Context%20%2B%20Constraints.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-19/Work/One%20Ores%20Start%20Codex/2%20Es%20N%202%20Content%20Factory.png",
@@ -5883,7 +5883,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-18",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/_Preview%20-%20Design%20Typography%20Direction%20Works.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/1%20I.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/1%20I.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/AI%20Tooling/Design%20Typography%20Direction%20Works/2%20Create%20A%20Complete%20Campaign%20A.png",
@@ -5929,7 +5929,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-18",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/_Preview%20-%20Inkdescription%20Bef%20Siac%20Take.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/1%20Inkdescription%20Cc.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/1%20Inkdescription%20Cc.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Design%20Studio/Inkdescription%20Bef%20Siac%20Take/2%20Bef%20Siac%20Take%20Oe%20Channels.png",
@@ -5967,7 +5967,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Tools (learning)",
     "date": "2026-02-18",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/_Preview%20-%20Kafka%20Messages%20Consumer%20Find.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/1%20Allows%20Real-Time%20Stream%20Processing%20Scaling.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/1%20Allows%20Real-Time%20Stream%20Processing%20Scaling.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Tools%20(learning)/Kafka%20Messages%20Consumer%20Find/2%20S%20Find%20Out%20At%20Te.png",
@@ -6007,7 +6007,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-18",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/_Preview%20-%20Want%20Become%20Dev%20One.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/1%20P%20Find%20Out%20At.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/1%20P%20Find%20Out%20At.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-18/Want%20Become%20Dev%20One/2%20Fon%20Jimoon%20Take%20Theese%20Businessss.png"
@@ -6032,7 +6032,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-17",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/_Preview%20-%20Already%20Tracker%20Money%20Stops.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/1%201%20Tracker%20A%20Is%20Money.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/1%201%20Tracker%20A%20Is%20Money.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-17/Work/Already%20Tracker%20Money%20Stops/2%20Stop%20Typing%20Expenses%20Iphone%20Already%20Saw.png",
@@ -6063,7 +6063,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-16",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/_Preview%20-%20Agent%20Teach%20Core%20Idea.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/1%20Core%20Idea%20Delegation%20Must%20Be%20A.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/1%20Core%20Idea%20Delegation%20Must%20Be%20A.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/AI%20Tooling/Agent%20Teach%20Core%20Idea/2%20Self-Driving%20Cars%20Industrial%20Al%20Smart%20Infrastructure.png",
@@ -6123,7 +6123,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-16",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/_Preview%20-%20Low%20Never%20Thecodex%20Self-sabotage.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/1%20Low%20Capacity.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/1%20Low%20Capacity.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Low%20Never%20Thecodex%20Self-sabotage/2%20Deeper%20Concepts.png",
@@ -6146,7 +6146,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-02-16",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/_Preview%20-%20Meets%20System%20Overflow%20Snseooes.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/1%20Comfort%20Zone%202%20High%20Safetiness%20Low.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/1%20Comfort%20Zone%202%20High%20Safetiness%20Low.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Neuroscience/Meets%20System%20Overflow%20Snseooes/2%20You'Re%20Coherent%20Under%20Pressure.png",
@@ -6186,7 +6186,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-16",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/_Preview%20-%20Sales%20Content%20Because%20Every.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/1%20Instead%20Want%20To%20Bake%20Structure.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/1%20Instead%20Want%20To%20Bake%20Structure.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-16/Work/Sales%20Content%20Because%20Every/2%20At%20Start%20Do%20Makes%20Sense.png",
@@ -6215,7 +6215,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-14",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/_Preview%20-%20Call%20Data%20Vapi%20Summary.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/1%20Webhook%20Setup%201.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/1%20Webhook%20Setup%201.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-14/AI%20Tooling/Call%20Data%20Vapi%20Summary/2%20Voi%20Ce%20Ai%20Vapi%20Brain.png",
@@ -6257,7 +6257,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-11",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/_Preview%20-%20Aren%20Asa%20Detailed%20Account.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/1%20Oo%20Asa%20O%20I%20To.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/1%20Oo%20Asa%20O%20I%20To.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/AI%20Tooling/Aren%20Asa%20Detailed%20Account/2%20Lips%20Aren'T%20Smooth%20Natural%20Creases%20Texture.png",
@@ -6308,7 +6308,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-11",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/_Preview%20-%20Archetypes%20Inspire%20Eee%20Growth.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/1%20Typography%20Series%20Kenny.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/1%20Typography%20Series%20Kenny.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Design%20Studio/Archetypes%20Inspire%20Eee%20Growth/2%20Se%202.png",
@@ -6358,7 +6358,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-11",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/_Preview%20-%20Train%20Test%20Model%20Inport.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/1%20A%20Bnalytics%20Encoding%20Categorical%20Variables%20Vidhya.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/1%20A%20Bnalytics%20Encoding%20Categorical%20Variables%20Vidhya.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-11/Train%20Test%20Model%20Inport/2%20Singles%20Series%20Kenny.png",
@@ -6386,7 +6386,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Tools (learning)",
     "date": "2026-02-10",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/_Preview%20-%20Computer%20Programmer%20Check%20Api.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/1%20Check%20My%20Profile%20Interviews%20Gs.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/1%20Check%20My%20Profile%20Interviews%20Gs.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-10/Tools%20(learning)/Computer%20Programmer%20Check%20Api/2%20Omoever%20E.png",
@@ -6425,7 +6425,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/_Preview%20-%20Csv%20Spaces%20Data%20Chunk.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/1%20%2B%20Outers%20Scre-860%20%2B%20Extra.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/1%20%2B%20Outers%20Scre-860%20%2B%20Extra.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Csv%20Spaces%20Data%20Chunk/2%20Ain%20Smart%20Research%20Know%20Work.png",
@@ -6478,7 +6478,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/_Preview%20-%20Ota%20Eee%20Vanna%20Ory.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/1%204%20Ae%20H%20Io%20Cs%20Sw.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/1%204%20Ae%20H%20Io%20Cs%20Sw.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/AI%20Tooling/Ota%20Eee%20Vanna%20Ory/2%20Chatgpt%20Free%20Brain%20Sue00S%20Setemve%20Omer.png",
@@ -6522,7 +6522,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/_Preview%20-%20Content%20Agent%20Say%20Oss.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/1%20E%20E%20Ai%20Content%20Agent.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/1%20E%20E%20Ai%20Content%20Agent.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Content%20Agent%20Say%20Oss/2%20Ev%20W%20Ready%20To%2010H%20Acme.png",
@@ -6549,7 +6549,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/_Preview%20-%20Data%20N8n%20Automation%20Expressions.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/1%20Is%20N8N%20%26%20Matters%20Ss.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/1%20Is%20N8N%20%26%20Matters%20Ss.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Data%20N8n%20Automation%20Expressions/2%20Example.png",
@@ -6579,7 +6579,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/_Preview%20-%20Design%20Users%20Progress%20Creates.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/1%20As%20Doo.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/1%20As%20Doo.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-09/Design%20Studio/Design%20Users%20Progress%20Creates/2%20Aon%20Designme%20Os.png",
@@ -6618,7 +6618,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Tools (learning)",
     "date": "2026-02-07",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/_Preview%20-%20Deck%20Preview%20Startup%20Slides.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/1%20X%20Deck%20Preview%20Fe%20E.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/1%20X%20Deck%20Preview%20Fe%20E.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Deck%20Preview%20Startup%20Slides/2%20Deck%20Preview%20S%202%20Qa.png",
@@ -6653,7 +6653,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Tools (learning)",
     "date": "2026-02-07",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/_Preview%20-%20Npm%20Staged%20Publishing%20Find.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/1%20Reaches%20Users.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/1%20Reaches%20Users.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-07/Tools%20(learning)/Npm%20Staged%20Publishing%20Find/2%20Npm%20Staged%20Publishing%20Feature%20Alert.png",
@@ -6687,7 +6687,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-02-06",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/_Preview%20-%20Didn%20Thecodex%20Autonomous%20Own.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/1%20Inner%20Authority%20Established.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/1%20Inner%20Authority%20Established.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-06/Neuroscience/Didn%20Thecodex%20Autonomous%20Own/2%20Beliefs%20Didn'T%20Choose.png",
@@ -6724,7 +6724,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/_Preview%20-%20Background%20Generate%20Visuals%20Gemini.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/1%202%20Gemini%20Creative%20Director%20We.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/1%202%20Gemini%20Creative%20Director%20We.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/AI%20Tooling/Background%20Generate%20Visuals%20Gemini/2%20Campaigns.png",
@@ -6777,7 +6777,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-02-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/_Preview%20-%20Brand%20Art%20Paperbanana%20Workflow.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/1%20Brand%20Content%20Sells.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/1%20Brand%20Content%20Sells.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Brand%20Art%20Paperbanana%20Workflow/2%20S%20Paperbanana%20Al%20Learned%20To%20Think.png"
@@ -6798,7 +6798,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-02-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/_Preview%20-%20Image%20Turn%20Any%20Text.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/1%20Turn%20Any%20Text%20Image-Filled%20Lettering.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/1%20Turn%20Any%20Text%20Image-Filled%20Lettering.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Design%20Studio/Image%20Turn%20Any%20Text/2%20S%20P%20Hp.png",
@@ -6831,7 +6831,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-02-03",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/_Preview%20-%20Icon%20Business%20Cont%20Describe.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/1%20A%20Flower%20App%20Icon.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/1%20A%20Flower%20App%20Icon.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-03/Work/Icon%20Business%20Cont%20Describe/2%20Create%20Linear%20Circular%20Grid%20Or%20Wave.png",
@@ -6864,7 +6864,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-02-02",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/_Preview%20-%20Gateway%20Computer%20Through%20Control.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/1%20However%20Don'T%20To%20Learn%20A%20Program.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/1%20However%20Don'T%20To%20Learn%20A%20Program.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-02/AI%20Tooling/Gateway%20Computer%20Through%20Control/2%20Y%20Gateway.png",
@@ -6904,7 +6904,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-01",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/_Preview%20-%20Caogle%20Google%20Has%20Quietly.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/1%20Caogle%20Ke.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/1%20Caogle%20Ke.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Caogle%20Google%20Has%20Quietly/2%20C%20Og%20Ee.png"
@@ -6936,7 +6936,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-01",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/_Preview%20-%20Platforms%20Full%20Social%20Media.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/1%20Publishing.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/1%20Publishing.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Platforms%20Full%20Social%20Media/2%20%26%20Luded%20Ina.png",
@@ -6971,7 +6971,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-02-01",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/_Preview%20-%20Wanted%20Longer%20Stay%20Wrong.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/1%20Longer%20Stay%20On.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/1%20Longer%20Stay%20On.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/02_February/2026-02-01/Fandom%20Studio/Wanted%20Longer%20Stay%20Wrong/2%20If%20Wanted%20To%20Would%20Because.png",
@@ -7006,7 +7006,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-01-31",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/_Preview%20-%20Build%20Weekly%20Brief%20Google.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/1%20Build%20Weekly%20Al%20Brief%201%20E.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/1%20Build%20Weekly%20Al%20Brief%201%20E.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-31/Fandom%20Studio/Build%20Weekly%20Brief%20Google/2%20Google%20Labs%20Tools%20Worth%20Opening%20Today.png"
@@ -7046,7 +7046,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Design Studio",
     "date": "2026-01-30",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/_Preview%20-%20Social%20Media%20Client%20Graphic.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/1%20Social%20Media%20Graphic%20Design%20Custom-Designed.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/1%20Social%20Media%20Graphic%20Design%20Custom-Designed.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Design%20Studio/Social%20Media%20Client%20Graphic/2%20Social%20Shells%20Caption%20Writing%20Strategic.png",
@@ -7085,7 +7085,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Uncategorized",
     "date": "2026-01-30",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/_Preview%20-%20Top%20Remote%20Computer%20Programmer.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/1%20Computer%20Programmer%20Toptal%20A%20Premium.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/1%20Computer%20Programmer%20Toptal%20A%20Premium.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Top%20Remote%20Computer%20Programmer/2%20O1.png",
@@ -7120,7 +7120,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-01-30",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/_Preview%20-%20Jobs%20Computer%20Programmer%20Companies.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/1%20Wellfound%20W%20Find%20What'S%20Next%2004.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/1%20Wellfound%20W%20Find%20What'S%20Next%2004.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-30/Work/Jobs%20Computer%20Programmer%20Companies/2%20Nolimit%20What'S%20Eemecoin%20Ecom%20Plan.png",
@@ -7179,7 +7179,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-01-29",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/_Preview%20-%20Embeddings%20Token%20Vector%20Positional.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/1%20-%20A%204.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/1%20-%20A%204.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Embeddings%20Token%20Vector%20Positional/2%20Analytics%2019.png",
@@ -7222,7 +7222,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-01-29",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/_Preview%20-%20Too%20Much%20Information%20Kills.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/1%204.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/1%204.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-29/Neuroscience/Too%20Much%20Information%20Kills/2%204S%20%2B%20%2B.png",
@@ -7256,7 +7256,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Work",
     "date": "2026-01-26",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/_Preview%20-%20Churn%20Users%20Month%20Mrr.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/1%20Matters%20Churn%20Is%20A%20Tax%20On.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/1%20Matters%20Churn%20Is%20A%20Tax%20On.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-26/Work/Churn%20Users%20Month%20Mrr/2%20Thanks%20Reading%20Entry%2025%20Ss.png",
@@ -7311,7 +7311,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-01-25",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/_Preview%20-%20Chat%20Coding%20Dev%20Llm.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/1%20Coding%20Dev%20Tools%20We'Ll%20Ollama.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/1%20Coding%20Dev%20Tools%20We'Ll%20Ollama.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-25/AI%20Tooling/Chat%20Coding%20Dev%20Llm/2%20Coding%20Dev%20In%20Tutorial%20You'Ll.png",
@@ -7368,7 +7368,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-01-13",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/_Preview%20-%20Initialization%20Production%20Just%20Winning.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/1%20Catch%20Needed%20Original%20Random%20Initializa-%20Tion.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/1%20Catch%20Needed%20Original%20Random%20Initializa-%20Tion.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/AI%20Tooling/Initialization%20Production%20Just%20Winning/2%20Openal%20Meta%20Joogle%2040%203X%2060.png",
@@ -7427,7 +7427,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Fandom Studio",
     "date": "2026-01-13",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/_Preview%20-%20Pee%20Cpt%20Fie%20Saas.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/1%20Rm%20C.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/1%20Rm%20C.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-13/Fandom%20Studio/Pee%20Cpt%20Fie%20Saas/2%20Ij%20Eo%20Ua.png",
@@ -7466,7 +7466,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "Neuroscience",
     "date": "2026-01-09",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/_Preview%20-%20Mind%20Asked%20Structuralism%20Ups.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/1%20Mind%20Do.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/1%20Mind%20Do.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-09/Neuroscience/Mind%20Asked%20Structuralism%20Ups/2%20Exactly%20Structuralism%20Trying%20To%20Do.png",
@@ -7504,7 +7504,7 @@ export const GENERATED_MEDIA: MediaItem[] = [
     "categoryName": "AI Tooling",
     "date": "2026-01-04",
     "kind": "image",
-    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/_Preview%20-%20Gemini%20Lab%20Google%20Vertex.jpg",
+    "thumb": "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/1%203%20Generative%20Al%20Labs%20Gemini.png",
     "images": [
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/1%203%20Generative%20Al%20Labs%20Gemini.png",
       "https://pub-a7fece0728044e9495cd8aff8b3c9210.r2.dev/2026/01_January/2026-01-04/AI%20Tooling/Gemini%20Lab%20Google%20Vertex/2%200%20Flash%20Model.png",

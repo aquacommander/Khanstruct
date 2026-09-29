@@ -5,7 +5,7 @@
 
    Reads the R2 structure  2026/{NN_Month}/{YYYY-MM-DD}/{Category}/{Project}/imgs
    and produces one entry per project: title (project folder), category, date,
-   cover (the _Preview image), and the ordered image set (the album).
+   cover (the first real slide), and the ordered image set (the album).
 
    Run after syncing new content to R2:
      node scripts/gen-manifest.mjs
@@ -192,7 +192,10 @@ for (const [dir, imgs] of projects) {
     .filter((f) => !isPreview(f))
     .sort((a, b) => leadNum(basename(a)) - leadNum(basename(b)));
 
-  const cover = preview ? toUrl(preview) : toUrl(slides[0] ?? imgs[0]);
+  // Cover = the FIRST REAL SLIDE, never the _Preview file. The _Preview images
+  // are tall contact sheets (e.g. 920x4838) tiling the whole album, so cropping
+  // one into a card shows an unreadable sliver of a collage.
+  const cover = toUrl(slides[0] ?? preview ?? imgs[0]);
   const images = (slides.length ? slides : imgs).map(toUrl);
 
   items.push({
