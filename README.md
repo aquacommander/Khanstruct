@@ -167,7 +167,8 @@ The current components use a placeholder initial letter until real images are av
 - Heading hierarchy enforced (h1 → h2 → h3)
 - All interactive elements keyboard-accessible
 - Mobile menu: `aria-expanded`, `aria-controls`, `role="dialog"`, `aria-modal`
-- `prefers-reduced-motion`: disables marquee, scroll cues, and cursor effects
+- `prefers-reduced-motion`: disables the marquee and scroll cues
+- Native system cursor throughout — no custom cursor to obscure pointer affordances
 
 ---
 

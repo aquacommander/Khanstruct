@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Space_Grotesk, Space_Mono } from 'next/font/google';
 import './globals.css';
 import { ExperienceProvider } from '@/components/canvas/ExperienceProvider';
-import { CustomCursor } from '@/components/ui/CustomCursor';
 import { ContactModal } from '@/components/contact/ContactModal';
 import { QualifierModal } from '@/components/funnel/QualifierModal';
 import { Lightbox } from '@/components/showreel/Lightbox';
@@ -65,7 +64,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to main content
         </a>
         <div className="grain" aria-hidden="true" />
-        <CustomCursor />
         <ExperienceProvider>
           <div id="main-content" className="page-content" tabIndex={-1}>
             {children}

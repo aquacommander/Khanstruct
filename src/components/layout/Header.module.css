@@ -77,7 +77,7 @@
   background: rgba(255, 255, 255, 0.16);
   opacity: 0;
   pointer-events: none;
-  cursor: none;
+  cursor: pointer;
   transform: translateY(-50%) translateX(-10px);
   transition: opacity 0.32s ease, transform 0.42s var(--ease-out),
     background 0.3s ease, border-color 0.3s ease;
@@ -207,7 +207,7 @@
   border: none;
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.06);
-  cursor: none;
+  cursor: pointer;
 }
 
 .menuIcon {

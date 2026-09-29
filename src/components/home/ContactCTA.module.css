@@ -97,7 +97,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   border: 1px solid var(--color-accent);
-  cursor: none;
+  cursor: pointer;
   transition: filter 0.25s, transform 0.25s var(--ease-out), box-shadow 0.25s;
 }
 .startBtn:hover {
@@ -121,7 +121,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   border: 1px solid var(--color-border-strong);
-  cursor: none;
+  cursor: pointer;
   transition: border-color 0.25s, background 0.25s, transform 0.25s var(--ease-out);
 }
 .emailBtn:hover {
