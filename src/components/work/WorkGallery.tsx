@@ -12,7 +12,8 @@ import { useMemo, useState } from 'react';
 import {
   categoriesWithCounts,
   filterByCategory,
-  sortByDateDesc,
+  galleryOrder,
+  pickDiverse,
   groupByMonth,
   itemSearchText,
   GALLERY_PAGE_SIZE,
@@ -22,8 +23,9 @@ import { WorkCard } from '@/components/showreel/WorkCard';
 import { CascadingSlider } from '@/components/showreel/CascadingSlider';
 import styles from './WorkGallery.module.css';
 
-// How many pieces headline the cascading slider (curated — the full set stays
-// browsable in the grid below). Zain can later flag exactly which to feature.
+// How many pieces headline the cascading slider. `pickDiverse` fills it by
+// rotating through the topics, so the strip reads as a cross-section of the
+// work rather than eight neighbours from whichever date imported last.
 const SLIDER_COUNT = 8;
 
 export function WorkGallery() {
@@ -33,14 +35,15 @@ export function WorkGallery() {
 
   const categories = useMemo(() => categoriesWithCounts(), []);
 
-  // Featured cascade for the active category (newest N). Independent of search.
+  // Featured cascade for the active category — a topic spread on "All", and a
+  // spread across months once a single topic is selected. Independent of search.
   const sliderItems = useMemo(
-    () => sortByDateDesc(filterByCategory(activeCat)).slice(0, SLIDER_COUNT),
+    () => pickDiverse(filterByCategory(activeCat), SLIDER_COUNT),
     [activeCat],
   );
 
   const filtered = useMemo(() => {
-    let res = sortByDateDesc(filterByCategory(activeCat));
+    let res = galleryOrder(filterByCategory(activeCat));
     const q = query.trim().toLowerCase();
     if (q) {
       const tokens = q.split(/\s+/);
@@ -53,7 +56,7 @@ export function WorkGallery() {
   }, [activeCat, query]);
 
   const shown = filtered.slice(0, visible);
-  const groups = useMemo(() => groupByMonth(shown), [shown]);
+  const groups = useMemo(() => groupByMonth(shown, filtered), [shown, filtered]);
   const hasMore = visible < filtered.length;
 
   const selectCat = (id: string) => {
@@ -140,7 +143,11 @@ export function WorkGallery() {
             <section key={group.key} className={styles.group}>
               <h2 className={styles.groupLabel}>
                 {group.label}
-                <span className={styles.groupCount}>{group.items.length}</span>
+                <span className={styles.groupCount}>
+                  {group.items.length < group.total
+                    ? `${group.items.length} of ${group.total}`
+                    : group.total}
+                </span>
               </h2>
               <div className={styles.cards}>
                 {group.items.map((item) => (

@@ -82,9 +82,8 @@ function classifyTopic(item: MediaItem): Topic {
 }
 
 // Re-categorise every item into one of the 5 clean topics. The cover is the
-// folder's DESIGNATED preview (m.thumb, the `_Preview` image set in each R2
-// folder) so Zain controls the subject shown per piece — falling back to the
-// first album slide only when a folder has no preview.
+// first real slide of the album (see gen-manifest.mjs) — the `_Preview` files
+// are tall auto-generated contact sheets and crop into unreadable fragments.
 export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.map((m) => {
   const topic = classifyTopic(m);
   return {
@@ -95,7 +94,7 @@ export const MEDIA_ITEMS: MediaItem[] = GENERATED_MEDIA.map((m) => {
   };
 });
 
-export const GALLERY_PAGE_SIZE = 12;
+export const GALLERY_PAGE_SIZE = 24;
 
 // category slug → display name, learned from the data itself.
 const CATEGORY_NAMES = new Map<string, string>();
@@ -112,11 +111,120 @@ export function itemSearchText(item: MediaItem): string {
   return `${item.title} ${item.categoryName} ${(item.keywords ?? []).join(' ')}`.toLowerCase();
 }
 
-/** Curated set for the homepage reel — featured if flagged, else newest. */
+/* ── Ordering ────────────────────────────────────────────────────────────────
+   Dates in the manifest are INGEST dates, not creation dates, so they cluster
+   hard — 39 of 179 items share 2026-06-21. Date alone therefore decides almost
+   nothing, and a stable sort just falls back to the manifest's alphabetical
+   folder order. That is why the gallery read as random: the featured strip was
+   literally the first eight folders alphabetically from one bulk import.
+
+   `compareItems` breaks those ties deliberately: substantial albums first,
+   lone screenshots last, then title so the result is stable across builds. */
+const MIN_SUBSTANTIAL = 3;
+
+export function compareItems(a: MediaItem, b: MediaItem): number {
+  const byDate = (b.date ?? '').localeCompare(a.date ?? '');
+  if (byDate) return byDate;
+  const byCount = (b.images?.length ?? 0) - (a.images?.length ?? 0);
+  if (byCount) return byCount;
+  return (a.title ?? '').localeCompare(b.title ?? '');
+}
+
+/* Within one date, show the range of the work rather than five neuroscience
+   posts in a row: deal the date's items out round-robin across topics, each
+   topic keeping its own `compareItems` order. */
+function interleaveTopics(items: MediaItem[]): MediaItem[] {
+  const byTopic = new Map<string, MediaItem[]>();
+  for (const item of items) {
+    const bucket = byTopic.get(item.category);
+    if (bucket) bucket.push(item);
+    else byTopic.set(item.category, [item]);
+  }
+  if (byTopic.size < 2) return items;
+
+  // Largest topics lead, so the deal stays even as smaller ones run out.
+  const queues = [...byTopic.values()].sort((a, b) => b.length - a.length);
+  const out: MediaItem[] = [];
+  for (let i = 0; out.length < items.length; i += 1) {
+    for (const q of queues) if (i < q.length) out.push(q[i]!);
+  }
+  return out;
+}
+
+/** The gallery's display order: newest first, varied within each date. */
+export function galleryOrder(items: MediaItem[]): MediaItem[] {
+  const sorted = [...items].sort(compareItems);
+  const out: MediaItem[] = [];
+  let run: MediaItem[] = [];
+  let runDate: string | null = null;
+  const flush = () => {
+    if (run.length) out.push(...interleaveTopics(run));
+    run = [];
+  };
+  for (const item of sorted) {
+    const date = item.date ?? '';
+    if (date !== runDate) {
+      flush();
+      runDate = date;
+    }
+    run.push(item);
+  }
+  flush();
+  return out;
+}
+
+/* ── Featured picking ────────────────────────────────────────────────────────
+   Shared by the /work cascade and the homepage reel so both showcase the same
+   thing: the BREADTH of the work, not whichever folder sorts first. */
+
+/** Round-robin the newest substantial piece from each topic, then go again. */
+export function pickDiverse(items: MediaItem[], limit = 8): MediaItem[] {
+  if (items.length <= limit) return [...items].sort(compareItems);
+
+  const sorted = [...items].sort(compareItems);
+  const substantial = sorted.filter((m) => (m.images?.length ?? 0) >= MIN_SUBSTANTIAL);
+  const pool = substantial.length >= limit ? substantial : sorted;
+
+  const byTopic = new Map<string, MediaItem[]>();
+  for (const item of pool) {
+    const bucket = byTopic.get(item.category);
+    if (bucket) bucket.push(item);
+    else byTopic.set(item.category, [item]);
+  }
+
+  // Only one topic in play (a filtered view): spread the picks across dates
+  // instead, so the strip isn't eight cards all stamped with the same day.
+  if (byTopic.size < 2) {
+    const seen = new Set<string>();
+    const spread = pool.filter((m) => {
+      const key = (m.date ?? '').slice(0, 7);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    return (spread.length >= limit ? spread : pool).slice(0, limit);
+  }
+
+  const queues = [...byTopic.values()].sort((a, b) => b.length - a.length);
+  const out: MediaItem[] = [];
+  for (let i = 0; out.length < limit; i += 1) {
+    let advanced = false;
+    for (const q of queues) {
+      if (i >= q.length) continue;
+      advanced = true;
+      out.push(q[i]!);
+      if (out.length === limit) break;
+    }
+    if (!advanced) break;
+  }
+  return out;
+}
+
+/** Curated set for the homepage reel — featured if flagged, else a topic spread. */
 export function getFeatured(limit = 8): MediaItem[] {
   const featured = MEDIA_ITEMS.filter((m) => m.featured);
-  const base = featured.length ? featured : sortByDateDesc(MEDIA_ITEMS);
-  return base.slice(0, limit);
+  if (featured.length) return [...featured].sort(compareItems).slice(0, limit);
+  return pickDiverse(MEDIA_ITEMS, limit);
 }
 
 /** Filter the full library by category slug; 'all' returns everything. */
@@ -144,9 +252,9 @@ const MONTHS = [
   'July', 'August', 'September', 'October', 'November', 'December',
 ];
 
-/** Newest-first by date string ('YYYY-MM-DD'); undated sinks last. */
+/** Newest-first, ties broken by `compareItems`; undated sinks last. */
 export function sortByDateDesc(items: MediaItem[]): MediaItem[] {
-  return [...items].sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+  return [...items].sort(compareItems);
 }
 
 /** Human-readable date label, e.g. '2026-01-15' → 'January 15, 2026'. */
@@ -158,14 +266,25 @@ export function formatDate(date?: string): string {
   return d ? `${MONTHS[mi]} ${Number(d)}, ${y}` : `${MONTHS[mi]} ${y}`;
 }
 
-/** Group items into month buckets (newest month first) for the collection list. */
+const monthKey = (item: MediaItem) => (item.date ?? '').slice(0, 7) || 'undated';
+
+/* Group the VISIBLE items into month buckets (newest first). `all` is the full
+   filtered set, so each header can report how many pieces that month really
+   holds — counting the paged slice made June read "12" when it holds 39. */
 export function groupByMonth(
   items: MediaItem[],
-): { key: string; label: string; items: MediaItem[] }[] {
+  all: MediaItem[] = items,
+): { key: string; label: string; items: MediaItem[]; total: number }[] {
+  const totals = new Map<string, number>();
+  for (const item of all) {
+    const key = monthKey(item);
+    totals.set(key, (totals.get(key) ?? 0) + 1);
+  }
+
   const order: string[] = [];
   const map = new Map<string, MediaItem[]>();
-  for (const item of sortByDateDesc(items)) {
-    const key = (item.date ?? '').slice(0, 7) || 'undated';
+  for (const item of galleryOrder(items)) {
+    const key = monthKey(item);
     if (!map.has(key)) {
       map.set(key, []);
       order.push(key);
@@ -176,6 +295,6 @@ export function groupByMonth(
     const [y, m] = key.split('-');
     const mi = Number(m) - 1;
     const label = key === 'undated' || mi < 0 || mi > 11 ? 'Undated' : `${MONTHS[mi]} ${y}`;
-    return { key, label, items: map.get(key)! };
+    return { key, label, items: map.get(key)!, total: totals.get(key) ?? map.get(key)!.length };
   });
 }

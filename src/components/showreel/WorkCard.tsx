@@ -70,6 +70,11 @@ export function WorkCard({ item }: { item: MediaItem }) {
           <span className={styles.body}>
             <span className={styles.category}>{topic}</span>
             <span className={styles.heading}>{date}</span>
+            {/* Album size — the folder titles are auto-generated noise, so this
+                is the one honest signal that tells two same-day cards apart. */}
+            <span className={styles.count}>
+              {count} image{count > 1 ? 's' : ''}
+            </span>
           </span>
 
           <span className={styles.arrow} aria-hidden="true">
