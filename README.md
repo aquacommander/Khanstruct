@@ -6,8 +6,6 @@ Production-quality website for Zain Khan / Khanstruct — Design. Data. AI Imple
 
 - **Next.js 14** (App Router)
 - **React 18** + TypeScript (strict)
-- **Custom WebGL Canvas** — persistent single-canvas renderer with Earth particle system
-- **GSAP** — scroll-driven and entrance timelines
 - **Zustand** — typed global experience state
 - **CSS Modules** + **Tailwind CSS** — design token system
 - **Vitest** — unit tests
@@ -21,6 +19,10 @@ Production-quality website for Zain Khan / Khanstruct — Design. Data. AI Imple
 npm install
 npm run dev       # http://localhost:3000
 ```
+
+Copy `.env.example` to `.env.local` and fill in the keys you need. Every
+variable is optional in development — the contact form and lead funnel
+degrade gracefully when their keys are absent.
 
 ## Commands
 
@@ -39,36 +41,47 @@ npm run dev       # http://localhost:3000
 | Route | Description |
 |-------|-------------|
 | `/` | Khanstruct homepage |
-| `/gdg-tulsa` | GDG Tulsa community page |
+| `/work` | Media gallery / showreel |
 | `/projects` | Project index |
 | `/projects/[slug]` | Individual project detail |
+| `/domains` | Domain index |
+| `/domains/ai-agents` | AI agents directory |
+| `/domains/aerospace` | Aerospace domain page |
+| `/domains/neuroscience` | Neuroscience domain page |
+| `POST /api/lead` | Funnel lead → Notion CRM (see below) |
 
 ---
 
 ## Architecture
 
-### WebGL Canvas (`src/components/canvas/`)
+### Experience state (`src/components/canvas/`, `src/store/experience.ts`)
 
-One persistent `<canvas>` element mounts in the layout and stays alive across route changes.
-
-**`ExperienceProvider`** — wraps the app, detects quality tier, reduced-motion, scroll, and pointer. Feeds normalized values into the global store.
-
-**`ExperienceCanvas`** — mounts the canvas and manages the `WebGLCanvasRenderer` lifecycle. The renderer handles:
-
-- Background particle field (lime-tinted, quality-adaptive count)
-- Earth particle system with geographic continent approximation
-- Formation animation: particles scatter → assemble into globe
-- Section-aware rendering (Earth visible during hero/services/gdg sections)
-- Pause on `visibilitychange`, resize handling with DPR cap
-
-### Global State (`src/store/experience.ts`)
+The site originally shipped a persistent WebGL canvas with an Earth particle
+system. That renderer was **removed** in favor of static SVG and CSS visuals.
+What remains is `ExperienceProvider`, a lightweight client provider that syncs
+the user's `prefers-reduced-motion` preference into the Zustand store.
 
 ```ts
 type ExperienceSection = 'hero' | 'services' | 'metrics' | 'projects' | 'gdg' | 'about' | 'contact';
 type QualityTier = 'high' | 'medium' | 'low';
 ```
 
-Zustand store distributed via hooks. No context overhead.
+Some fields on the store (`quality`, `webglAvailable`, `earthFormed`) are
+vestigial from the WebGL era and are kept only so existing components compile.
+
+### Lead funnel (`src/lib/funnel.ts`, `src/app/api/lead/route.ts`)
+
+`QualifierModal` collects answers, scores them into a priority tier, and
+delivers the lead twice:
+
+1. **Email** — client-side via Web3Forms (their free tier rejects server-side
+   submissions), using `NEXT_PUBLIC_WEB3FORMS_KEY`.
+2. **Notion CRM** — server-side via `POST /api/lead`, dormant until
+   `NOTION_TOKEN` and `NOTION_DB_ID` are set. Failures are logged with the full
+   lead summary so nothing is lost. The route is rate limited to 5 submissions
+   per IP per hour (in-memory, per instance).
+
+To change the CRM column mapping, edit `notionProperties()` in the route.
 
 ### Design Tokens (`src/app/globals.css`)
 
@@ -90,27 +103,16 @@ rounded card surfaces, and rounded buttons.
 
 ### Content (`src/lib/content.ts`)
 
-All site content is in a single typed config file. Never fabricated:
-- Projects, experience, hackathons, metrics, GDG events
+All site copy lives in a single typed config file. Never fabricated:
+
+- `PROJECTS`, `EXPERIENCE`, `HACKATHONS`, `METRICS`, `SERVICES`, `NAV_ITEMS`
 - Unverified metrics flagged with `verified: false`
-- Empty `GDG_EVENTS` array — populate when real events are available
 
----
+### Media (`src/lib/generated/media.ts`, `scripts/`)
 
-## Performance
-
-**Quality tiers** (auto-detected by device):
-
-| Tier | Earth Particles | Background Particles | DPR |
-|------|----------------|---------------------|-----|
-| High | ~3000 | 120 | 1.5× |
-| Medium | ~1800 | 70 | 1.5× |
-| Low | ~1000 | 40 | 1.0× |
-
-- Canvas pauses when `document.hidden`
-- DPR capped at 1.5
-- No draw calls per frame for offscreen content
-- All geometries and buffers disposed on unmount
+Gallery media lives in Cloudflare R2, not in the repo. `scripts/ingest.mjs`
+uploads files to R2; `scripts/gen-manifest.mjs` regenerates the committed
+`src/lib/generated/media.ts` manifest. See `scripts/README.md`.
 
 ---
 
@@ -140,28 +142,10 @@ Edit `src/lib/content.ts` — add to the `PROJECTS` array:
 }
 ```
 
-### Adding GDG Events
-
-Edit `GDG_EVENTS` in `src/lib/content.ts`:
-
-```ts
-{
-  id: 'event-jan-2026',
-  title: 'AI Workshop',
-  date: '2026-01-15',
-  startTime: '6:30 PM',
-  endTime: '9:00 PM',
-  timezone: 'CST',
-  location: 'Tulsa Tech Hub',
-  description: '...',
-  registrationUrl: 'https://gdg.community.dev/...',
-  status: 'upcoming',
-}
-```
-
 ### Updating Metrics
 
-In `src/lib/content.ts`, set `verified: true` only when the metric is independently verifiable.
+In `src/lib/content.ts`, set `verified: true` only when the metric is
+independently verifiable.
 
 ---
 
@@ -183,26 +167,24 @@ The current components use a placeholder initial letter until real images are av
 - Heading hierarchy enforced (h1 → h2 → h3)
 - All interactive elements keyboard-accessible
 - Mobile menu: `aria-expanded`, `aria-controls`, `role="dialog"`, `aria-modal`
-- WebGL canvas: `aria-hidden="true"` throughout — content never depends on WebGL
-- `prefers-reduced-motion`: disables formation animation, marquee, scroll cues, cursor
+- `prefers-reduced-motion`: disables marquee, scroll cues, and cursor effects
+
+---
+
+## CI
+
+`.github/workflows/ci.yml` runs `type-check`, `lint`, and `npm test` on every
+push to `main` and every pull request. E2E tests are not run in CI (they need a
+live server) — run them locally before shipping visual changes.
 
 ---
 
 ## Troubleshooting
 
-**WebGL not rendering** — The canvas gracefully degrades. HTML content always renders. Check browser WebGL support at `chrome://gpu`.
-
 **Fonts not loading** — Google Fonts loaded via `next/font/google`. No manual font files needed.
 
-**Build fails on TypeScript** — Run `npm run type-check` for detailed output. Test files are excluded from the main tsconfig.
+**Build fails on TypeScript** — Run `npm run type-check` for detailed output. Test files are excluded from the main tsconfig, so `npm test` can still surface type errors that `type-check` misses.
+
+**Leads not reaching Notion** — The route is a no-op until both `NOTION_TOKEN` and `NOTION_DB_ID` are set, and logs a warning when they aren't. Check that the Notion integration is connected to the CRM database.
 
 **E2E tests fail** — Playwright requires the dev server running on port 3000. Run `npm run dev` in one terminal, then `npm run test:e2e` in another.
-
----
-
-## Deployment
-
-Optimized for **Vercel** (zero config). Also compatible with:
-- Any Node.js host running `next start`
-- Static export (`next build && next export`) if dynamic routes aren't needed
-
